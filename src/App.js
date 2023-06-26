@@ -1,9 +1,13 @@
 import './App.scss';
 import React from 'react'
+import Navbar from './components/Navbar';
+import DataImages from './data/DataImages';
 
 
 const App = () => {
   return <div className="app">
+    <Navbar/>
+
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae ducimus eum maxime tempore aliquam fuga soluta voluptates assumenda, vitae inventore? Commodi ad, quasi sapiente rerum qui dignissimos omnis voluptas.
     Distinctio, est nesciunt voluptates alias eos veniam explicabo ratione, magnam animi, omnis qui reiciendis a iusto commodi corrupti. Id excepturi mollitia, quos impedit aut dignissimos modi rerum ipsum ab dolore.
     Nam neque ab unde nobis iste fugit cumque ipsum ratione minus, iusto in quibusdam officiis, molestias numquam labore sunt. Voluptas itaque doloribus quos nostrum? Suscipit aperiam quisquam rem asperiores ipsa.

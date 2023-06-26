@@ -1,0 +1,107 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.navbar{
+    .up-navbar{
+        // border: 3px solid red;
+        overflow: hidden;
+        @include flexStandart;
+        padding-left: 30px;
+        padding-right: 30px;
+
+            height: 130px;
+        .logo{
+            // border: 3px solid red;
+            @include flexStandart;
+
+
+            img{
+                height: 80px;
+               
+            
+                
+               
+                }
+            h1{
+                padding-left: 20px;
+                font-size: $big-font;
+                span{
+                    font-weight: 900;
+                    font-size: $big-font;
+                }
+            }
+        }
+        .logo-description{
+            @include flexStandartSpaceBetween;
+            .social-media{
+                @include flexStandartSpaceBetween;
+                padding-right: 60px;
+              
+                div{
+                    @include flexStandart;
+                    min-height: 50px;
+                    min-width: 50px;
+                    margin: 5px;
+                    cursor: pointer;
+               
+                    img{
+                        height: 40px;
+                        padding: 5px;
+                       
+
+                    }
+                    &:hover{
+                        background-color: $orange-icon;
+                        border-radius: $cirkle-radius;
+                     }
+                }
+
+         
+                
+            }
+        }
+            .tickets{
+                a{
+                    background-color: $orange-icon;
+                    font-weight: 900;
+                    font-size: $middle-font;
+                    padding: 15px;
+                    text-transform: uppercase;
+                    transition: 0.15s;
+                    
+
+                    &:hover{
+                        background-color: $green-icon;
+                    }
+                }
+            }
+    }
+    .down-navbar{
+
+    }
+}
+
+@media only screen and (max-width:800px){
+    .social-media{
+        div{
+            img{
+                display: none;
+            }
+            
+        }
+        
+     
+
+
+    }
+    .tickets{
+        a{
+            
+            font-size: $standart-font;
+            padding: 5px;
+          
+      
+
+        }
+    }
+}
