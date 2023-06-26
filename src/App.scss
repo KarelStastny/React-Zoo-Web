@@ -1,0 +1,27 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: $text-brown;
+  list-style: none;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 400;
+  // font-style: italic;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.app{
+  background-color: $all-background;
+  min-height: 100vh;
+}
