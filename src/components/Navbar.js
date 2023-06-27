@@ -6,15 +6,24 @@ import { useState } from "react"
 const Navbar = () => {
     const [cross, setCross] = useState(true)
     const [mobileVersion, setMobileVersion] = useState(true)
+    const [hideClass, setHideClass] = useState(true)
 
-    const mobileMenu = () => {
-        setCross(!cross)
-        setMobileVersion(!mobileVersion)
-
+    const setHide = () => {
+        setHideClass(!hideClass)
     }
+
+    const mobileVer = () =>{
+        setMobileVersion(!mobileVersion)
+    } 
+
+
+    //     setCross(!cross)
+    //     setMobileVersion(!mobileVersion)
+    // }
     
     // <p className={"navbar", mobileVersion ? "desktop" : "mobile"}>sfffs</p>
 
+    // zdal jsem standrt mobile abych mohl vytvořit menu pak změnit
   return <div className={mobileVersion ? "desktop-navbar" : "mobile-navbar"}>
     <section className="up-navbar row">
         <a href="#" className="logo">
@@ -23,6 +32,11 @@ const Navbar = () => {
                  <h1>Světová <br /> <span>ZOO</span></h1>
        
         </a>
+
+        <div onClick={() => setHide()} className={hideClass ? "hamburger-hide" : "hamburger-show"}>
+                <img onClick={() => mobileVer()} src={DataImages[6]} />
+            </div>
+
         <div className="logo-description">
             <div className="social-media">
                 <div><img src={DataImages[1]} alt="" /></div>
@@ -77,8 +91,10 @@ const Navbar = () => {
 
 
             </ul>
+            <div onClick={() => setHide()} className={hideClass ? "hamburger-show" : "hamburger-hide"}>
+                <img onClick={() => mobileVer()} src={DataImages[5]} />
+            </div>
 
-            <img onClick={() => mobileMenu()} src={ cross ? DataImages[5] : DataImages[6] }    alt="" />
         </nav>
     </section>
   </div>
