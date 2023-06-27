@@ -8,7 +8,7 @@ const App = () => {
   return <div className="app">
     <Navbar/>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae ducimus eum maxime tempore aliquam fuga soluta voluptates assumenda, vitae inventore? Commodi ad, quasi sapiente rerum qui dignissimos omnis voluptas.
+    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae ducimus eum maxime tempore aliquam fuga soluta voluptates assumenda, vitae inventore? Commodi ad, quasi sapiente rerum qui dignissimos omnis voluptas.
     Distinctio, est nesciunt voluptates alias eos veniam explicabo ratione, magnam animi, omnis qui reiciendis a iusto commodi corrupti. Id excepturi mollitia, quos impedit aut dignissimos modi rerum ipsum ab dolore.
     Nam neque ab unde nobis iste fugit cumque ipsum ratione minus, iusto in quibusdam officiis, molestias numquam labore sunt. Voluptas itaque doloribus quos nostrum? Suscipit aperiam quisquam rem asperiores ipsa.
     Soluta asperiores in eius nemo quibusdam fugit perferendis ullam, incidunt ipsum eos at laborum accusantium libero illo rerum dolorum, modi tempore nisi odit mollitia recusandae, fuga repudiandae quod? At, nisi.
@@ -17,7 +17,7 @@ const App = () => {
     Quae nihil saepe voluptatibus quaerat, placeat eligendi quisquam distinctio architecto dolore labore modi vitae temporibus dolorem id, odio nemo doloribus asperiores numquam excepturi impedit qui ullam corporis aperiam. Neque, quisquam?
     Nostrum dolor nam laborum veritatis, deleniti velit ullam repellat illum cumque, autem ea, voluptatem a nobis itaque inventore dicta! Similique, expedita commodi! Expedita numquam architecto, eos nam omnis consequuntur qui.
     Quae inventore magni nisi fugit aliquam quidem culpa quisquam exercitationem dolorum est, molestias iste a reprehenderit aut sit rem nihil expedita assumenda architecto neque voluptatem repudiandae sed ducimus qui. Harum?
-    Voluptates provident magnam dignissimos corrupti molestiae explicabo accusantium cum quisquam. Tempora fugiat unde reprehenderit nobis laudantium, molestiae ab temporibus nisi nostrum incidunt quis eius illum omnis ratione! Quos, voluptatibus omnis!
+    Voluptates provident magnam dignissimos corrupti molestiae explicabo accusantium cum quisquam. Tempora fugiat unde reprehenderit nobis laudantium, molestiae ab temporibus nisi nostrum incidunt quis eius illum omnis ratione! Quos, voluptatibus omnis! */}
   </div>
 }
 

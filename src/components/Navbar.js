@@ -18,14 +18,55 @@ const Navbar = () => {
                 <div><img src={DataImages[3]} alt="" /></div>
                 <div><img src={DataImages[4]} alt="" /></div>
                 
-
             </div>
             <div className="tickets">
                 <a href="#">Vstupenky</a>
             </div>
         </div>
     </section>
-    <section className="down-navbar"></section>
+
+
+
+    {/* Navabr */}
+    <section className="down-navbar">
+        <nav className="row">
+            <ul>
+                <li><a href="#">O nás</a>
+                    <ul>
+                        <li><a href="#">Aktuality</a></li>
+                        <li><a href="#">Kontakty</a></li>
+                        <li><a href="#">Kariéra</a></li>
+                        <li><a href="#">Budoucnost</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Návštěva Zoo</a>
+                    <ul>
+                        <li><a href="#">Otevírací doba</a></li>
+                        <li><a href="#">Cenník</a></li>
+                        <li><a href="#">Vstupenky</a></li>
+                        <li><a href="#">Mapa Zoo</a></li>
+                        <li><a href="#">Časté dotazy</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Ochrana Přírody</a>
+                    <ul>
+                        <li><a href="#">Jak Pomoci</a></li>
+                        <li><a href="#">Mecenáš chovu</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Zvířata v zoo</a></li>
+                <li><a href="#">E-shop</a></li>
+
+
+
+
+
+            </ul>
+        </nav>
+    </section>
   </div>
 }
 
