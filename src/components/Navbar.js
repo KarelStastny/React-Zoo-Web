@@ -1,9 +1,21 @@
 import "./Navbar.scss"
 import DataImages from "../data/DataImages"
+import { useState } from "react"
 
 
 const Navbar = () => {
-  return <div className="navbar">
+    const [cross, setCross] = useState(true)
+    const [mobileVersion, setMobileVersion] = useState(true)
+
+    const mobileMenu = () => {
+        setCross(!cross)
+        setMobileVersion(!mobileVersion)
+
+    }
+    
+    // <p className={"navbar", mobileVersion ? "desktop" : "mobile"}>sfffs</p>
+
+  return <div className={mobileVersion ? "desktop-navbar" : "mobile-navbar"}>
     <section className="up-navbar row">
         <a href="#" className="logo">
             
@@ -65,6 +77,8 @@ const Navbar = () => {
 
 
             </ul>
+
+            <img onClick={() => mobileMenu()} src={ cross ? DataImages[5] : DataImages[6] }    alt="" />
         </nav>
     </section>
   </div>

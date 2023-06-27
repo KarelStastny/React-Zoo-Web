@@ -1,7 +1,10 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.navbar{
+/*************************
+******Desktop
+************************/
+.desktop-navbar{
     .up-navbar{
         overflow: hidden;
         @include flexStandartSpaceBetween;
@@ -87,6 +90,7 @@
         nav{
             padding-left: 20px;
             padding-right: 20px;
+            @include flexStandart;
         
             
             ul{
@@ -115,6 +119,7 @@
                         position: absolute;
                         border-radius: $mini-radius;
                         top: 100%;
+                        z-index: 2;
                      
                         display: none;
                         
@@ -137,10 +142,167 @@
                     }
                 }
             }
+        img{
+            width: 35px;
+            padding: 5px;
+            cursor: pointer;
+            
+        }    
        }
 
     }
 }
 
 
+/*************************
+******Mobile
+************************/
 
+.mobile-navbar{
+    .up-navbar{
+        overflow: hidden;
+        @include flexStandartSpaceBetween;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 130px;
+        .logo{
+
+            @include flexStandart;
+            img{
+                height: 80px;
+                @media screen and (max-width:800px){
+                    height: 60px;
+                }
+
+                }
+            h1{
+                padding-left: 20px;
+                font-size: $big-font;
+                @media screen and (max-width:800px){
+                    font-size: $middle-font;
+                }
+                span{
+                    font-weight: 900;
+                    font-size: $big-font;
+                    @media screen and (max-width:800px){
+                        font-size: $middle-font;
+                    }
+                }
+            }
+        }
+        .logo-description{
+            @include flexStandartSpaceBetween;
+            .social-media{
+                @include flexStandartSpaceBetween;
+                padding-right: 60px;
+
+                @media screen and (max-width:800px){
+                    display: none;
+                }
+                div{
+                    @include flexStandart;
+                    min-height: 50px;
+                    min-width: 50px;
+                    margin: 5px;
+                    cursor: pointer;
+                    img{
+                        height: 40px;
+                        padding: 5px;
+                    }
+                    &:hover{
+                        background-color: $orange-icon;
+                        border-radius: $cirkle-radius;
+                     }
+                }
+                
+            }
+        }
+            .tickets{
+                a{
+                    background-color: $orange-icon;
+                    font-weight: 900;
+                    font-size: $middle-font ;
+                    padding: 15px;
+                    text-transform: uppercase;
+                    transition: 0.15s;
+
+                    @media only screen and (max-width:800px){
+                        padding: 10px;
+                        font-size: $standart-font;
+                    }
+                    
+
+                    &:hover{
+                        background-color: $green-icon;
+                    }
+                }
+            }
+    }
+    .down-navbar{
+
+        background-color: $white-brown;
+        nav{
+            padding-left: 20px;
+            padding-right: 20px;
+            @include flexStandart;
+        
+            
+            ul{
+                @include flexStandartSpaceBetween;
+                justify-content: left;
+                
+            
+                li{
+                    position: relative;
+                    padding: 15px;
+              
+
+                    &:hover > ul{
+                        display: block;
+                     
+                    }
+                    a{
+                        font-weight: 900;
+                        &:hover{
+                            color: $orange-icon;
+                        }
+                     
+                    }
+                    ul{
+                        @include flexColumn;
+                        position: absolute;
+                        border-radius: $mini-radius;
+                        top: 100%;
+                        z-index: 2;
+                     
+                        display: none;
+                        
+                       
+                        background-color: $dark-brown;
+                        
+
+                        li{
+                            min-width: 180px;
+                           
+                            a{
+                                color: $white-brown;
+                                font-weight: 300;
+                                padding-left: 5px;
+                          
+                            }
+                        }
+                        
+
+                    }
+                }
+            }
+        img{
+            width: 35px;
+            padding: 5px;
+            cursor: pointer;
+            
+        }    
+       }
+
+    }
+}
