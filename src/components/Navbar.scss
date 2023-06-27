@@ -5,7 +5,7 @@
     .up-navbar{
         // border: 3px solid red;
         overflow: hidden;
-        @include flexStandart;
+        @include flexStandartSpaceBetween;
         padding-left: 30px;
         padding-right: 30px;
 
@@ -64,7 +64,7 @@
                 a{
                     background-color: $orange-icon;
                     font-weight: 900;
-                    font-size: $middle-font;
+                    font-size: $middle-font ;
                     padding: 15px;
                     text-transform: uppercase;
                     transition: 0.15s;
@@ -81,27 +81,24 @@
     }
 }
 
-@media only screen and (max-width:800px){
+@media screen and (max-width:800px){
     .social-media{
-        div{
-            img{
-                display: none;
-            }
+        display: none !important;
+   
             
         }
         
-     
-
-
-    }
-    .tickets{
-        a{
-            
-            font-size: $standart-font;
-            padding: 5px;
+        .tickets{
+            a{
+                // important nefunguje čím zdůraznit
+                font-size: $standart-font;
+                // display: none;
+           
           
-      
-
+    
+            }
         }
+
+// Konec 
     }
-}
+
