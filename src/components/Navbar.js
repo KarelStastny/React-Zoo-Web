@@ -33,9 +33,14 @@ const Navbar = () => {
        
         </a>
 
-        <div onClick={() => setHide()} className={hideClass ? "hamburger-hide" : "hamburger-show"}>
-                <img onClick={() => mobileVer()} src={DataImages[6]} />
-            </div>
+        <div onClick={ () => {
+                mobileVer() 
+                setHide()
+                }} 
+                className={
+                    hideClass ? "hamburger-hide" : "hamburger-show"}>
+                        <img src={DataImages[6]} />
+                        </div>
 
         <div className="logo-description">
             <div className="social-media">
@@ -56,17 +61,19 @@ const Navbar = () => {
     {/* Navabr */}
     <section className="down-navbar">
         <nav className="row">
+            <p>Vítejte v naší Světové Zoo</p>
+
             <ul>
-                <li><a href="#">O nás</a>
+                <div className="big-link"><a href="#">O nás</a>
                     <ul>
                         <li><a href="#">Aktuality</a></li>
                         <li><a href="#">Kontakty</a></li>
                         <li><a href="#">Kariéra</a></li>
                         <li><a href="#">Budoucnost</a></li>
                     </ul>
-                </li>
+                </div>
 
-                <li><a href="#">Návštěva Zoo</a>
+                <div className="big-link"><a href="#">Návštěva Zoo</a>
                     <ul>
                         <li><a href="#">Otevírací doba</a></li>
                         <li><a href="#">Cenník</a></li>
@@ -74,26 +81,33 @@ const Navbar = () => {
                         <li><a href="#">Mapa Zoo</a></li>
                         <li><a href="#">Časté dotazy</a></li>
                     </ul>
-                </li>
+                </div>
 
-                <li><a href="#">Ochrana Přírody</a>
+                <div className="big-link"><a href="#">Ochrana Přírody</a>
                     <ul>
                         <li><a href="#">Jak Pomoci</a></li>
                         <li><a href="#">Mecenáš chovu</a></li>
                     </ul>
-                </li>
+                </div>
 
-                <li><a href="#">Zvířata v zoo</a></li>
-                <li><a href="#">E-shop</a></li>
+                <div className="big-link"><a href="#">Zvířata v zoo</a></div>
+                <div className="big-link"><a href="#">E-shop</a></div>
 
 
 
 
 
             </ul>
-            <div onClick={() => setHide()} className={hideClass ? "hamburger-show" : "hamburger-hide"}>
-                <img onClick={() => mobileVer()} src={DataImages[5]} />
-            </div>
+            <div onClick={ () => {
+                mobileVer() 
+                setHide()
+                }} 
+                className={
+                    hideClass ? "hamburger-show" : "hamburger-hide"}>
+                        <img src={DataImages[5]} />
+                        </div>
+            
+
 
         </nav>
     </section>
