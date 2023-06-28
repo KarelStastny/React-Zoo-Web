@@ -1,10 +1,12 @@
 import "./Footer.scss"
+import SocialMedia from "./SocialMedia"
 
 const Footer = () => {
   return <footer>
     <div className="footer-container row">
         <div>
             <h4>© 2023 Světová zoo Všechna práva vyhrazena</h4>
+            <SocialMedia/>
         </div>
         <div className="footer-all">
             <section>
