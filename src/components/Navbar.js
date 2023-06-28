@@ -1,6 +1,7 @@
 import "./Navbar.scss"
 import DataImages from "../data/DataImages"
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 
 const Navbar = () => {
@@ -26,12 +27,10 @@ const Navbar = () => {
     // zdal jsem standrt mobile abych mohl vytvořit menu pak změnit
   return <div className={mobileVersion ? "desktop-navbar" : "mobile-navbar"}>
     <section className="up-navbar row">
-        <a href="#" className="logo">
-            
+        <NavLink to="/" className="logo">
                 <img src={DataImages[0]} alt="" />
                  <h1>Světová <br /> <span>ZOO</span></h1>
-       
-        </a>
+        </NavLink>
 
         <div onClick={ () => {
                 mobileVer() 
@@ -64,34 +63,34 @@ const Navbar = () => {
             <p>Vítejte v naší Světové Zoo</p>
 
             <ul>
-                <div className="big-link"><a href="#">O nás</a>
+                <div className="big-link"><NavLink to="/o-nas" >O nás</NavLink>
                     <ul>
-                        <li><a href="#">Aktuality</a></li>
-                        <li><a href="#">Kontakty</a></li>
-                        <li><a href="#">Kariéra</a></li>
-                        <li><a href="#">Budoucnost</a></li>
+                        <li><NavLink to="/aktuality" >Aktuality</NavLink></li>
+                        <li><NavLink to="/kontakt" >Kontakty</NavLink></li>
+                        <li><NavLink to="/kariera" >Kariéra</NavLink></li>
+                        <li><NavLink to="/budoucnost" >Budoucnost</NavLink></li>
                     </ul>
                 </div>
 
-                <div className="big-link"><a href="#">Návštěva Zoo</a>
+                <div className="big-link"><NavLink to="/navsteva" >Návštěva Zoo</NavLink>
                     <ul>
-                        <li><a href="#">Otevírací doba</a></li>
-                        <li><a href="#">Cenník</a></li>
-                        <li><a href="#">Vstupenky</a></li>
-                        <li><a href="#">Mapa Zoo</a></li>
-                        <li><a href="#">Časté dotazy</a></li>
+                        <li><NavLink to="/oteviraci-doba" >Otevírací doba</NavLink></li>
+                        <li><NavLink to="/cennik" >Cenník</NavLink></li>
+                        <li><NavLink to="/vstupenky" >Vstupenky</NavLink></li>
+                        <li><NavLink to="/mapa-zoo" >Mapa Zoo</NavLink></li>
+                        <li><NavLink to="/dotazy" >Časté dotazy</NavLink></li>
                     </ul>
                 </div>
 
-                <div className="big-link"><a href="#">Ochrana Přírody</a>
+                <div className="big-link"><NavLink to="/ochrana-prirody" >Ochrana Přírody</NavLink>
                     <ul>
-                        <li><a href="#">Jak Pomoci</a></li>
-                        <li><a href="#">Mecenáš chovu</a></li>
+                        <li><NavLink to="/jak-pomoc" >Jak Pomoci</NavLink></li>
+                        <li><NavLink to="/mecenas-chovu" >Mecenáš chovu</NavLink></li>
                     </ul>
                 </div>
 
-                <div className="big-link"><a href="#">Zvířata v zoo</a></div>
-                <div className="big-link"><a href="#">E-shop</a></div>
+                <div className="big-link"><NavLink to="/zvirata" >Zvířata v zoo</NavLink></div>
+                <div className="big-link"><NavLink to="/eshop" >E-shop</NavLink></div>
 
 
 
