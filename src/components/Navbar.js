@@ -61,10 +61,10 @@ const Navbar = () => {
             <ul>
                 <div className="big-link"><NavLink to="/o-nas" >O nás</NavLink>
                     <ul>
-                        <li><NavLink to="/o-nas/aktuality" >Aktuality</NavLink></li>
-                        <li><NavLink to="/o-nas/kontakt" >Kontakty</NavLink></li>
-                        <li><NavLink to="/o-nas/kariera" >Kariéra</NavLink></li>
-                        <li><NavLink to="/o-nas/budoucnost" >Budoucnost</NavLink></li>
+                        <li><NavLink to="/aktuality" >Aktuality</NavLink></li>
+                        <li><NavLink to="/kontakt" >Kontakty</NavLink></li>
+                        <li><NavLink to="/kariera" >Kariéra</NavLink></li>
+                        <li><NavLink to="/budoucnost" >Budoucnost</NavLink></li>
                     </ul>
                 </div>
 
@@ -87,8 +87,8 @@ const Navbar = () => {
 
                 <div className="big-link"><NavLink to="/galerie" >Galerie</NavLink>
                 <ul>
-                        <li><NavLink to="/galerie/z-nasi-zoo" >Z naší ZOO</NavLink></li>
-                        <li><NavLink to="/galerie/mladata" >Mláďata</NavLink></li>
+                        <li><NavLink to="/z-nasi-zoo" >Z naší ZOO</NavLink></li>
+                        <li><NavLink to="/mladata" >Mláďata</NavLink></li>
  
                     </ul>
                 </div>

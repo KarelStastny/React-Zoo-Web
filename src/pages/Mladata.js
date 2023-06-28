@@ -1,6 +1,7 @@
 import React from 'react'
 import ImageGallery from "react-image-gallery"
 import "./Mladata.scss"
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 
 
@@ -82,6 +83,7 @@ thumbnail: img17,
 
 
   return <div className="mladata-container">
+    <HeddingBodyLayout/>
     <div className="mladata-galery">
         <ImageGallery  items={images} slideInterval={500} />
     </div>

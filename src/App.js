@@ -26,16 +26,16 @@ return <div className="app">
     {/* Jednotlivé stránky */}
         <Route index element={<Home/>} />
         <Route path='/o-nas' element={<Onas/>} />
-        <Route path='/o-nas/aktuality' element={<Aktuality/>} />
-        <Route path='/o-nas/kontakt' element={<Kontakt/>} />
-        <Route path='/o-nas/kariera' element={<Kariera/>} />
-        <Route path='/o-nas/budoucnost' element={<Budoucnost/>} />
+        <Route path='/aktuality' element={<Aktuality/>} />
+        <Route path='/kontakt' element={<Kontakt/>} />
+        <Route path='/kariera' element={<Kariera/>} />
+        <Route path='/budoucnost' element={<Budoucnost/>} />
 
 
 
         <Route path='/galerie' element={<Galerie/>} />
-        <Route path='/galerie/z-nasi-zoo' element={<ZnasiZoo/>} />
-        <Route path='/galerie/mladata' element={<Mladata/>} />
+        <Route path='/z-nasi-zoo' element={<ZnasiZoo/>} />
+        <Route path='/mladata' element={<Mladata/>} />
 
     </Route>
 

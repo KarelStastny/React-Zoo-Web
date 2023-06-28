@@ -1,9 +1,10 @@
 import React from 'react'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const Kariera = () => {
   return (
     <div>
-      Kariera
+      <HeddingBodyLayout/>
     </div>
   )
 }

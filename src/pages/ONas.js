@@ -1,9 +1,10 @@
 import React from 'react'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const ONas = () => {
   return (
     <div>
-      O nas
+       <HeddingBodyLayout/>
     </div>
   )
 }
