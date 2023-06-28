@@ -63,30 +63,7 @@
 
         .logo-description{
             @include flexStandartSpaceBetween;
-            .social-media{
-                @include flexStandartSpaceBetween;
-                padding-right: 60px;
-
-                @media screen and (max-width:800px){
-                    display: none;
-                }
-                div{
-                    @include flexStandart;
-                    min-height: 50px;
-                    min-width: 50px;
-                    margin: 5px;
-                    cursor: pointer;
-                    img{
-                        height: 40px;
-                        padding: 5px;
-                    }
-                    &:hover{
-                        background-color: $orange-icon;
-                        border-radius: $cirkle-radius;
-                     }
-                }
-                
-            }
+          
         }
             .tickets{
                 
@@ -253,13 +230,13 @@
                     min-width: 50px;
                     margin: 5px;
                     cursor: pointer;
+                    transition: 0.3s;
                     img{
                         height: 40px;
                         padding: 5px;
                     }
                     &:hover{
-                        background-color: $orange-icon;
-                        border-radius: $cirkle-radius;
+                        scale: 1.3;
                      }
                 }
                 

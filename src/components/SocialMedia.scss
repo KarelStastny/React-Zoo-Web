@@ -1,0 +1,28 @@
+
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.social-media{
+    @include flexStandartSpaceBetween;
+    padding-right: 60px;
+
+    @media screen and (max-width:800px){
+        display: none;
+    }
+    div{
+        @include flexStandart;
+        min-height: 50px;
+        min-width: 50px;
+        margin: 5px;
+        cursor: pointer;
+        transition: .3s;
+        img{
+            height: 40px;
+            padding: 5px;
+        }
+        &:hover{
+            scale: 1.3;
+         }
+    }
+    
+}

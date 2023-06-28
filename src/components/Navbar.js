@@ -2,6 +2,7 @@ import "./Navbar.scss"
 import DataImages from "../data/DataImages"
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import SocialMedia from "./SocialMedia"
 
 
 const Navbar = () => {
@@ -42,13 +43,8 @@ const Navbar = () => {
                         </div>
 
         <div className="logo-description">
-            <div className="social-media">
-                <div><img src={DataImages[1]} alt="" /></div>
-                <div><img src={DataImages[2]} alt="" /></div>
-                <div><img src={DataImages[3]} alt="" /></div>
-                <div><img src={DataImages[4]} alt="" /></div>
-                
-            </div>
+            <SocialMedia/>
+
             <div className="tickets">
                 <a href="#">Vstupenky</a>
             </div>
@@ -65,10 +61,10 @@ const Navbar = () => {
             <ul>
                 <div className="big-link"><NavLink to="/o-nas" >O nás</NavLink>
                     <ul>
-                        <li><NavLink to="/aktuality" >Aktuality</NavLink></li>
-                        <li><NavLink to="/kontakt" >Kontakty</NavLink></li>
-                        <li><NavLink to="/kariera" >Kariéra</NavLink></li>
-                        <li><NavLink to="/budoucnost" >Budoucnost</NavLink></li>
+                        <li><NavLink to="/o-nas/aktuality" >Aktuality</NavLink></li>
+                        <li><NavLink to="/o-nas/kontakt" >Kontakty</NavLink></li>
+                        <li><NavLink to="/o-nas/kariera" >Kariéra</NavLink></li>
+                        <li><NavLink to="/o-nas/budoucnost" >Budoucnost</NavLink></li>
                     </ul>
                 </div>
 
@@ -88,6 +84,15 @@ const Navbar = () => {
                         <li><NavLink to="/mecenas-chovu" >Mecenáš chovu</NavLink></li>
                     </ul>
                 </div>
+
+                <div className="big-link"><NavLink to="/galerie" >Galerie</NavLink>
+                <ul>
+                        <li><NavLink to="/galerie/z-nasi-zoo" >Z naší ZOO</NavLink></li>
+                        <li><NavLink to="/galerie/mladata" >Mláďata</NavLink></li>
+ 
+                    </ul>
+                </div>
+
 
                 <div className="big-link"><NavLink to="/zvirata" >Zvířata v zoo</NavLink></div>
                 <div className="big-link"><NavLink to="/eshop" >E-shop</NavLink></div>
