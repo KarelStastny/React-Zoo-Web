@@ -1,9 +1,11 @@
 import React from 'react'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const Kontakt = () => {
   return (
     <div>
-      Kontakt
+   
+      <HeddingBodyLayout/>
     </div>
   )
 }
