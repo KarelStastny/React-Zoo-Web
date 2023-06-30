@@ -3,6 +3,7 @@ import React from 'react'
 import DataHedding from "../data/DataHedding"
 import { useParams, Link } from "react-router-dom"
 import { useState, useEffect } from "react"
+import Weather from "./Weather"
 
 const HeddingBodyLayout = () => {
 
@@ -28,7 +29,7 @@ const {hedding, text} = findHedding
       <div className="down-container">
         <div className="box-layout-easy">
           <div className="weather-box">
-            Zde bude předpověd počasí pro dnešní den
+            <Weather/>
           </div>
           <div className="link-box">
             <Link to="/" className="link-back">Zpět</Link>

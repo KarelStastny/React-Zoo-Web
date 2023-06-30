@@ -6,7 +6,7 @@ import SocialMedia from "./SocialMedia"
 
 
 const Navbar = () => {
-    const [cross, setCross] = useState(true)
+
     const [mobileVersion, setMobileVersion] = useState(true)
     const [hideClass, setHideClass] = useState(true)
 

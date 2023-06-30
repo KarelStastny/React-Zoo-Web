@@ -31,7 +31,7 @@ const Footer = () => {
             <section>
                 <h2>Mapa</h2>
                 <div className="map-footer">
-                    <iframe width="100%" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Borsk%C3%A9%20Pole+(Sv%C4%9Btov%C3%A1%20Zoo)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
+                    <iframe width="100%" height="150" frameBorder="0" scrolling="no" margintop="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Borsk%C3%A9%20Pole+(Sv%C4%9Btov%C3%A1%20Zoo)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
 
                 </div>
 
