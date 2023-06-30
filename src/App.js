@@ -13,6 +13,7 @@ import ZnasiZoo  from "./pages/ZnasiZoo"
 import Mladata  from "./pages/Mladata"
 import Error from './pages/Error';
 import Cennik from './pages/Cennik';
+import Zamestnanci from './pages/Zamestanci';
 
 
 const App = () => {
@@ -34,6 +35,7 @@ return <div className="app">
         <Route path='/kontakt' element={<Kontakt/>} />
         <Route path='/kariera' element={<Kariera/>} />
         <Route path='/budoucnost' element={<Budoucnost/>} />
+        <Route path='/zamestnanci' element={<Zamestnanci/>} />
 
         {/* 2 část Návštěva Zoo */}
         <Route path='/navsteva' element={<Error/>} />
