@@ -2,7 +2,7 @@ import React from 'react'
 import "./Prohibitons.scss"
 import prohib from "../data/DataProhibitions"
 import DataImages from '../data/DataImages'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 const Prohibitions = () => {
 
@@ -24,7 +24,7 @@ console.log(index);
 
 
   return <div className="prohibitions row">
-            <img onClick={() => setIndex( index -1)} src={DataImages[7]}  />
+            <img onClick={() => setIndex( index -1)} src={DataImages[7]} alt='#'  />
             <div className="prohib-container">
 
  
@@ -36,7 +36,7 @@ console.log(index);
             </div>
 
             </div>
-            <img onClick={() => setIndex(index>3 ? setIndex( 3) : setIndex( index +1 ))} src={DataImages[8]}  />
+            <img onClick={() => setIndex(index>3 ? setIndex( 3) : setIndex( index +1 ))} src={DataImages[8]} alt='#'  />
 
   </div>
 }

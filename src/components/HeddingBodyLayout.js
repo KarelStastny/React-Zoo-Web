@@ -1,8 +1,8 @@
 import "./HeddingBodyLayout.scss"
 import React from 'react'
 import DataHedding from "../data/DataHedding"
-import { useParams, Link } from "react-router-dom"
-import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+
 import Weather from "./Weather"
 
 const HeddingBodyLayout = () => {

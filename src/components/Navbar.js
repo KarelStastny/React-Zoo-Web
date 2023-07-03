@@ -29,7 +29,7 @@ const Navbar = () => {
   return <div className={mobileVersion ? "desktop-navbar" : "mobile-navbar"}>
     <section className="up-navbar row">
         <NavLink to="/" className="logo">
-                <img src={DataImages[0]} alt="" />
+                <img src={DataImages[0]} alt="#" />
                  <h1>Světová <br /> <span>ZOO</span></h1>
         </NavLink>
 
@@ -39,14 +39,15 @@ const Navbar = () => {
                 }} 
                 className={
                     hideClass ? "hamburger-hide" : "hamburger-show"}>
-                        <img src={DataImages[6]} />
+                        <img src={DataImages[6]} alt="#" />
                         </div>
 
         <div className="logo-description">
             <SocialMedia/>
 
             <div className="tickets">
-                <a href="#">Vstupenky</a>
+                <NavLink to="/vstupenky" >Vstupenky</NavLink>
+        
             </div>
         </div>
     </section>
@@ -109,7 +110,7 @@ const Navbar = () => {
                 }} 
                 className={
                     hideClass ? "hamburger-show" : "hamburger-hide"}>
-                        <img src={DataImages[5]} />
+                        <img src={DataImages[5]} alt="#" />
                         </div>
             
 

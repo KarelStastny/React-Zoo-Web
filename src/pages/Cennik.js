@@ -61,7 +61,7 @@ const Cennik = () => {
           <p>elektronické vstupenky</p>
         </div>
         {
-          SummerCennik.map((one)=>{
+          WinterCennik.map((one)=>{
             return <div key={one.id} className="box-cennik">
               <p ><span>druh vstupného</span> <br /> {one.type}</p>
               <p ><span>bližší specifikace</span> <br /> {one.info}</p>
