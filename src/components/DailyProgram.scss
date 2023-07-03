@@ -1,0 +1,44 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.daily-program{
+    margin: 30px;
+    h1{
+        font-size: $big-font;
+        text-align: center;
+    }
+    section{
+
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-weight: 900;
+            padding-bottom: 10px;
+            font-size: $middle-font;
+        }
+        .programe-box{
+   
+            min-width: 450px;
+            @media only screen and (max-width:500px){
+                min-width: 100%;
+            }
+
+            p{
+                font-weight: 600;
+                span{
+                    padding-left: 10px
+                };
+            }
+
+        
+        }
+
+        &:nth-child(2n){
+            background-color: $second-background;
+        }
+    }
+}

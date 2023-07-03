@@ -1,6 +1,7 @@
 import React from 'react'
 import Cennik from "./Cennik"
 import Prohibitions from '../components/Prohibitions'
+import DailyProgram from '../components/DailyProgram'
 
 
 
@@ -8,8 +9,9 @@ import Prohibitions from '../components/Prohibitions'
 const Home = () => {
   return (
     <div>
-      Home
+      <DailyProgram/>
       <Prohibitions/>
+
     <Cennik/>
     </div>
   )
