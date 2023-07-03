@@ -4,10 +4,11 @@ import "./SocialMedia.scss"
 
 const SocialMedia = () => {
   return <div className="social-media">
-        <div><img src={DataImages[1]} alt="" /></div>
-        <div><img src={DataImages[2]} alt="" /></div>
-        <div><img src={DataImages[3]} alt="" /></div>
-        <div><img src={DataImages[4]} alt="" /></div>
+    <a href="https://cs-cz.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[1]} alt="" /></a>
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[2]} alt="" /></a>
+    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[3]} alt="" /></a>
+    <a href="https://cz.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[4]} alt="" /></a>
+ 
   
 </div>
 }
