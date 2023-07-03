@@ -1,2 +1,47 @@
 @import "../mixins.scss";
 @import "../variables.scss";
+
+.zoo-zamestnaci{
+    padding: 10px;
+    .one-person{
+        width: 800px;
+
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        @media only screen and (max-width: 800px){
+            flex-direction: column;
+            width: 90%;
+        }
+       
+        img{
+            object-fit: cover;
+        }
+
+        article{
+            padding: 15px;
+            h2{
+                font-weight: 900;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 16px;
+                padding-bottom: 5px;
+                text-align: justify;
+            }
+            a{
+                font-size: 16px;
+                color: $orange-icon;
+            }
+        }
+
+        &:nth-child(2n){
+            background-color: $second-background;
+        }
+
+
+        
+    }
+}

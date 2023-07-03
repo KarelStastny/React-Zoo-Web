@@ -36,6 +36,7 @@ return <div className="app">
         <Route path='/kariera' element={<Kariera/>} />
         <Route path='/budoucnost' element={<Budoucnost/>} />
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
+        <Route path='/z/:zamestnanecId' element={<Zamestnanci/>} />
 
         {/* 2 část Návštěva Zoo */}
         <Route path='/navsteva' element={<Error/>} />
