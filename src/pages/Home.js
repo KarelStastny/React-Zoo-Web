@@ -2,6 +2,8 @@ import React from 'react'
 import Cennik from "./Cennik"
 import Prohibitions from '../components/Prohibitions'
 import DailyProgram from '../components/DailyProgram'
+import Background from '../components/Background'
+
 
 
 
@@ -9,6 +11,7 @@ import DailyProgram from '../components/DailyProgram'
 const Home = () => {
   return (
     <div>
+      <Background/>
       <DailyProgram/>
       <Prohibitions/>
 
