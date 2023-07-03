@@ -9,8 +9,31 @@ const SocialMedia = () => {
     <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[3]} alt="" /></a>
     <a href="https://cz.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src={DataImages[4]} alt="" /></a>
  
+    {
+  name: "",
+  english_name:"",
+  max_age: "",
+  description_short:"",
+  description_long:"",
+  description_max_long:"",
+  food: "",
+  occurrence: "",
+  species: "",
+  image_url: "",
+  number_of_young: "",
+  mass: "", 
+  gestation_period: "",
+  max_speed: "",
+  height: "",
+  length: "",
+  coat_type: "",
+  reproduction: "",
   
+
+
+}
 </div>
 }
 
 export default SocialMedia
+
