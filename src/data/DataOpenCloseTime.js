@@ -4,7 +4,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -13,7 +13,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -22,7 +22,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -31,7 +31,7 @@ const OpenCloseTime = [
         CashRegister: "7:00 - 20:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -40,7 +40,7 @@ const OpenCloseTime = [
         CashRegister: "7:00 - 20:00",
         foot:"9:00 - 19:00",
         closePavilon: "19:30",
-        closeZoo: "22h",
+        closeZoo: "22:00",
         priceList: "Letní"
 
     },
@@ -49,7 +49,7 @@ const OpenCloseTime = [
         CashRegister: "7:00 - 20:00",
         foot:"9:00 - 19:00",
         closePavilon: "19:30",
-        closeZoo: "22h",
+        closeZoo: "22:00",
         priceList: "Letní"
 
     },
@@ -58,7 +58,7 @@ const OpenCloseTime = [
         CashRegister: "7:00 - 20:00",
         foot:"9:00 - 19:00",
         closePavilon: "19:30",
-        closeZoo: "22h",
+        closeZoo: "22:00",
         priceList: "Letní"
 
     },
@@ -67,7 +67,7 @@ const OpenCloseTime = [
         CashRegister: "7:00 - 20:00",
         foot:"9:00 - 19:00",
         closePavilon: "19:30",
-        closeZoo: "22h",
+        closeZoo: "22:00",
         priceList: "Letní"
 
     },
@@ -76,7 +76,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "22:00",
         priceList: "Letní"
 
     },
@@ -85,7 +85,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -94,7 +94,7 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
@@ -103,8 +103,10 @@ const OpenCloseTime = [
         CashRegister: "8:00 - 15:00",
         foot:"9:00 - 16:00",
         closePavilon: "16:30",
-        closeZoo: "17h",
+        closeZoo: "17:00",
         priceList: "Zimní"
 
     },
 ]
+
+export default OpenCloseTime
