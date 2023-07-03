@@ -67,6 +67,7 @@ const Navbar = () => {
                         <li><NavLink to="/kariera" >Kariéra</NavLink></li>
                         <li><NavLink to="/budoucnost" >Budoucnost</NavLink></li>
                         <li><NavLink to="/zamestnanci" >Zaměstnanci</NavLink></li>
+                        <li><NavLink to="/mapa" >Mapa</NavLink></li>
                     </ul>
                 </div>
 
@@ -75,7 +76,7 @@ const Navbar = () => {
                         <li><NavLink to="/oteviraci-doba" >Otevírací doba</NavLink></li>
                         <li><NavLink to="/cennik" >Cenník</NavLink></li>
                         <li><NavLink to="/vstupenky" >Vstupenky</NavLink></li>
-                        <li><NavLink to="/mapa-zoo" >Mapa Zoo</NavLink></li>
+                        <li><NavLink to="/mapa" >Mapa Zoo</NavLink></li>
                         <li><NavLink to="/dotazy" >Časté dotazy</NavLink></li>
                     </ul>
                 </div>

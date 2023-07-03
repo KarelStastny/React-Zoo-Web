@@ -14,6 +14,7 @@ import Mladata  from "./pages/Mladata"
 import Error from './pages/Error';
 import Cennik from './pages/Cennik';
 import Zamestnanci from './pages/Zamestanci';
+import Mapa from './pages/Mapa';
 
 
 const App = () => {
@@ -37,13 +38,14 @@ return <div className="app">
         <Route path='/budoucnost' element={<Budoucnost/>} />
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
         <Route path='/z/:zamestnanecId' element={<Zamestnanci/>} />
+        <Route path='/mapa' element={<Mapa/>} />
 
         {/* 2 část Návštěva Zoo */}
         <Route path='/navsteva' element={<Error/>} />
         <Route path='/oteviraci-doba' element={<Error/>} />
         <Route path='/cennik' element={<Cennik/>} />
         <Route path='/vstupenky' element={<Error/>} />
-        <Route path='/mapa-zoo"' element={<Error/>} />
+        <Route path='/mapa-zoo"' element={<Mapa/>} />
         <Route path='/dotazy' element={<Error/>} />
 
         {/* 3 část Ochrana přírody */}
