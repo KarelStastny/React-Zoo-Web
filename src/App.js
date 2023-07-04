@@ -16,6 +16,7 @@ import Cennik from './pages/Cennik';
 import Zamestnanci from './pages/Zamestanci';
 import Mapa from './pages/Mapa';
 import OteviraciDoba from './pages/OteviraciDoba';
+import Foto from './pages/Foto';
 
 
 const App = () => {
@@ -58,6 +59,7 @@ return <div className="app">
         <Route path='/galerie' element={<Galerie/>} />
         <Route path='/z-nasi-zoo' element={<ZnasiZoo/>} />
         <Route path='/mladata' element={<Mladata/>} />
+        <Route path='/foto' element={<Foto/>} />
 
         {/* Ostatní */}
         <Route path='/zvirata' element={<Error/>} />

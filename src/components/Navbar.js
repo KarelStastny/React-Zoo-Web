@@ -92,6 +92,7 @@ const Navbar = () => {
                 <ul>
                         <li><NavLink to="/z-nasi-zoo" >Z naší ZOO</NavLink></li>
                         <li><NavLink to="/mladata" >Mláďata</NavLink></li>
+                        <li><NavLink to="/foto" >Foto</NavLink></li>
  
                     </ul>
                 </div>
