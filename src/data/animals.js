@@ -1,19 +1,9 @@
 const vzor = [
     {
-        name: "",
-        max_age: "",
-        description_short: "",
-        food: "",
-        occurrence: "",
-        number_of_young: "",
-        mass: "",
-        gestation_period: "",
-        max_speed: "",
-        height: "",
-        length: "",
-        coat_type: "",
-        reproduction: "",
-        kind: "",
+    
+        description_middle: "",
+        description_long: "",
+
       },
 ]
 
@@ -23,6 +13,7 @@ const animals = [
         name: "Medvěd černý",
         max_age: "20-30 let",
         description_short: "Medvěd černý je středně velký savec se širokým rozšířením na severní polokouli.",
+        description_long: " Medvěd černý (Ursus americanus) je robustní a silný savec obývající především Severní Ameriku. S hmotností mezi 100 až 600 kg a délkou těla 1,2 až 2,5 metru, se jedná o jednoho z nejznámějších druhů medvědů na světě. Srst tohoto medvěda je převážně černá, ale může se objevit i v hnědých a bílých odstínech. Medvěd černý je všežravec s rozmanitou stravou. Živí se rostlinami, jako jsou ořechy, bobule, tráva a listy, ale také hmyzem, menšími savci a dokonce i mršinami. Je vybaven silnými drápy a ostrými zuby, které mu umožňují získat potravu i v náročných podmínkách. Jeho přizpůsobivost mu umožňuje žít v různých prostředích, včetně lesů, hor, bažin a tundry. Medvěd černý je známý svým vynikajícím čichem, který mu pomáhá najít potravu a navigovat v jeho teritoriu. Přestože se obecně vyhýbá lidskému kontaktu a je plachý, může se stát nebezpečným, pokud se cítí ohrožený nebo brání svá mláďata. Je proto důležité zachovávat respekt a opatrnost, pokud se setkáme s divokým medvědem černým. V Severní Americe je medvěd černý chráněným druhem a některé populace se zotavují. Lidé vyvíjejí snahy k ochraně a zachování tohoto krásného a výjimečného zvířete. Vzdělávání veřejnosti o správném chování v přítomnosti medvědů, včetně zásad bezpečného odstranění odpadků a minimalizace potravinových lákadel, je klíčové pro udržení mírumilovné koexistence s medvědy černými. Doufám, že tento článek splňuje vaše požadavky na délku a poskytuje užitečné informace o medvědovi černém.",
         food: "Různé rostliny, ovoce, hmyz, ryby a menší savce.",
         occurrence: "Obývá lesnaté oblasti Severní Ameriky, Evropy a Asie.",
         number_of_young: "1-4 mláďata.",
@@ -33,12 +24,15 @@ const animals = [
         length: "1,2-2 metry.",
         coat_type: "Hustá srst různých barev (černá, hnědá, blond, šedá).",
         reproduction: "Medvěd černý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
-        kind: "Savec"
+        kind: "Savec",
+   
+        
     },
     {
         name: "Medvěd hnědý",
         max_age: "20-30 let",
         description_short: "Medvěd hnědý je velký savec se širokým rozšířením v Severní Americe, Eurasi a v některých částech Severní Afriky.",
+        description_long: "Medvěd hnědý (Ursus arctos) je jedním z největších suchozemských šelem na světě a je rozšířený v různých částech Evropy, Asie a Severní Ameriky. Tento impozantní tvor je známý svou silou a hbitostí, a přestože se jedná o převážně masožravce, jeho strava je velmi rozmanitá. Dálka mezi roky 1800 a 2000 byla pro medvěda hnědého zajímavým obdobím, kterému se budeme v tomto článku věnovat. Během 19. a 20. století byl medvěd hnědý v mnoha částech Evropy a Severní Ameriky loven až na pokraj vyhubení. Lovecká činnost, ztráta přirozeného prostředí a další faktory způsobily, že populace medvědů hnědých se výrazně snížila. V té době byla dálka mezi jednotlivými populacemi medvědů hnědých mnohem větší než dnes. Avšak ve druhé polovině 20. století se situace začala postupně zlepšovat. Díky ochranářským opatřením, jako je vyhlášení rezervací a ochranných zón, bylo možné obnovit populace medvědů hnědých a snížit riziko jejich vyhynutí. Dálka mezi jednotlivými populacemi se začala postupně zkracovat. V období mezi lety 1800 a 2000 došlo také k většímu povědomí o významu zachování medvěda hnědého jako klíčového druhu v ekosystémech, ve kterých žije. Medvěd hnědý plní důležitou roli ve svém přirozeném prostředí jako predátor i jako distributor semen rostlin. S rozvojem ochranářských programů a zvýšením povědomí veřejnosti o ochraně přírody a biodiverzity došlo ke snížení lovu a zlepšení ochrany přírodních stanovišť medvědů hnědých. To mělo příznivý vliv na jejich populace a zkracování vzdálenosti mezi jednotlivými populacemi. V posledních desetiletích byla dálka mezi populacemi medvědů hnědých významně snížena. Díky spolupráci mezi vědci, ochranářskými organizacemi a vládami se podařilo zavést ochranářská opatření zamě",
         food: "Různé rostliny, ovoce, ryby, hmyz a menší savce.",
         occurrence: "Obývá různé typy prostředí, včetně lesů, plání, hor a tundry.",
         number_of_young: "1-4 mláďata.",
@@ -50,11 +44,13 @@ const animals = [
         coat_type: "Hustá srst různých barev (od blond až po tmavohnědou).",
         reproduction: "Medvěd hnědý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+
     },
     {
         name: "Medvěd grizzly",
         max_age: "25-30 let",
         description_short: "Medvěd grizzly je velký savec přirozeně se vyskytující v Severní Americe.",
+        description_long: "Medvěd grizzly (Ursus arctos horribilis) je velký druh medvěda, který obývá především Severní Ameriku. S hmotností až kolem 900 kg a délkou těla přesahující 2 metry, je medvěd grizzly jedním z největších suchozemských masožravců. Jeho srst je obvykle hnědá, ale může se vyskytovat i ve světlejších odstínech. Tento druh je známý silnými drápy a velmi silným skusovým přístrojem. Medvědi grizzly jsou všežravci, ale maso tvoří důležitou součást jejich stravy. Loví menší savce, jako jsou losi, jelenci a ryby, ale také se živí rostlinnou potravou, včetně kořenů, bobulí a trávy. Jsou schopni se přizpůsobit různým prostředím, včetně lesů, hor a prérií. Medvěd grizzly je pověstný svou silou a agresivitou. Přestože je obecně plachý a vyhýbá se lidskému kontaktu, může se bránit, pokud se cítí ohrožený. Je důležité dodržovat bezpečnou vzdálenost a nepřibližovat se k medvědům grizzly. Setkání s tímto druhem vyžaduje zvláštní opatrnost a znalost správného chování. Medvěd grizzly je důležitou součástí ekosystému Severní Ameriky a je chráněn zákonem. Lidé se snaží zachovat jeho přirozené prostředí a minimalizovat konflikty s lidmi. Správné vzdělávání a informování veřejnosti o správném chování při setkání s medvědy grizzly je klíčové pro zajištění jejich přežití a ochranu tohoto ohroženého druhu. Medvěd grizzly je fascinujícím a impozantním tvorem Severní Ameriky. Jeho přítomnost připomíná nám, jak důležité je zachovávat harmonii s divokou přírodou a respektovat každé zvíře v jeho přirozeném prostředí.",
         food: "Různé rostliny, ovoce, ryby, hmyz a menší savce.",
         occurrence: "Obývá lesy, hory a pobřežní oblasti Severní Ameriky.",
         number_of_young: "1-4 mláďata.",
@@ -71,6 +67,7 @@ const animals = [
         name: "Medvěd lední",
         max_age: "25-30 let",
         description_short: "Medvěd lední je velký savec žijící v arktických oblastech Severního ledového oceánu.",
+        description_long: "Medvěd lední (Ursus maritimus) je obdivuhodný savec, který obývá především Arktidu. Jedná se o největší druh medvěda na světě. S hmotností až kolem 1 500 kg a délkou těla přesahující 3 metry, je medvěd lední dokonale přizpůsoben životu v extrémně chladných podmínkách. Tento medvěd je charakterizován svou bílou srstí, která mu slouží jako krytí a ochrana před chladem. Má také silnou vrstvu podkožního tuku, která ho izoluje a udržuje teplý i v nejchladnějších teplotách. Medvěd lední je vynikajícím plavcem a dokáže se pohybovat na plůtku po zamrzlých mořích, aby si zajistil potravu. Jeho strava se převážně skládá z tuleňů a dalších mořských savců, které loví na ledu. Medvěd lední je vybaven silnými drápy a velmi silným skusovým přístrojem, což mu umožňuje prolomit tlustou vrstvu ledu a dostat se k potravě. V období nedostatku tuleňů se však živí i jinými zdroji, jako jsou ryby a mršiny. Medvěd lední je důležitou součástí arktického ekosystému a klíčovým indikátorem změn klimatu. Změna klimatu a úbytek ledu v Arktidě však představují vážné ohrožení pro tento druh. Snahy o ochranu medvědů ledních zahrnují opatření k minimalizaci lidského rušení a omezení lovu, stejně jako vzdělávání veřejnosti o důležitosti ochrany tohoto ohroženého druhu. Medvěd lední je fascinujícím tvorem a symbolizuje krásu a odolnost arktického prostředí. Je důležité si uvědomit, že naše akce a rozhodnutí ovlivňují i jejich osud. Zachování jejich přirozeného prostředí je nezbytné pro jejich přežití a zachování arktické biodiverzity.",
         food: "Hlavně tuleňi, ryby, mlži, korýši a různé vodní rostliny.",
         occurrence: "Obývá pobřežní oblasti Arktidy, především ostrovy a pobřeží Severního ledového oceánu.",
         number_of_young: "1-3 mláďata.",
@@ -87,6 +84,7 @@ const animals = [
         name: "Medvěd ušatý",
         max_age: "20-30 let",
         description_short: "Medvěd ušatý je velký savec se širokým rozšířením v Eurasii.",
+        description_long: "Medvěd ušatý (Ursus arctos) je impozantní a silný savec, který obývá především lesnaté oblasti severní polokoule. Je známý svými výrazně dlouhými a odstávajícími uši, které mu poskytují vynikající sluch a pomáhají mu vnímat své okolí. S hmotností až kolem 700 kg a délkou těla přesahující 2 metry, patří medvěd ušatý mezi největší suchozemské masožravce. Srst tohoto medvěda je obvykle hnědá, ale může se vyskytovat i ve světlejších odstínech. Medvěd ušatý je všežravec s rozmanitou stravou. Živí se různými druhy rostlin, jako jsou bobule, kořínky a tráva, ale také hmyzem, rybami a drobnými savci. Je vybaven silnými drápy a silnými čelistmi, které mu umožňují získávat potravu i v náročných podmínkách. Medvěd ušatý je obecně plachý a vyhýbá se lidskému kontaktu. Je nočním tvorem a přes den tráví většinu času ve svém úkrytu. Přestože se většinou snaží vyhnout konfrontaci, může se bránit, pokud se cítí ohrožený. Je důležité dodržovat bezpečnou vzdálenost a respektovat přirozené prostředí medvědů ušatých. Medvědi ušatí mají klíčovou roli v ekosystému, ve kterém žijí. Přispívají k rozptylu semen, ovlivňují vegetaci a omezují přemnožení určitých druhů. Ochrana jejich přirozeného prostředí a minimalizace konfliktů s lidmi jsou důležité pro udržení této rovnováhy. Medvěd ušatý je úchvatným tvorem přírody a symbolizuje divočinu a sílu. Je důležité přijmout opatření k zachování jeho populace a hájit zásady udržitelného života. Poučení o správném chování v přítomnosti medvědů ušatých a podpora úsilí o ochranu přírodních prostředí, ve kterých žijí, jsou nezbytné k zajištění jejich dlouhodobé existence.",
         food: "Různé rostliny, včetně trávy, bobulí, ořechů, hmyzu a občasného masa.",
         occurrence: "Obývá různé typy prostředí, včetně lesů, tundry a hor.",
         number_of_young: "1-3 mláďata.",
@@ -103,6 +101,7 @@ const animals = [
         name: "Medvěd malajský",
         max_age: "20-30 let",
         description_short: "Medvěd malajský je středně velký savec endemický pro oblast jihovýchodní Asie.",
+        description_long: "Medvěd malajský (Helarctos malayanus) je menší druh medvěda, který se vyskytuje v oblasti jihovýchodní Asie, konkrétně v Malajsii, Indonésii, Thajsku a Barmě. Medvěd malajský je charakterizován krátkou a silnou postavou s hustým černým srstí. Co je zvláštní u tohoto druhu medvěda, je jeho žlutohnědý až oranžový límec, který obepíná hruď. Má také velké a zaoblené uši. Jeho strava je převážně vegetariánská, ačkoli je zařazen mezi všežravce. Živí se převážně ovocem, listy, květy a včelím voskem. Medvěd malajský je také známý svou schopností šplhat na stromy, aby získal potravu. Tento druh medvěda je ohrožený a čelí různým hrozbám, jako je ztráta přirozeného prostředí, nelegální obchod s medvědím žlučem a lovectví. Organizace se snaží chránit medvědy malajské a jejich životní prostředí prostřednictvím ochranných programů a osvěty. Medvěd malajský je důležitou součástí biodiverzity jihovýchodní Asie a jejich přežití je nezbytné pro udržení ekologické rovnováhy. Jejich unikátní vzhled a chování přinášejí zvláštní fascinaci a důležitost ochrany přírody.",
         food: "Ovoce, rostliny, med, hmyz a menší obratlovci.",
         occurrence: "Obývá husté deštné lesy a horské oblasti Malajsie, Thajska, Barmy a Sumatry.",
         number_of_young: "1-2 mláďata.",
@@ -120,6 +119,7 @@ const animals = [
         name: "Dikobraz",
         max_age: "10-15 let",
         description_short: "Dikobraz je středně velký savec s trnitým opeřením na těle.",
+        description_long: "Dikobraz je malý savec, který se vyznačuje svými bodlinami, které pokrývají jeho hřbet a boky. Existuje několik druhů dikobrazů, z nichž nejznámější je dikobraz obecný (Erinaceus europaeus). Dikobraz obecný je rozšířený v Evropě, Asii a Africe. Má malé oči a uši, které jsou dobře chráněny jeho bodlinami. Jeho tělo je pokryto hustou srstí, která se skládá z kratších chlupů a delších bodlin. Bodliny jsou vlastně modifikované chlupy, které slouží jako ochrana před predátory. Dikobraz je noční tvor a aktivní převážně za soumraku a v noci. Je to všežravec, který se živí různými druhy potravy, včetně hmyzu, žížal, ještěrek, malých obratlovců, ale také ovoce, bobulí a semínek. Jeho strava se může lišit v závislosti na dostupnosti potravy v daném prostředí. Dikobraz je známý svou schopností svinout se do klubíčka a stáhnout hlavu a nohy dovnitř, čímž chrání své měkké břicho. Když se cítí ohrožený, může také vydávat syčivé zvuky a postavit se na zadní nohy, aby vypadal větší. Dikobrazi jsou všeobecně přátelští k lidem, ale je důležité zachovávat jistou opatrnost a respektovat jejich přirozené prostředí. Při setkání s dikobrazem je nejlepší ho nechat být a sledovat ho z bezpečné vzdálenosti. Dikobrazi jsou uznávaní pro svou roli v ekosystému. Pomáhají kontrolovat populaci hmyzu a jejich hnízdiště mohou poskytovat útočiště dalším živočišným druhům. Ochrana přírodních prostředí a minimalizace lidského rušení jsou důležité pro udržení populace dikobrazů a zachování biodiverzity. Dikobraz je fascinující tvor s unikátním vzhledem a chováním. Je důležité ho respektovat a přispívat k jeho ochraně a udržitelnému životu ve volné přírodě.",
         food: "Tráva, byliny, výhonky, listy, plody a hmyz.",
         occurrence: "Obývá různé prostředí v Africe a Asii, včetně savan, lesů a horských oblastí.",
         number_of_young: "1-2 mláďata.",
@@ -136,6 +136,7 @@ const animals = [
         name: "Buvolec běloocasý",
         max_age: "20-25 let",
         description_short: "Buvolec běloocasý je velký savec s charakteristickými rohy a bílým ocasem.",
+        description_long: "Buvolec běloocasý (Meles meles) je středně velký savec, který je známý svou charakteristickou černobílou ocasní srstí. Tento druh je rozšířený v Evropě a zahrnuje poddruhy, které se vyskytují v různých částech kontinentu. Buvolec běloocasý má robustní tělo a silné končetiny. Jeho srst je obvykle hnědá nebo šedá, ale jeho nejvýraznějším rysem je bílá skvrna na ocasu, která se stává jeho charakteristickým znakem. Tento ocas slouží jako signální struktura, kterou buvolci používají při komunikaci s ostatními jedinci. Buvolci běloocasí jsou noční tvorové a tráví většinu dne ve svých norách, které si vyhloubí sami nebo které přebírají po jiných zvířatech. Jsou to všežravci, kteří se živí širokou škálou potravy, včetně hmyzu, drobných obratlovců, ovoce, bobulí, kořínků a dalších rostlinných materiálů. Buvolci běloocasí mají dobře vyvinutý čich a sluch, což jim pomáhá při lovu potravy a při obraně před predátory. Jsou to samotářská zvířata, která se setkávají pouze během období páření. Samice rodí obvykle dva až čtyři mláďata, která zůstávají s matkou až do jejich samostatnosti. Tento druh je adaptabilní a dokáže se přizpůsobit různým prostředím, včetně lesů, křovinatých oblastí, zemědělské půdy a předměstských oblastí. Nicméně, ztráta přirozeného prostředí a lidský zásah do jejich biotopů jsou hlavní hrozbou pro buvolce běloocasé. Ochrana přírodních prostředí, minimalizace konfliktů s lidmi a udržování biodiverzity jsou klíčové pro zachování buvolců běloocasých a jejich ekosystémů. Tito zajímaví tvorové přinášejí významný přínos do přírody a jsou důležitou součástí evropské fauny.",
         food: "Tráva, byliny, listy, vodní rostliny a kůra stromů.",
         occurrence: "Obývá bažiny, savany a lesy subsaharské Afriky.",
         number_of_young: "1 mládě.",
@@ -152,6 +153,7 @@ const animals = [
         name: "Gibon bělolící",
         max_age: "25-30 let",
         description_short: "Gibon bělolící je malý opice se zářivě bílým srstí na obličeji.",
+        description_long: "Gibon běloocasý (Hylobates albibarbis) je druh primáta, který patří do čeledi hominidů. Giboni jsou malí opice, které se vyskytují v jihovýchodní Asii. Giboni jsou charakterizováni svou elegantní postavou, dlouhými končetinami a zvláštním pohybem, který se nazývá brachiace. Gibon běloocasý je známý svým světlým a hustým kožichem, který je na hrudi bílý, odtud také pochází jeho jméno. Ocas gibona běloocasého je relativně krátký a bývá často skrytý pod srstí. Jejich obličej je zpravidla černý nebo tmavší barvy. Tito primáti žijí převážně ve stromovém prostředí, kde se pohybují pomocí brachiace, což je schopnost pohybovat se z jednoho stromu na druhý pomocí ramen a předních končetin. Giboni jsou zruční akrobaté a mohou se pohybovat mezi stromy rychlostí až 55 kilometrů za hodinu. Giboni běloocasí jsou všežravci, jejich strava se skládá z různých plodů, listů, květů a hmyzu. Jsou to teritoriální zvířata a komunikují pomocí výrazného zpěvu, který slouží k obraně svého území a navazování kontaktu s ostatními jedinci Tento druh je ohrožený kvůli ztrátě přirozeného prostředí, odlesňování a pytláctví. Různé organizace se snaží chránit gibony běloocasé a jejich přirozené prostředí prostřednictvím ochranných programů a osvěty. Giboni běloocasí jsou fascinující tvorové s jedinečným způsobem pohybu a komunikace. Jejich zachování je důležité pro udržení biodiverzity a ekologické rovnováhy v lesních ekosystémech jihovýchodní Asie.",
         food: "Ovoce, listy, květy, výhonky a hmyz.",
         occurrence: "Obývá lesy jihovýchodní Asie, včetně Indonésie, Malajsie a Thajska.",
         number_of_young: "1 mládě.",
@@ -168,6 +170,7 @@ const animals = [
         name: "Kočkodan",
         max_age: "12-15 let",
         description_short: "Kočkodan je středně velký savec s charakteristickými skvrnami na srsti.",
+        description_long: "Kočkodan je druh savce patřící do čeledi kočkovitých (Felidae) a podčeledi velkých koček (Pantherinae). Existuje několik druhů kočkodanů, z nichž nejznámější je kočkodan skvrnitý (Panthera pardus), známý také jako levhart. Kočkodan skvrnitý je velká šelma s krátkou a silnou postavou. Jeho srst je obvykle pokryta tmavými skvrnami na světlejším pozadí, což mu poskytuje efektivní maskování v prostředí, ve kterém žije. Jejich zbarvení se liší v závislosti na geografické oblasti, ve které se vyskytují. Tito velcí kočkovití šelmy jsou adaptabilní a rozšířeni v různých typech prostředí, včetně lesů, savan, bažin a horských oblastí. Jsou to vytrvalí lovci a jejich strava zahrnuje různé druhy zvířat, včetně antilop, zebří, prasat, opic a menších savců. Jsou také schopni se potýkat s kořistí, která je větší než oni sami. Kočkodané jsou samotářská zvířata, která si udržují teritorium a brání své území před ostatními jedinci stejného druhu. Mají výborný zrak, sluch a čich, což jim pomáhá při lovu a navigaci v prostředí. Mezinárodní svaz ochrany přírody (IUCN) klasifikuje některé populace kočkodana skvrnitého jako ohrožené. Ztráta přirozeného prostředí, lov a obchod s kožešinami jsou hlavními hrozbami pro tyto šelmy. Existují však různé ochranářské programy, které se snaží chránit kočkodany a zajišťovat jejich přežití. Kočkodané jsou majestátní a fascinující zvířata, která jsou součástí přírodního bohatství naší planety. Je důležité podporovat ochranu jejich přirozeného prostředí a respektovat jejich existenci jako důležitého článku v ekologickém řetězci.",
         food: "Tráva, listy, výhonky, plody, semena, kořínky a hmyz.",
         occurrence: "Obývá různé prostředí v subsaharské Africe, včetně savan, lesů a bažin.",
         number_of_young: "1 mládě.",
@@ -184,6 +187,7 @@ const animals = [
         name: "Lemur",
         max_age: "15-20 let",
         description_short: "Lemur je středně velký primát s dlouhým ocasem a charakteristickým obličejovým vzorem.",
+        description_long: "Lemurové jsou skupinou primátů, kteří jsou endemickými obyvateli Madagaskaru. Tito unikátní tvorové mají své vlastní jedinečné rysy a adaptace, které je odlišují od ostatních primátů. Lemurové mají různé velikosti a tvary, od menších lemurů s váhou kolem 30 gramů až po větší druhy dosahující hmotnosti až 10 kilogramů. Mají velmi výrazné oči, které jim umožňují noční aktivitu a dobrou viditelnost ve šeru. Jejich srst je obvykle hustá a může mít různé barvy a vzory, od hnědé a šedé po zářivě červenou nebo černou. Lemurové jsou známí svou schopností skákat a pohybovat se mezi stromy pomocí jejich silných zadních končetin a dlouhých ocásků. Některé druhy mají také schopnost obratného chůze po všech čtyřech končetinách, což jim umožňuje rychlý a pohyblivý pohyb v korunách stromů. Strava lemurů se liší v závislosti na druhu, ale obecně jsou to všežravci. Někteří se živí ovocem, květy a nektarem, zatímco jiní loví hmyz, malé obratlovce nebo se živí listy a kůrou stromů. Některé druhy mají také specifickou stravu, jako například bambus nebo místní plody. Lemurové mají sociální strukturu, která se liší podle druhu. Některé žijí v menších rodinných skupinách, zatímco jiní vytvářejí větší komunitní skupiny. Komunikují mezi sebou pomocí zvuků, pohybů a pachových signálů. Lemurové jsou ohroženi kvůli ztrátě přirozeného prostředí, odlesňování, lovem a nelegálním obchodem. Madagaskar je jedinečným ostrovem s velkou biodiverzitou, a ochrana lemurů je klíčová pro udržení ekosystémů a zachování přírodního bohatství ostrova. Různé organizace a výzkumné skupiny se angažují v ochraně lemurů a jejich přirozeného prostředí prostřednictvím ochranných programů, vzdělávání a ekoturistiky. Důležité je také povědomí veřej",
         food: "Ovoce, listy, květiny, nektar, hmyz a malí obratlovci.",
         occurrence: "Obývá Madagaskar a okolní ostrovy.",
         number_of_young: "1-2 mláďata.",
@@ -200,6 +204,7 @@ const animals = [
         name: "Lemur černý",
         max_age: "20-25 let",
         description_short: "Lemur černý je středně velký primát s černou srstí a charakteristickými oranžovými očima.",
+        description_long: "Lemur černý (Eulemur macaco), také známý jako černý lemur nebo kápový lemur, je druh lemurů, který se vyskytuje na Madagaskaru. Je to středně velký lemur s charakteristickým černým kožichem, který pokrývá jeho tělo, a oranžovými odstíny na obličeji a končetinách. Tito lemuři mají poměrně variabilní strukturu skupin. Některé populace žijí v menších rodinných skupinách, zatímco jiné se organizují do větších skupin s hierarchií jedinců. Sociální interakce a komunikace hrají důležitou roli v jejich životě, a to prostřednictvím vokalizací, vizuálních signálů a pachové komunikace. Co se stravy týče, lemurové černí jsou všežravci a jejich strava se skládá převážně z ovoce, listů, květů, nektaru a různých druhů hmyzu. Jsou také známi tím, že konzumují latex z určitých stromů, který obsahuje jedovaté látky, které jim pomáhají při boji s parazity. Lemurové černí jsou endemickým druhem Madagaskaru a čelí mnoha hrozbám. Ztráta přirozeného prostředí, odlesňování, kácení stromů a lovectví jsou hlavními faktory ohrožujícími jejich přežití. Důležitým krokem k jejich ochraně je ochrana jejich přirozeného prostředí a podpora udržitelných způsobů obživy pro místní komunity. Některé rezervace a chráněná území na Madagaskaru slouží jako útočiště pro lemury černé a poskytují jim ochranu před nelegálním lovectvím a ničením přírodních stanovišť. Různé výzkumné programy také přispívají k lepšímu porozumění tomuto druhu a jeho ekologii. Lemur černý je fascinujícím druhem s jedinečnými adaptacemi a sociálními interakcemi. Jeho zachování je důležité pro udržení biodiverzity Madagaskaru a ochranu tohoto ohroženého druhu.",
         food: "Ovoce, listy, květiny, nektar, hmyz a malí obratlovci.",
         occurrence: "Obývá lesy na Madagaskaru.",
         number_of_young: "1-2 mláďata.",
@@ -216,6 +221,7 @@ const animals = [
         name: "Lev berberský",
         max_age: "10-15 let",
         description_short: "Lev berberský je velký šelma s dlouhou hřívou a charakteristickým zbarvením srsti.",
+        description_long: "Lev berberský (Panthera leo leo), známý také jako severoafrický lev, je poddruh lva, který obývá severní a západní Afriku. Je to jedna z největších kočkovitých šelem a jejich majestátní vzhled a síla ho činí ikonickým symbolem divočiny. Lev berberský je charakterizován robustním tělem a mohutnou hlavou s výraznou hřívou u samců. Samci mají obvykle větší tělesnou hmotnost než samice a jejich hříva jim slouží jako znak dominance a vizuální přitažlivost při soubojích o teritorium a samice. Tito lvi žijí v různých typech prostředí, včetně savan, stepí, křovin a horských oblastí. Jsou přizpůsobení životu v teplých a suchých podmínkách severní Afriky. Jejich strava se skládá převážně z velkých savců, jako jsou antilopy, zebr, gazely a jiné kořistní druhy, které se vyskytují v jejich oblasti. Lev berberský je společenský tvor, který žije ve smečkách tvořených samcem, samičkami a jejich potomky. Smečka je hierarchicky organizovaná, přičemž samec zaujímá vedoucí pozici. Samice se podílejí na lově a péči o mláďata. Mladí lvi se učí od svých rodičů loveckým dovednostem a sociálním interakcím. Bohužel, lev berberský je ohroženým druhem. V minulosti byli loveni pro lov a také pro obchod se lvími částmi, které byly považovány za luxusní zboží. Dále jim hrozí ztráta přirozeného prostředí kvůli odlesňování, fragmentaci jejich teritorií a konfliktům s lidskými osadami. Různé organizace, včetně mezinárodních ochranářských skupin a vlád, se snaží chránit a obnovit populace levů berberských. Ochranná opatření zahrnují vyhlášení chráněných oblastí, vzdělávací programy, omezení obchodu se lvími částmi a snahy o udržitelné řízení divokých populací. Lev berberský je nejen symbolikou síly a krásy africké divočiny, ale také důležitým ekosystémovým predátorem. Je nez",
         food: "Maso, zejména kopytníků.",
         occurrence: "Obývá pouště a stepi severní Afriky.",
         number_of_young: "1-4 mláďata.",
@@ -232,6 +238,7 @@ const animals = [
         name: "Levhart čínský",
         max_age: "10-15 let",
         description_short: "Levhart čínský je středně velká šelma s krásným zbarvením srsti a charakteristickými skvrnami.",
+        description_long: "Levhart čínský (Panthera pardus japonensis), známý také jako amurský levhart, je poddruh levharta, který obývá především severovýchodní Čínu a ruský Dálný východ. Je to velká kočkovitá šelma, která je adaptována na život v chladných a zasněžených podmínkách. Levhart čínský má štíhlé tělo a krátké nohy, což mu umožňuje pohybovat se obratně a tiše ve svém prostředí. Jeho srst je hustá a zbarvená výraznými skvrnami, které mu poskytují efektivní kamufláž v lesnatých oblastech. Jejich ocasy jsou relativně dlouhé a pomáhají jim udržovat rovnováhu při pohybu po stromech. Tito levharti jsou specializovaní lovci a jejich strava se skládá převážně z různých druhů savců, jako jsou jeleni, prasata, zajíci a další menší druhy. Jsou známí svou schopností plížit se ke kořisti a využívat překvapení a rychlosti při lově. Levhart čínský je samotářský tvor a většinou se setkává s ostatními jedinci pouze během páření. Samice rodí obvykle jedno až tři mláďata, která zůstávají s nimi až do dospělosti. Mláďata se učí loveckým dovednostem a postupně se osamostatňují. Tento poddruh je ohrožený a čelí mnoha hrozbám. Hlavním faktorem ohrožujícím jejich přežití je ztráta přirozeného prostředí v důsledku odlesňování a rozvoje lidských osad. Lov pro jejich vzácnou kožešinu byl také velkým problémem v minulosti. Mezinárodní organizace a ochranářské skupiny se snaží chránit levharty čínské a jejich přirozené prostředí prostřednictvím vyhlášení chráněných oblastí, osvěty a vzdělávání, ochrany přírodních rezervací a výzkumu této ohrožené populace. Levhart čínský je jedinečným a cenným druhem, který je důležitý pro zachování biodiverzity a ekologické rovnováhy v oblastech, kde žije. Je nezbytné pokračovat v",
         food: "Malá a středně velká zvířata, včetně ptáků, hlodavců a opic.",
         occurrence: "Obývá lesy a horské oblasti v Číně a sousedních zemích.",
         number_of_young: "1-2 mláďata.",
@@ -248,6 +255,7 @@ const animals = [
         name: "Levhart sněžný",
         max_age: "10-15 let",
         description_short: "Levhart sněžný je středně velká šelma žijící v chladných oblastech s bílou srstí a charakteristickými tmavými skvrnami.",
+        description_long: "Levhart sněžný (Panthera uncia), známý také jako irbis, je velká šelma, která obývá horské oblasti Střední Asie, včetně Himálaje a Tibetské náhorní plošiny. Je to jediný druh kočkovité šelmy, který se přizpůsobil životu v extrémně chladných podmínkách ve vysokých horách.  Levhart sněžný je charakteristický svou hustou a bílou srstí, která mu poskytuje skvělou kamufláž ve sněhu. Je to adaptace na život v alpských oblastech, kde se pohybuje a loví svou kořist. Jeho tlustá srst a masivní tlapky mu pomáhají udržovat teplo a zlepšují jeho pohyb ve sněhu. Tito levharti mají silné tělo, dlouhý ocas a krátké nohy. Jsou skvělí horští lovci a jejich strava se skládá především z kopytníků, jako jsou bharalové (modří ovce), ibexi, gazely a jeleni. Jsou také schopni lovů menších savců a ptáků, které se vyskytují v jejich prostředí. Levhart sněžný je samotářský tvor a většinou se setkává s ostatními jedinci pouze během páření. Samice rodí obvykle dvě až tři mláďata, která jsou výjimečně roztomilá s hustou srstí a postupně se učí lovit a přežít v drsných podmínkách svého prostředí. Tento druh je považován za zranitelný a je ohrožen ztrátou přirozeného prostředí a lovectvím. Změny klimatu, odlesňování a rušení jejich teritorií lidskou činností mají negativní dopad na populaci levhartů sněžných. Mezinárodní organizace, vědecká společenství a ochranářské skupiny se snaží chránit levharty sněžné a jejich prostředí prostřednictvím ochrany přírodních rezervací, vyhlášení chráněných oblastí, monitorování populace a výzkumu jejich ekologie a chování. Levhart sněžný je fascinující a vzácný druh, který je symbolem krásy a adaptace na extrémní podmínky vysokých hor. Je důležitý pro zachování biodiverzity a ekologické rovnováhy v oblastech.",
         food: "Malá a středně velká zvířata, včetně srnců, zajíců a ptáků.",
         occurrence: "Obývá horské oblasti ve střední a východní Asii.",
         number_of_young: "1-2 mláďata.",
@@ -264,6 +272,7 @@ const animals = [
         name: "Mravenečník velký",
         max_age: "15-20 let",
         description_short: "Mravenečník velký je velký savec s mohutným tělem a silnými končetinami, který se specializuje na lov termitů a mravenců.",
+        description_long: "Mravenečník velký (Formica rufa) je druh mravence, který se vyskytuje v lesních a travnatých oblastech Evropy, včetně částí Severní Ameriky. Je to společenský hmyz, který vytváří složité kolonie s tisíci jedinci. Mravenečník velký je charakterizován tmavě hnědým až červenohnědým zbarvením. Jeho tělo je robustní, ačkoli samice jsou obvykle větší než samci. Mají štíhlá těla, šest nohou a výrazné tykadla, která slouží k vnímání prostředí. Tyto mravence najdeme v mnoha typech prostředí, jako jsou lesy, louky a zahrady. Jejich hnízda se nazývají mraveniště a jsou často umístěna v půdě, pod kameny nebo v dutinách stromů. Mravenečník velký je známý svou schopností tvořit rozsáhlé hnízdní systémy, které se skládají z mnoha komor a chodeb. V rámci kolonie existuje hierarchie, ve které královna představuje reprodukční jedinec a samci se podílejí na rozmnožování. Většina ostatních mravenců v kolonii jsou samičky pracovnice, které se starají o hnízdo, získávají potravu, péči o larvy a brání území před nepřáteli. Mravenečník velký je významným ekosystémovým hráčem, protože ovlivňuje strukturu lesního podrostu a přispívá k recyklaci organického materiálu. Jeho potrava se skládá z nektaru, pylu, hmyzu a dalších drobných živočichů. Tato druh je adaptabilní a odolná, avšak mnohé populace mravenečníků velkých čelí různým hrozbám. Ztráta přirozeného prostředí, pesticidy, změny klimatu a invazivní druhy jsou hlavními faktory, které ohrožují jejich přežití.  Ochrana mravenečníků velkých zahrnuje zachování jejich přirozeného prostředí, minimalizaci používání pesticidů a vzdělávání veřejnosti o významu těchto hmyzích druhů pro ekosystémy. Mravenečník velký je fascinující tvor, který přináší mnoho přínosů pro přírodu.",
         food: "Termiti a mravenci.",
         occurrence: "Obývá deštné lesy a tropické oblasti v jižní a jihovýchodní Asii.",
         number_of_young: "1 mládě.",
@@ -280,6 +289,7 @@ const animals = [
         name: "Nyala nížinná",
         max_age: "10-12 let",
         description_short: "Nyala nížinná je středně velká antilopa s charakteristickým zbarvením a prodlouženými rohy u samců.",
+        description_long: "Nyala nížinná (Tragelaphus angasii) je středně velká antilopa, která se vyskytuje převážně v oblastech jižní a východní Afriky. Je to elegantní a pestrá antilopa, která je známá svým výrazným pohlavním dimorfismem, což znamená, že samec a samice se značně liší svým vzhledem. Samec nyaly nížinné je větší a majestátnější než samice. Má tmavě hnědé až černé zbarvení s bílými pruhy na bocích, břichu a ocasu. Na hlavě má výrazné bílé pruhy a mohutný zakřivený roh na čele. Samice jsou menší a mají světlejší zbarvení, přičemž jejich pruhy jsou méně výrazné. Nyaly nížinné obývají různé typy prostředí, včetně lesů, savan a křovinatých oblastí v blízkosti vodních zdrojů. Jsou přizpůsobené životu ve vysoké vegetaci a dobře se skrývají před predátory, jako jsou lvi a hyeny. Jejich strava se skládá převážně z listů, výhonků, trávy a další vegetace. Samec nyaly nížinné je teritoriální a brání své území před ostatními samci. Samice žijí v menších skupinkách s mláďaty. Březost u nyaly nížinné trvá přibližně 7 měsíců a obvykle se rodí jedno mládě. Mláďata jsou zpočátku skrytá v husté vegetaci a matka se o ně pečlivě stará. Nyala nížinná je populární divoké zvíře pro pozorování při safari. Její krásné zbarvení a elegantní pohyb ji činí oblíbenou turistickou atrakcí v národních parcích a rezervacích v Africe. I když nyala nížinná není v současné době považována za ohrožený druh, existují určité hrozby pro její populaci. Mezi ně patří ztráta přirozeného prostředí v důsledku odlesňování a rozvoje lidských osad, lovectví a pytláctví. Ochranná opatření, včetně vyhlášení chráněných oblastí a udržitelného řízení divokých populací.",
         food: "Tráva, listy, výhonky a plody.",
         occurrence: "Obývá lesy a pastviny v jižní a východní Africe.",
         number_of_young: "1 mládě.",
@@ -296,6 +306,7 @@ const animals = [
         name: "Osel somálský",
         max_age: "25-30 let",
         description_short: "Osel somálský je středně velké savčí zvíře se štíhlým tělem a charakteristickými dlouhými ušima.",
+        description_long: "Osel somálský (Equus africanus somalicus) je domestikovaný poddruh osla, který se vyvinul v oblasti Somálska a dalších částech východní Afriky. Je známý pro svou odolnost vůči suchu a schopnost přežít v drsných podmínkách aridních oblastí. Osel somálský je středně velké zvíře s robustním tělem a dlouhými ušima. Jeho srst je krátká a hrubá, obvykle s odstíny hnědé, šedé nebo pískové barvy. Jejich nohy jsou silné a mají tvrdé kopyta, která jsou adaptována na pohyb v náročném terénu.  Tito osli jsou velmi dobře přizpůsobeni životu v suchých oblastech. Mají schopnost ukládat vodu v těle a vydržet dlouhé období bez přístupu k pitné vodě. Jsou odolní vůči horku a mohou se spokojit s pohlcováním vlhkosti z rostlinné stravy. Osel somálský je tradičním společníkem nomádských a pastýřských komunit v Africe. Byl domestikován pro svou schopnost nést těžké náklady, jako jsou zásoby, vodu a zemědělské produkty. Jejich odolnost a schopnost přežít v náročných podmínkách je pro tyto komunity neocenitelná. V posledních desetiletích se však populace oslů somálských snížila v důsledku změn v životním prostředí a změn v způsobu života nomádských kultur. Ztráta pastvin a konkurence s modernějšími formami dopravy, jako jsou automobily a kamiony, představují hrozbu pro jejich tradiční využití. Organizace a programy se snaží chránit osly somálské a podporovat udržitelný chov a využití těchto zvířat. Patří sem například vzdělávání místních komunit o důležitosti oslů, rozvoj alternativních zdrojů obživy a podpora tradičních řemesel spojených s chovem oslů. Osel somálský je důležitým kulturním a hospodářským symbolem v regionu východní Afriky a zároveň představuje jedinečný adaptivní druh, který přežívá v extrémních podmínkách sucha.",
         food: "Tráva, keře, větvičky a listy.",
         occurrence: "Obývá suché oblasti východní Afriky, zejména Somálsko a Etiopii.",
         number_of_young: "1 mládě.",
@@ -312,6 +323,7 @@ const animals = [
         name: "Panda červená",
         max_age: "20-25 let",
         description_short: "Panda červená je středně velký savec s charakteristickým zbarvením a bambusovou stravou.",
+        description_long: "Panda červená (Ailurus fulgens) je ohrožený druh savce, který se vyskytuje v horských oblastech východní Asie, především v Číně, Nepálu a Myanmaru. Je to malý a půvabný medvídek s charakteristickou červenohnědou srstí, tmavým pruhováním na hřbetě a bílými znaky kolem očí. Pandy červené se živí převážně bambusem, který tvoří většinu jejich stravy. Jsou specializované na konzumaci různých druhů bambusu a mají vyvinuté klínovité zuby, které jim pomáhají rozdrvit a trávit tuhé rostlinné materiály. Občas také jedí ovoce, hmyz a další drobné živočichy. Jsou to samotářská zvířata a vyhledávají si ústraní v hustém porostu bambusu. Pandy červené jsou výbornými lezci a tráví většinu svého času na stromech. Díky jejich pohyblivým kloubům a přizpůsobivým tlapám jsou schopny se šplhat a pohybovat se ve větvích s velkou obratností. Kvůli ztrátě přirozeného prostředí a odlesňování jsou pandy červené ohroženy vyhubením. Dále je ohrožuje nelegální obchod se srstí a kácení bambusových lesů. Mezinárodní organizace a vlády se snaží chránit pandy červené tím, že zakládají chráněná území, podporují výzkum a zavádějí programy na ochranu jejich přirozeného prostředí. Pandy červené mají také význam v ochraně ekosystému, protože jsou klíčovými rozptylovači semen bambusu a přispívají k regeneraci lesů. Jsou symbolem ochrany ohrožených druhů a popularitou se těší jako ikonické zvíře celosvětově. Je důležité, aby byly přijaty další opatření na ochranu pand červených a jejich přirozeného prostředí. Vzdělávání veřejnosti o důležitosti zachování biodiverzity a udržitelného rozvoje je klíčové pro budoucnost těchto nádherných zvířat.",
         food: "Bambus, listy, výhonky, ovoce a hmyz.",
         occurrence: "Obývá horské oblasti v Číně a sousedních zemích.",
         number_of_young: "1-2 mláďata.",
@@ -328,6 +340,7 @@ const animals = [
         name: "Panda velká",
         max_age: "20-30 let",
         description_short: "Panda velká je velký savec s charakteristickým zbarvením a bambusovou stravou.",
+        description_long: "Omlouvám se, ale panda velká, známá také jako panda obrovská (Ailuropoda melanoleuca), je příliš rozsáhlým tématem na to, abych napsal o ní dostatečně podrobný článek bez použití odstavců. Panda velká je ikonický druh medvěda, který se vyskytuje pouze v horských oblastech centrální Číny. Je známá svou černobílou srstí, kulatými tvářemi a půvabným vzhledem. Pandy velké jsou převážně býložravci a jejich hlavní potravou je bambus. Jsou specializované na konzumaci různých druhů bambusu a mají anatomické adaptace, jako silné čelisti a svalnatý trávicí systém, které jim umožňují strávit tuhou rostlinnou stravu. Kromě bambusu se v jejich jídelníčku objevují také ovoce, kořeny, výhonky a někdy i hmyz. Pandy velké jsou solitérní zvířata a mají velké území, které si brání. Jsou vynikajícími lezci a tráví většinu svého času na stromech nebo ve výškách, kde konzumují bambusové výhonky. Jsou pomalí a klidní tvorové, ale při ohrožení dokážou být agresivní a bránit se. Tito medvědi jsou významným symbolem ochrany přírody a jsou označováni za kriticky ohrožený druh. Ztráta přirozeného prostředí, ničení lesů a nelegální lov představují hlavní hrozby pro jejich přežití. Organizace na ochranu přírody spolupracují s čínskou vládou na záchraně pand velkých tím, že zakládají chráněná území, provádějí výzkum a podporují reprodukci v zajetí. Reprodukce pand velkých je složitá a komplikovaná. Samice jsou připraveny na páření jen několik dní v roce a také březost trvá přibližně pět měsíců. Samice rodí jedno, velmi malé mládě, které zpočátku je slepé a bezsrsté. Matka se o mládě stará a chrání ho až do doby, kdy je dostatečně silné.",
         food: "Bambus, listy, výhonky, ovoce a hmyz.",
         occurrence: "Obývá horské oblasti v Číně.",
         number_of_young: "1 mládě.",
@@ -344,6 +357,7 @@ const animals = [
         name: "Šimpanz",
         max_age: "40-50 let",
         description_short: "Šimpanz je primát se schopností používat nástroje a komunikovat pomocí různých zvuků a gest.",
+        description_long: "Šimpanz, známý také jako šimpanz obecný (Pan troglodytes), je primát žijící v lesnatých oblastech střední a západní Afriky. Patří mezi nejbližší příbuzné člověka a sdílí s ním mnoho biologických podobností. Šimpanzi jsou inteligentní a společensky složití tvorové s bohatým repertoárem chování. Jsou to středně velcí primáti s krátkými nohami a dlouhými pažemi. Mají silné svalnaté tělo pokryté hustou srstí, která může mít různé odstíny hnědé nebo černé barvy. Jejich obličej je výrazný, s výraznými rty a očima. Nejcharakterističtějším znakem jsou však jejich dlouhé paže, které jim umožňují pohyb po stromech pomocí chůze po všech čtyřech nebo šplháním.  Šimpanzi jsou všežravci, jejichž strava se skládá z různých plodů, semínek, ovoce, listů, květů a hmyzu. Jsou také známi svým schopností lovit a konzumovat menší obratlovce, jako jsou opice, veverky a dokonce i malé antilopy. Jsou také schopni používat nástroje, jako jsou klacky nebo kameny, k rozbití ořechů nebo získání potravy. Šimpanzi jsou velmi společenská zvířata a žijí ve složitých skupinách. Jejich sociální struktura je založena na hierarchii, kde dominantní jedinci mají větší přístup k zdrojům potravy a dalším výhodám. V rámci skupiny se projevuje bohaté spektrum komunikačních forem, včetně hlasových projevů, gest a tvářiček. Šimpanzi jsou také známí svou inteligencí a schopností učit se. Dokázali se naučit různé úkoly a problémy, a dokonce i používat nástroje k dosažení svých cílů. Jejich schopnost řešit problémy a adaptovat se na nové situace je jedním z jejich nejvýraznějších rysů. Šimpanzi jsou v současnosti ohroženým druhem v důsledku ztráty přirozeného prostředí, pytláctví a obchodu s divokými zvířaty.",
         food: "Ovoce, listy, semena, hmyz, vejce a další potraviny.",
         occurrence: "Obývá lesy a deštné pralesy ve střední a západní Africe.",
         number_of_young: "1 mládě.",
@@ -360,6 +374,7 @@ const animals = [
         name: "Slon indický",
         max_age: "60-70 let",
         description_short: "Slon indický je velký savec s prodlouženým chobotem a charakteristickými klůty.",
+        description_long: "Slon indický (Elephas maximus) je jedním z největších suchozemských živočichů na naší planetě a zároveň jedním z nejohroženějších druhů. Tito majestátní tvorové se vyskytují v různých částech Asie, včetně Indie, Nepálu, Bhútánu, Bangladéše a Srí Lanky. Sloni indičtí mají robustní stavbu těla a mohutné nohy. Jsou pokryti šedou kůží, která je na několika místech záhybech a různě pokryta malými chlupy. Jejich nejcharakterističtějším znakem jsou jejich dlouhé kly, které jsou ve skutečnosti prodlouženými řezáky. Samci mají také výrazné choboty, které jsou jejich multifunkčním nástrojem pro zachycování potravy, pití, komunikaci a další činnosti. Sloni indičtí jsou býložravci a jejich strava se skládá převážně z trávy, listů, výhonků a kůry stromů. Jsou známí svou schopností konzumovat velké množství potravy, a to až několik set kilogramů denně. Kvůli své velikosti a potřebě získat dostatek potravy musí sloni indičtí žít v prostorných lesích, kde mají dostatek vegetace.  Sloni indičtí jsou společenská zvířata a žijí v rozsáhlých rodinných skupinách nazývaných stáda. Stádo se obvykle skládá z několika samic, jejich potomků a vedeného samečka. Mláďata zůstávají u svých matek až do dospělosti, což je obvykle kolem deseti let. Komunikace mezi jednotlivými členy stáda probíhá pomocí hlasových projevů, tělesného doteku a vizuálních signálů. Bohužel, sloni indičtí jsou vážně ohroženi vyhubením v důsledku nelegálního lovu, ztráty přirozeného prostředí a konfliktů s lidmi. Obchod se slonovinou je také velkou hrozbou pro jejich přežití. Naštěstí se v posledních letech vyvinulo mnoho úsilí a iniciativ na ochranu slonů indických. Vytvářejí se chráněná území, provádí se výzkum, organizují se osvětové programy.",
         food: "Tráva, listy, větve, plody, kůra a další rostlinná strava.",
         occurrence: "Obývá lesy, křoviny a savany v Indii, Srí Lance, Nepálu, Bhútánu a Bangladéši.",
         number_of_young: "1 mládě.",
@@ -376,6 +391,7 @@ const animals = [
         name: "Slon africký",
         max_age: "60-70 let",
         description_short: "Slon africký je velký savec s prodlouženým chobotem a charakteristickými klůty.",
+        description_long: "Slon africký (Loxodonta africana) je největší suchozemský živočich na světě a ikonický symbol divoké africké přírody. Tito impozantní tvorové se vyskytují v různých oblastech subsaharské Afriky, včetně národních parků, savan, bažin a lesů.  Sloni africčtí mají velké, masivní tělo s mohutnými nohami a výrazným hrbem na zádech. Jsou pokryti hrubou šedou kůží, která je záhyby a vráskami. Oba pohlaví mají velké, zakřivené sloní kly, které slouží k obraně, vyhrabávání kořistí a manipulaci s předměty. Samečci mají také výrazně větší kly než samice. Sloni africčtí jsou býložravci a jejich strava se skládá převážně z trávy, listů, větví, kůry a plodů stromů. Jsou známí svou schopností spotřebovat obrovské množství potravy denně, což vyžaduje rozsáhlé pastviny a přístup k vodním zdrojům. Sloni jsou také důležitými tvůrci životního prostředí, protože jejich pohyb a konzumace vegetace ovlivňují krajinu. Sloni africčtí žijí ve velkých rodinných skupinách nazývaných stáda, která se skládají z několika samic, mláďat a vedoucího samce. Tato stáda mají hierarchickou strukturu, kde dominantní samec má větší kontrolu nad stádem. Komunikace mezi slony probíhá pomocí hlasových projevů, infrazvuků, tělesného doteku a vizuálních signálů, jako jsou pohyb uší a ocasu. Sloni africčtí jsou vážně ohroženi vyhubením v důsledku nelegálního lovů pro slonovinu, ničení jejich přirozeného prostředí, konfliktů s lidmi a změn klimatu. V posledních letech byly přijaty opatření k jejich ochraně, jako je zřizování chráněných oblastí, vzdělávání a informování veřejnosti o důležitosti ochrany slonů, a úsilí o snížení nelegálního obchodu se slonovinou. Sloni africčtí jsou jedinečnými a fascinujícími tvory.",
         food: "Tráva, listy, větve, plody, kůra a další rostlinná strava.",
         occurrence: "Obývá lesy, savany a bažiny subsaharské Afriky.",
         number_of_young: "1 mládě.",
@@ -392,6 +408,7 @@ const animals = [
         name: "Surikata",
         max_age: "10-12 let",
         description_short: "Surikata je malý savec připomínající sysla, který žije v savanách Afriky.",
+        description_long: "Surikata, známá také jako surikata pestrá (Suricata suricatta), je malý druh šelmice žijící v jižní Africe, zejména v pouštních oblastech Namibie, Botswany, Jihoafrické republiky a Angoly. Surikaty jsou proslulé svým společenským chováním a charakteristickým vzhledem. Surikaty mají štíhlé tělo, dlouhý ocas a krátké nohy. Jsou pokryty krátkou srstí, která má převážně světlý odstín s tmavými pruhy na zádech. Mají špičatou tvář s černýma očima, drobnýma ušima a dlouhými vousy. Surikaty jsou adaptované na život v pouštním prostředí a mají schopnost snášet vysoké teploty a nedostatek vody. Surikaty jsou společenská zvířata a žijí ve velkých skupinách nazývaných kolonie. Tyto kolonie mohou čítat až několik desítek jedinců. Mají vyvinutý systém spolupráce a kooperace, který jim pomáhá při hledání potravy a obraně proti predátorům. Surikaty jsou také známé svým systémem strážných pozic, kdy někteří jedinci vykonávají dobrovolnou stráž nad ostatními, zatímco ti ostatní se živí nebo odpočívají. Strážci vydávají varovné signály v případě nebezpečí. Surikaty jsou masožravci a jejich strava se skládá převážně z hmyzu, jako jsou termity, švábi a larvy. Jsou také schopni lovit menší obratlovce, například ještěrky, malé hady nebo hlodavce. Surikaty mají dobře vyvinutý zrak a čich, které jim pomáhají najít potravu i přesto, že žijí v pouštním prostředí s omezenými zdroji. Surikaty jsou velmi aktivní a neustále ve střehu. Během dne se vydávají na lov a vyhledávání potravy a v noci se ukrývají v norách, které si samy vyhrabávají. Jsou také známé svým chováním, kdy se postaví na zadní nohy a rozhlížejí se po okolí. Surikaty jsou oblíbenými zvířaty a jsou často spojovány s přátelským a hravým chováním.",
         food: "Hmyz, pavouky, scorpiony, malí obratlovci a rostlinná strava.",
         occurrence: "Obývá otevřené oblasti v jižní Africe.",
         number_of_young: "3-5 mláďat.",
@@ -408,6 +425,7 @@ const animals = [
         name: "Takin čínský",
         max_age: "15-20 let",
         description_short: "Takin čínský je velký savec připomínající jakýsi kříženec mezi buvolem a kozou.",
+        description_long: "Takin čínský, známý také jako budorlic čínský (Budorcas taxicolor), je robustní kopytník žijící v horách v Číně, Tibetu a Bhútánu. Patří mezi unikátní a vzácné druhy zvířat, které mají kombinaci rysů jelenů, skotu a koz. Takin čínský má robustní tělo s mohutnými nohami a silnými svaly. Dosahuje výšky až 1,2 metru v kohoutku a váží kolem 300-400 kilogramů. Jeho srst je hustá, hrubá a obvykle hnědá nebo hnědošedá. Samečci mají výrazné, silně zahnuté rohy, které jsou charakteristickým znakem druhu. Takinové jsou přizpůsobeni životu v horském prostředí. Díky svým silným nohám a kopytům jsou schopni pohybovat se po strmých a skalnatých svazích. Jsou dobře adaptováni na chladné podmínky a v zimě jim roste hustý podsada, která jim pomáhá udržovat teplo. Takinové jsou býložravci a jejich strava se skládá převážně z trávy, listí, výhonků a kůry stromů. V letních měsících se vydávají do vyšších nadmořských výšek, kde nacházejí bohatou vegetaci, zatímco v zimě se přesouvají do nižších poloh, kde hledají potravu pod sněhem. Takinové žijí ve skupinách nazývaných stáda, která mohou čítat až 30 jedinců. Stáda se obvykle skládají z jednoho dominantního samce, několika samic a jejich mláďat. Samečci často provádějí rituální souboje o přístup k samicím během období páření.  Takin čínský je v Červeném seznamu ohrožených druhů Mezinárodního svazu ochrany přírody (IUCN) klasifikován jako zranitelný druh. Hlavními hrozbami pro tuto populaci jsou lov, ztráta přirozeného prostředí a fragmentace jejich životního prostoru v důsledku lidské činnosti.  V Číně je takin považován za národní poklad a je chráněn zákonem. Kromě toho jsou prováděny opatření na ochranu a správu jejich přirozených stanoviš.",
         food: "Tráva, listy, výhonky, kůra, mechy a houby.",
         occurrence: "Obývá horské oblasti v Číně a Tibetu.",
         number_of_young: "1-2 mláďata.",
@@ -424,6 +442,7 @@ const animals = [
         name: "Tapír",
         max_age: "25-30 let",
         description_short: "Tapír je velký savec s robustním tělem, krátkými nohama a charakteristickým chobotem.",
+        description_long: "",
         food: "Listy, větve, plody, kůra a další rostlinná strava.",
         occurrence: "Obývá lesy a vlhké oblasti v tropických oblastech Střední a Jižní Ameriky, a také v Asii.",
         number_of_young: "1 mládě.",
@@ -440,6 +459,7 @@ const animals = [
         name: "Tygr indický",
         max_age: "10-15 let",
         description_short: "Tygr indický je velká kočkovitá šelma s charakteristickými pruhy na srsti.",
+        description_long: "",
         food: "Kopytníci, jeleni, divoká prasata a další velké savce.",
         occurrence: "Obývá lesy a deštné pralesy v Indii, Bangladéši, Nepálu, Bhútánu a Myanmaru.",
         number_of_young: "2-4 mláďata.",
@@ -456,6 +476,7 @@ const animals = [
         name: "Velbloud dvouhrbný",
         max_age: "40-50 let",
         description_short: "Velbloud dvouhrbný je velký savec se dvěma hrboly na zádech a dlouhým chodidlem.",
+        description_long: "",
         food: "Tráva, listy, větve, květy a další rostlinná strava.",
         occurrence: "Obývá pouště a stepi v severní Africe a Středním východě.",
         number_of_young: "1 mládě.",
@@ -472,6 +493,7 @@ const animals = [
         name: "Tygr usurijský",
         max_age: "10-15 let",
         description_short: "Tygr usurijský je velká kočkovitá šelma s krásným zlatohnědým zbarvením a černými pruhy.",
+        description_long: "",
         food: "Kopytníci, jeleni, divoká prasata a další velcí savci.",
         occurrence: "Obývá lesy a horské oblasti na Dálném východě Ruska a v Číně.",
         number_of_young: "2-3 mláďata.",
@@ -488,6 +510,7 @@ const animals = [
         name: "Zebra",
         max_age: "20-25 let",
         description_short: "Zebra je středně velký savec s černo-bílým pruhovaným zbarvením.",
+        description_long: "",
         food: "Tráva, listy, větve a další rostlinná strava.",
         occurrence: "Obývá savany a otevřené pastviny v Africe.",
         number_of_young: "1 mládě.",
@@ -504,6 +527,7 @@ const animals = [
         name: "Žirafa",
         max_age: "20-25 let",
         description_short: "Žirafa je vysoký a štíhlý savec s dlouhým krkem a skvrnitým zbarvením.",
+        description_long: "",
         food: "Listy a větve stromů.",
         occurrence: "Obývá savany a otevřené lesy v Africe.",
         number_of_young: "1 mládě.",
@@ -520,6 +544,7 @@ const animals = [
         name: "Hroch",
         max_age: "40-50 let",
         description_short: "Hroch je velký a těžký savec s tlustou kůží, velkými ústy a širokými nozdrami.",
+        description_long: "",
         food: "Tráva, listy, vodní rostliny a další rostlinná strava.",
         occurrence: "Obývá podmáčené oblasti a vodní plochy v Africe.",
         number_of_young: "1 mládě.",
@@ -536,6 +561,7 @@ const animals = [
         name: "Nosorožec",
         max_age: "35-50 let",
         description_short: "Nosorožec je velký a robustní savec s masivním tělem a rohovitým výrůstkem na nose.",
+        description_long: "",
         food: "Tráva, větve, listy a další rostlinná strava.",
         occurrence: "Obývá savany a lesy v Africe a Asii.",
         number_of_young: "1 mládě.",
@@ -552,6 +578,7 @@ const animals = [
         name: "Krokodýl",
         max_age: "40-70 let",
         description_short: "Krokodýl je velký plaz s dlouhým tělem, silnými čelistmi a šupinatou kůží.",
+        description_long: "",
         food: "Ryby, ptáci, savci a další kořist.",
         occurrence: "Obývá sladkovodní a brakické prostředí v tropických oblastech.",
         number_of_young: "10-60 mláďat.",
@@ -568,6 +595,7 @@ const animals = [
         name: "Aligátor",
         max_age: "30-50 let",
         description_short: "Aligátor je středně velký plaz s šupinatou kůží a charakteristickými čelistmi.",
+        description_long: "",
         food: "Ryby, ptáci, plazi a další kořist.",
         occurrence: "Obývá sladkovodní prostředí v jihovýchodních oblastech USA až po Střední Ameriku.",
         number_of_young: "10-40 mláďat.",
@@ -584,6 +612,7 @@ const animals = [
         name: "Antilopa",
         max_age: "10-15 let",
         description_short: "Antilopa je středně velký savec s dlouhými nohami a rohatými parohy.",
+        description_long: "",
         food: "Tráva, listy, výhonky a další rostlinná strava.",
         occurrence: "Obývá různé typy prostředí, včetně savan, stepí a lesů, ve většině částí světa.",
         number_of_young: "1 mládě.",
@@ -600,6 +629,7 @@ const animals = [
         name: "Vlk",
         max_age: "10-15 let",
         description_short: "Vlk je středně velký savec ze skupiny psů s hustou srstí a výrazným smečkovým chováním.",
+        description_long: "",
         food: "Myslivost - hlavně menší savci, ptáci, plazi a příležitostně i větší kořist.",
         occurrence: "Obývá různé biotopy po celém světě, včetně lesů, tundry a stepí.",
         number_of_young: "4-6 mláďat.",
@@ -616,6 +646,7 @@ const animals = [
         name: "Puma",
         max_age: "10-15 let",
         description_short: "Puma je velká kočkovitá šelma s krátkým srstnatým tělem a dlouhým ocasem.",
+        description_long: "",
         food: "Myslivost - převážně různé druhy savců, včetně jelena, králíka a hlodavců.",
         occurrence: "Obývá různé typy prostředí, včetně lesů, horských oblastí a savan.",
         number_of_young: "1-4 mláďata.",
@@ -632,6 +663,7 @@ const animals = [
         name: "Anakonda",
         max_age: "10-15 let",
         description_short: "Anakonda je velká hadí šelma se silným tělem a schopností se svíjet kolem své kořisti.",
+        description_long: "",
         food: "Převážně žere vodní a suchozemské savce, ptáky a plazy.",
         occurrence: "Obývá vlhké a tropické oblasti Jižní Ameriky, včetně amazonského deštného pralesa.",
         number_of_young: "20-40 mláďat.",
@@ -648,6 +680,7 @@ const animals = [
         name: "Hroznýš",
         max_age: "20-30 let",
         description_short: "Hroznýš je velký had se silným tělem a výrazným vzorem na kůži.",
+        description_long: "",
         food: "Převážně žere různé druhy savců, ptáků a plazů.",
         occurrence: "Obývá různé prostředí, včetně lesů, savan, bažin a polopouští, převážně v tropických a subtropických oblastech.",
         number_of_young: "10-50 mláďat.",
@@ -664,6 +697,7 @@ const animals = [
         name: "Krajta mřížkovaná",
         max_age: "15-20 let",
         description_short: "Krajta mřížkovaná je velký had s robustním tělem a charakteristickým mřížkovaným vzorem na kůži.",
+        description_long: "",
         food: "Převážně žere různé druhy savců a ptáků.",
         occurrence: "Pochází z jihovýchodní Asie, vyskytuje se v lesích, lužních lesích a okolí vodních toků.",
         number_of_young: "10-30 mláďat.",
@@ -680,6 +714,7 @@ const animals = [
         name: "Krajta královská",
         max_age: "20-25 let",
         description_short: "Krajta královská je velký had s robustním tělem a charakteristickým geometrickým vzorem na kůži.",
+        description_long: "",
         food: "Převážně žere různé druhy savců, ptáků a plazů.",
         occurrence: "Pochází z jihovýchodní Asie, vyskytuje se v lesích, bažinách a okolí vodních toků.",
         number_of_young: "10-30 mláďat.",
@@ -696,6 +731,7 @@ const animals = [
         name: "Chřestýš skalní",
         max_age: "15-20 let",
         description_short: "Chřestýš skalní je středně velký jedovatý had s charakteristickým hranatým tvarem hlavy.",
+        description_long: "",
         food: "Převážně žere různé druhy drobných savců, ptáků a plazů.",
         occurrence: "Pochází ze střední a jižní Evropy, vyskytuje se v skalnatých oblastech, kamenitých stepích a lesích.",
         number_of_young: "5-15 mláďat.",
@@ -712,6 +748,7 @@ const animals = [
         name: "Kobra královská",
         max_age: "10-20 let",
         description_short: "Kobra královská je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
+        description_long: "",
         food: "Převážně žere různé druhy hadů, malých savců a ptáků.",
         occurrence: "Pochází z jižní a jihovýchodní Asie, vyskytuje se v lesích, travnatých oblastech a okolí vodních toků.",
         number_of_young: "10-30 mláďat.",
@@ -728,6 +765,7 @@ const animals = [
         name: "Kobra červená",
         max_age: "10-20 let",
         description_short: "Kobra červená je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
+        description_long: "",
         food: "Převážně žere různé druhy hadů, malých savců a ptáků.",
         occurrence: "Pochází z jižní a jihovýchodní Asie, vyskytuje se v lesích, travnatých oblastech a okolí vodních toků.",
         number_of_young: "10-30 mláďat.",
@@ -744,6 +782,7 @@ const animals = [
         name: "Kobra indická",
         max_age: "10-20 let",
         description_short: "Kobra indická je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
+        description_long: "",
         food: "Převážně žere různé druhy hadů, malých savců a ptáků.",
         occurrence: "Pochází z indického subkontinentu a jihovýchodní Asie, vyskytuje se v různých typech prostředí, včetně lesů, polí a lidských obydlí.",
         number_of_young: "10-30 mláďat.",
@@ -760,6 +799,7 @@ const animals = [
         name: "Maba černá",
         max_age: "20-30 let",
         description_short: "Maba černá je jedovatý had s robustním tělem a hladkou kůží.",
+        description_long: "",
         food: "Převážně žere menší savce, ptáky a plazy.",
         occurrence: "Pochází z tropických a subtropických oblastí Afriky, vyskytuje se v lesích, bažinách a okolí vodních toků.",
         number_of_young: "15-30 mláďat.",
@@ -776,6 +816,7 @@ const animals = [
         name: "Maba zelená",
         max_age: "20-30 let",
         description_short: "Maba zelená je jedovatý had s robustním tělem a hladkou kůží.",
+        description_long: "",
         food: "Převážně žere menší savce, ptáky a plazy.",
         occurrence: "Pochází z tropických a subtropických oblastí Afriky, vyskytuje se v lesích, bažinách a okolí vodních toků.",
         number_of_young: "15-30 mláďat.",
@@ -792,6 +833,7 @@ const animals = [
         name: "Pakobra červenobřichá",
         max_age: "10-15 let",
         description_short: "Pakobra červenobřichá je jedovatý had s charakteristickým červeným břichem a černým zbarvením na hřbetu.",
+        description_long: "",
         food: "Převážně žere malé savce, ptáky a plazy.",
         occurrence: "Pochází z tropických a subtropických oblastí Jižní Ameriky, vyskytuje se v deštných lesích a bažinatých oblastech.",
         number_of_young: "10-20 mláďat.",
@@ -808,6 +850,7 @@ const animals = [
         name: "Pakobra východní",
         max_age: "10-15 let",
         description_short: "Pakobra východní je jedovatý had s charakteristickou kapucí na krku a hnědým zbarvením s černými pruhy.",
+        description_long: "",
         food: "Převážně žere malé savce, ptáky a plazy.",
         occurrence: "Pochází z východní Asie, vyskytuje se v lesích, polích a mokřadech.",
         number_of_young: "10-20 mláďat.",
@@ -824,6 +867,7 @@ const animals = [
         name: "Zmije rohatá",
         max_age: "10-15 let",
         description_short: "Zmije rohatá je jedovatý had s charakteristickým rohem na konci hlavy a hnědým zbarvením s tmavými skvrnami.",
+        description_long: "",
         food: "Převážně žere malé savce, ptáky a plazy.",
         occurrence: "Pochází z pouští a suchých oblastí v Africe, vyskytuje se v písčitých a kamenitých prostředích.",
         number_of_young: "10-20 mláďat.",
@@ -840,6 +884,7 @@ const animals = [
         name: "Gekon modrý",
         max_age: "10-15 let",
         description_short: "Gekon modrý je malý ještěr s nápadným modrým zbarvením a přilnavými chodidly pro lezení po plochých površích.",
+        description_long: "",
         food: "Převážně žere hmyz a drobné bezobratlé.",
         occurrence: "Pochází z Madagaskaru a okolních ostrovů, vyskytuje se v lesích, keřovité vegetaci a zahradách.",
         number_of_young: "2-4 mláďata.",
@@ -856,6 +901,7 @@ const animals = [
         name: "Želva ostruhatá",
         max_age: "80-100 let",
         description_short: "Želva ostruhatá je velká želva s pevným krunýřem, charakteristickými ostruhami na nohách a dlouhým krkem.",
+        description_long: "",
         food: "Převážně žere rostlinnou stravu, jako jsou tráva, byliny a plody.",
         occurrence: "Pochází z horských oblastí Ameriky, vyskytuje se ve vlhkých lesích a vodních biotopech.",
         number_of_young: "4-6 vejce.",
@@ -872,6 +918,7 @@ const animals = [
         name: "Želva obrovská",
         max_age: "100-150 let",
         description_short: "Želva obrovská je jedna z největších želv na světě s robustním krunýřem a silnými končetinami.",
+        description_long: "",
         food: "Převážně žere rostlinnou stravu, jako jsou tráva, listy a plody.",
         occurrence: "Pochází z ostrovů v Indickém oceánu, vyskytuje se v pobřežních oblastech a na korálových útesech.",
         number_of_young: "10-30 vejce.",
@@ -888,6 +935,7 @@ const animals = [
         name: "Želva nádherná",
         max_age: "40-50 let",
         description_short: "Želva nádherná je středně velká želva s atraktivním zbarvením krunýře a charakteristickými žluto-černými pruhy na končetinách.",
+        description_long: "",
         food: "Převážně žere rostlinnou stravu, jako jsou listy, tráva a květiny.",
         occurrence: "Pochází z oblastí Jižní Ameriky, vyskytuje se v tropických lesích a bažinatých oblastech.",
         number_of_young: "2-6 vejce.",
@@ -904,6 +952,7 @@ const animals = [
         name: "Ara",
         max_age: "50-60 let",
         description_short: "Ara je velký, barevný pták s výrazným zobákem a dlouhým ocasem.",
+        description_long: "",
         food: "Převážně se živí semeny, ořechy, plody a hmyzem.",
         occurrence: "Pochází z tropických oblastí Jižní Ameriky, vyskytuje se v deštných pralesích a savanách.",
         number_of_young: "1-3 vejce.",
@@ -920,6 +969,7 @@ const animals = [
         name: "Bažant zlatý",
         max_age: "3-5 let",
         description_short: "Bažant zlatý je středně velký pták s nápadným zlatým peřím a dlouhým ocasem.",
+        description_long: "",
         food: "Převážně se živí semeny, plody, hmyzem a drobnými obratlovci.",
         occurrence: "Pochází z Asie, vyskytuje se v listnatých lesích, křovinách a horských oblastech.",
         number_of_young: "6-12 vejce.",
@@ -936,6 +986,7 @@ const animals = [
         name: "Jeřáb černokrký",
         max_age: "25-30 let",
         description_short: "Jeřáb černokrký je velký pták s dlouhými nohama, dlouhým krkem a charakteristickým černým zbarvením na krku.",
+        description_long: "",
         food: "Převážně se živí rostlinnou stravou, jako jsou tráva, semena, bobule a vodní rostliny.",
         occurrence: "Pochází z Eurasie, vyskytuje se v mokřadech, bažinách, příbřežních oblastech a polích.",
         number_of_young: "1-3 vejce.",
@@ -952,6 +1003,7 @@ const animals = [
         name: "Krkavec bělokrký",
         max_age: "15-20 let",
         description_short: "Krkavec bělokrký je středně velký pták s výrazným zobákem, černým peřím a bílým zbarvením na krku.",
+        description_long: "",
         food: "Převážně se živí masem, jako jsou mršiny, hmyz, obojživelníci, plazi a malí obratlovci.",
         occurrence: "Pochází z Eurasie, vyskytuje se v lesích, horách a zemědělských oblastech.",
         number_of_young: "3-6 vejce.",
@@ -968,6 +1020,7 @@ const animals = [
         name: "Nestor kea",
         max_age: "20-30 let",
         description_short: "Nestor kea je středně velký papoušek s olivově zeleným peřím a oranžově červeným zobákem.",
+        description_long: "",
         food: "Převážně se živí semeny, plody, květy, hmyzem a drobnými obratlovci.",
         occurrence: "Pochází z Nového Zélandu, vyskytuje se v horských oblastech a lesích.",
         number_of_young: "2-4 vejce.",
@@ -984,6 +1037,7 @@ const animals = [
         name: "Orel bělohlavý",
         max_age: "25-30 let",
         description_short: "Orel bělohlavý je velký dravec s charakteristickou bílou hlavou a ocasem, hnědým peřím a žlutými drápy a zobákem.",
+        description_long: "",
         food: "Převážně se živí rybami, malými savci, ptáky a mršinami.",
         occurrence: "Pochází z Severní Ameriky, vyskytuje se převážně v pobřežních oblastech a ve vnitrozemí blízko vodních toků.",
         number_of_young: "1-3 vejce.",
@@ -1000,6 +1054,7 @@ const animals = [
         name: "Orel královský",
         max_age: "30-35 let",
         description_short: "Orel královský je velký dravec s tmavě hnědým peřím, bílou hlavou a ocasem, a žlutými drápy a zobákem.",
+        description_long: "",
         food: "Převážně se živí rybami, vodními živočichy, ptáky a malými savci.",
         occurrence: "Pochází z Asie, vyskytuje se v různých typu lesů, horských oblastech a blízko vodních toků.",
         number_of_young: "1-3 vejce.",
@@ -1016,6 +1071,7 @@ const animals = [
         name: "Orel křiklavý",
         max_age: "20-25 let",
         description_short: "Orel křiklavý je středně velký dravec s tmavě hnědým peřím, žlutýma nohama a zobákem a charakteristickým bílým ocasem.",
+        description_long: "",
         food: "Převážně se živí rybami, vodními živočichy, ptáky a malými savci.",
         occurrence: "Pochází z Eurasie, vyskytuje se v různých typech prostředí, včetně lesů, stepí, hor a pobřežních oblastí.",
         number_of_young: "1-3 vejce.",
@@ -1032,6 +1088,7 @@ const animals = [
         name: "Orel mořský",
         max_age: "20-30 let",
         description_short: "Orel mořský je velký dravec s tmavě hnědým peřím, bílou hlavou a ocasem, a žlutými nohama a zobákem.",
+        description_long: "",
         food: "Převážně se živí rybami, které loví ze vzduchu pomocí své ostrého zraku a schopnosti plavat.",
         occurrence: "Pochází z pobřežních oblastí a mořských prostředí po celém světě.",
         number_of_young: "1-2 vejce.",
@@ -1048,6 +1105,7 @@ const animals = [
         name: "Orel skalní",
         max_age: "25-30 let",
         description_short: "Orel skalní je velký dravec s tmavě hnědým peřím, žlutýma nohama a zobákem, a charakteristickým bílým ocasem s černým pruhováním.",
+        description_long: "",
         food: "Převážně se živí různými druhy savců a ptáků, ale také se živí mršinami.",
         occurrence: "Pochází z hor a skalnatých oblastí Evropy, Asie a Severní Ameriky.",
         number_of_young: "1-3 vejce.",
@@ -1064,6 +1122,7 @@ const animals = [
         name: "Orel volavý",
         max_age: "30-40 let",
         description_short: "Orel volavý je velký dravec s tmavě hnědým peřím, bílou hlavou a ocasem, a žlutými nohama a zobákem.",
+        description_long: "",
         food: "Převážně se živí rybami, které loví ze vzduchu pomocí svého silného zobáku a schopnosti potápět se do vody.",
         occurrence: "Pochází z Eurasie, vyskytuje se především v blízkosti sladkovodních a mořských prostředí.",
         number_of_young: "1-3 vejce.",
@@ -1080,6 +1139,7 @@ const animals = [
         name: "Orel východní",
         max_age: "30-40 let",
         description_short: "Orel východní je velký dravec s hnědým peřím, bílou hlavou a ocasem, a žlutýma nohama a zobákem.",
+        description_long: "",
         food: "Převážně se živí různými druhy savců a ptáků, ale také se živí rybami a mršinami.",
         occurrence: "Pochází z východní Asie, vyskytuje se především v lesnatých a hornatých oblastech.",
         number_of_young: "1-3 vejce.",
@@ -1096,6 +1156,7 @@ const animals = [
         name: "Pelikán bílý",
         max_age: "25-30 let",
         description_short: "Pelikán bílý je velký vodní pták s bílým peřím, dlouhým zobákem a výrazným vakuem na dolní části zobáku.",
+        description_long: "",
         food: "Převážně se živí rybami, které loví pomocí svého zobáku a vaku.",
         occurrence: "Pochází z oblastí s teplým klimatem, vyskytuje se především v oblastech s dostatkem vodních zdrojů.",
         number_of_young: "2-4 vejce.",
@@ -1112,6 +1173,7 @@ const animals = [
         name: "Plamének růžový",
         max_age: "30-50 let",
         description_short: "Plamének růžový je velký vodní pták s dlouhým zakřiveným zobákem, růžovým peřím a dlouhými nohama.",
+        description_long: "",
         food: "Převážně se živí malými vodními živočichy, jako jsou korýši, měkkýši a rybí potěr.",
         occurrence: "Pochází z oblastí s teplým klimatem, vyskytuje se především ve sladkovodních a slaných vodních oblastech.",
         number_of_young: "1-3 vejce.",
@@ -1128,6 +1190,7 @@ const animals = [
         name: "Sovice sněžná",
         max_age: "10-15 let",
         description_short: "Sovice sněžná je malý noční dravec s kouzelným bílým peřím, velkýma oranžovýma očima a charakteristickým zvukem.",
+        description_long: "",
         food: "Převážně se živí malými hlodavci, ptáky a hmyzem.",
         occurrence: "Pochází z arktických a subarktických oblastí, vyskytuje se především ve sněžných a lesnatých prostředích.",
         number_of_young: "3-6 vejce.",
@@ -1144,6 +1207,7 @@ const animals = [
         name: "Sup hnědý",
         max_age: "25-30 let",
         description_short: "Sup hnědý je velký dravec s širokými křídly, hnědým peřím a charakteristickou hrdelní kresbou.",
+        description_long: "",
         food: "Převážně se živí mršinami, ale také lovi menší živočichy, jako jsou ryby, plazi a savci.",
         occurrence: "Pochází z Eurasie, vyskytuje se ve všech typech lesních a horských oblastí.",
         number_of_young: "1-3 vejce.",
@@ -1160,6 +1224,7 @@ const animals = [
         name: "Tučňák",
         max_age: "20-30 let",
         description_short: "Tučňák je charakteristický pták s krátkými křídly, černobílým peřím a chodícím stylem.",
+        description_long: "",
         food: "Převážně se živí rybami a krilem, které loví pod vodou.",
         occurrence: "Vyskytuje se především v antarktických a subantarktických oblastech.",
         number_of_young: "1-2 vejce.",
@@ -1176,6 +1241,7 @@ const animals = [
         name: "Zobrorožec vrásčitý",
         max_age: "30-40 let",
         description_short: "Zobrorožec vrásčitý je exotický pták s pestrou barevnou šatou, dlouhým zobákem a výraznými vráskami na tváři.",
+        description_long: "",
         food: "Převážně se živí ovocem, nektarem, hmyzem a malými obratlovci.",
         occurrence: "Pochází z lesů a deštných pralesů v jihovýchodní Asii.",
         number_of_young: "1-3 vejce.",
@@ -1192,6 +1258,7 @@ const animals = [
         name: "Pralesnička barvířská",
         max_age: "10-15 let",
         description_short: "Pralesnička barvířská je malý obojživelník s pestrou barevnou šatou a jedovatou pokožkou.",
+        description_long: "",
         food: "Převážně se živí hmyzem a dalšími malými bezobratlými.",
         occurrence: "Vyskytuje se v tropických lesích Jižní Ameriky.",
         number_of_young: "20-40 vajec.",
@@ -1208,6 +1275,7 @@ const animals = [
         name: "Pralesnička strašná",
         max_age: "8-12 let",
         description_short: "Pralesnička strašná je malý obojživelník s černým zbarvením, výraznými červenými očima a jedovatou pokožkou.",
+        description_long: "",
         food: "Převážně se živí hmyzem, pavouky a malými bezobratlými.",
         occurrence: "Vyskytuje se v deštných lesích a vlhkých oblastech Střední a Jižní Ameriky.",
         number_of_young: "10-20 vajec.",
@@ -1224,6 +1292,7 @@ const animals = [
         name: "Rosnička včelí",
         max_age: "2-4 roky",
         description_short: "Rosnička včelí je malý obojživelník s pestrou barevnou šatou a lepkavou pokožkou.",
+        description_long: "",
         food: "Převážně se živí hmyzem, pavouky a dalšími bezobratlými.",
         occurrence: "Vyskytuje se v otevřených lesích a mokřadech v Evropě a Asii.",
         number_of_young: "20-30 vajec.",
@@ -1240,6 +1309,7 @@ const animals = [
         name: "Bizon",
         max_age: "20-25 let",
         description_short: "Bizon je velké přežvýkavé zvíře s robustním tělem a hřívou na krku.",
+        description_long: "",
         food: "Bizoni se živí převážně trávou, bylinami a listy.",
         occurrence: "Přirozeně se vyskytují v Severní Americe.",
         number_of_young: "Samice obvykle rodí jedno mládě.",
@@ -1256,6 +1326,7 @@ const animals = [
         name: "Bazilišek zelený",
         max_age: "3-5 let",
         description_short: "Bazilišek zelený je malý ještěr s výraznou zelenou barvou a charakteristickými tečkami na těle.",
+        description_long: "",
         food: "Živí se převážně hmyzem, pavouky a menšími bezobratlými.",
         occurrence: "Přirozeně se vyskytuje v Evropě a Asii.",
         number_of_young: "Samice obvykle klade 2-6 vajec.",
@@ -1272,6 +1343,7 @@ const animals = [
         name: "Chameleon obrovský",
         max_age: "5-10 let",
         description_short: "Chameleon obrovský je velký plaz se schopností měnit barvu své kůže a dlouhým jazykem.",
+        description_long: "",
         food: "Živí se převážně hmyzem a dalšími menšími živočichy.",
         occurrence: "Přirozeně se vyskytuje v tropických oblastech Madagaskaru.",
         number_of_young: "Samice obvykle klade 20-30 vajec do země nebo do hnízda.",
@@ -1288,6 +1360,7 @@ const animals = [
         name: "Čáp bílý",
         max_age: "20-30 let",
         description_short: "Velký pták s bílým peřím a dlouhým zobákem.",
+        description_long: "",
         food: "Ryby, obojživelníci, hmyz, menší savci",
         occurrence: "Evropa, Asie, Afrika",
         number_of_young: "2-4 vejce",
@@ -1305,83 +1378,7 @@ const animals = [
     
 
     
-    
-    
-    
-    
-    
-    
-    
 
-    
-    
-    
-
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-
-    
-
-    
-    
-    
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-      
- 
-      
 
 ]
 
