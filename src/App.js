@@ -17,6 +17,7 @@ import Zamestnanci from './pages/Zamestanci';
 import Mapa from './pages/Mapa';
 import OteviraciDoba from './pages/OteviraciDoba';
 import Foto from './pages/Foto';
+import OneKariera from './pages/OneKariera';
 
 
 const App = () => {
@@ -37,9 +38,9 @@ return <div className="app">
         <Route path='/aktuality' element={<Aktuality/>} />
         <Route path='/kontakt' element={<Kontakt/>} />
         <Route path='/kariera' element={<Kariera/>} />
+        <Route path='/kariera/:karieraId' element={<OneKariera/>} />
         <Route path='/budoucnost' element={<Budoucnost/>} />
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
-        <Route path='/z/:zamestnanecId' element={<Zamestnanci/>} />
         <Route path='/mapa' element={<Mapa/>} />
 
         {/* 2 část Návštěva Zoo */}
