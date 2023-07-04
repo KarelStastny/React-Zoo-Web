@@ -29,8 +29,7 @@ const Foto = () => {
     <div className={model ? "model open" : "model"}>
         <img src={imgSrc} alt="" />
         <div><img src={DataImages[6]} alt="#" onClick={() => closeImg()} /></div>
-        {/* <div onClick={() => closeImg()}>x</div> */}
-        {/* <Crosss/> */}
+
 
 
 
