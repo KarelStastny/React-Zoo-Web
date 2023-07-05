@@ -20,6 +20,7 @@ import Foto from './pages/Foto';
 import OneKariera from './components/OneKariera';
 import CasteOtazky from './pages/CasteOtazky';
 import Zvirata from './pages/Zvirata';
+import OneZvire from './components/OneZvire';
 
 
 const App = () => {
@@ -66,6 +67,7 @@ return <div className="app">
 
         {/* Ostatní */}
         <Route path='/zvirata' element={<Zvirata/>} />
+        <Route path='/zvirata/:zvirataId' element={<OneZvire/>} />
         <Route path='/eshop' element={<Error/>} />
 
     </Route>

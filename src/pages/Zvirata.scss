@@ -25,6 +25,8 @@
             background-size: cover;
             aspect-ratio: 1/1;
             border-radius: $mini-radius;
+
+
     
             .box{
                 width: 100%;
@@ -33,41 +35,63 @@
                 flex-direction: column;
                 justify-content: space-between;
                 // padding: 10px 0px 0px 0px;
-       
-
+                position: relative;
+          
                 .up-box{
                     display: flex;
                     justify-content: space-between;
+                    
                     h2{
                         color: $white-brown;
                         min-width: 90%;
                         background-color: $color-transparent;
                         // text-align: center;
                         padding: 5px;
-
-
+                        padding-left: 20px;
+                        font-weight: 600;
+                        border-top-left-radius: $mini-radius;
+                        &:hover{
+                            color: $orange-icon;
+                        }
                     }
                     .favourite{
+                        border-top-right-radius: $mini-radius;
                         color: $white-brown;
                         min-width: 10%;
                         background-color: $color-transparent;
                         text-align: center;
                     }
                 }
-                .down-box{
-                    display: flex;
-                    justify-content: space-around;
+                &:hover > a{
+                   height: 25px;
+                   
+             
+                }
+
                    a{
-                    width: 100%;
-                    color: $white-brown;
+                    width: 30%;
+                    margin: 0 auto;
+                    
+                    color: $dark-brown;
+                    font-weight: 900;
                     background-color: $orange-icon;
                     text-align: center;
-
-                    &:nth-child(2){
+                    transition: background-color .2s ease-out;
+                    // visibility: hidden;
+                    position: absolute;
+                    bottom: 0;
+                    left: 36%;
+                    height: 0;
+                    overflow: hidden;
+                    transition: height 0.3s linear;
+       
+             
+                    &:hover{
                         background-color: $green-icon;
                     }
+       
                    }
-                }
+             
             }
      
         }
