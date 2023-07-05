@@ -1,8 +1,11 @@
-import React from 'react'
+
 import animals from '../data/animals'
 import { useParams, Link } from 'react-router-dom'
 import "./OneZvire.scss"
-import SocialMedia from './SocialMedia'
+import SocialMedia from '../components/SocialMedia'
+import React, { useEffect } from 'react';
+
+
 
 const OneZvire = () => {
   const { zvirataId } = useParams()

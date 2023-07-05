@@ -12,11 +12,11 @@ import Faq from '../components/Faq'
 const Home = () => {
   return (
     <div>
-      <Faq/>
+    
       <Background/>
       <DailyProgram/>
       <Prohibitions/>
-
+      <Faq/>
     <Cennik/>
     </div>
   )

@@ -20,7 +20,7 @@ import Foto from './pages/Foto';
 import OneKariera from './components/OneKariera';
 import CasteOtazky from './pages/CasteOtazky';
 import Zvirata from './pages/Zvirata';
-import OneZvire from './components/OneZvire';
+import OneZvire from './pages/OneZvire';
 
 
 const App = () => {
