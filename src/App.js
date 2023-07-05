@@ -18,6 +18,7 @@ import Mapa from './pages/Mapa';
 import OteviraciDoba from './pages/OteviraciDoba';
 import Foto from './pages/Foto';
 import OneKariera from './components/OneKariera';
+import CasteOtazky from './pages/CasteOtazky';
 
 
 const App = () => {
@@ -49,7 +50,7 @@ return <div className="app">
         <Route path='/cennik' element={<Cennik/>} />
         <Route path='/vstupenky' element={<Error/>} />
         <Route path='/mapa-zoo"' element={<Mapa/>} />
-        <Route path='/dotazy' element={<Error/>} />
+        <Route path='/dotazy' element={<CasteOtazky/>} />
 
         {/* 3 část Ochrana přírody */}
         <Route path='/ochrana-prirody' element={<Error/>} />

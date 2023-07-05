@@ -46,7 +46,7 @@ const Cennik = () => {
 
   {/* Winter season */}
       <div className="winter-season">
-      https://ulozto.cz/tam/6a32ed6b-5a15-49d9-b1f4-bdcafd612596
+
 
 
         <h2>Zimní sezona  od 1. 11. do 31. 3.</h2>

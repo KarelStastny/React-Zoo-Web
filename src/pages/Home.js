@@ -3,6 +3,7 @@ import Cennik from "./Cennik"
 import Prohibitions from '../components/Prohibitions'
 import DailyProgram from '../components/DailyProgram'
 import Background from '../components/Background'
+import Faq from '../components/Faq'
 
 
 
@@ -11,6 +12,7 @@ import Background from '../components/Background'
 const Home = () => {
   return (
     <div>
+      <Faq/>
       <Background/>
       <DailyProgram/>
       <Prohibitions/>
