@@ -19,6 +19,7 @@ import OteviraciDoba from './pages/OteviraciDoba';
 import Foto from './pages/Foto';
 import OneKariera from './components/OneKariera';
 import CasteOtazky from './pages/CasteOtazky';
+import Zvirata from './pages/Zvirata';
 
 
 const App = () => {
@@ -64,7 +65,7 @@ return <div className="app">
         <Route path='/foto' element={<Foto/>} />
 
         {/* Ostatní */}
-        <Route path='/zvirata' element={<Error/>} />
+        <Route path='/zvirata' element={<Zvirata/>} />
         <Route path='/eshop' element={<Error/>} />
 
     </Route>

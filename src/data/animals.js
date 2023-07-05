@@ -1,12 +1,3 @@
-const vzor = [
-    {
-    
-        description_middle: "",
-        description_long: "",
-
-      },
-]
-
 
 const animals = [
     {
@@ -25,7 +16,7 @@ const animals = [
         coat_type: "Hustá srst různých barev (černá, hnědá, blond, šedá).",
         reproduction: "Medvěd černý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
-   
+        url:"https://upload.wikimedia.org/wikipedia/commons/6/6e/Canadian_Rockies_-_the_bear_at_Lake_Louise.jpg",
         
     },
     {
@@ -44,6 +35,7 @@ const animals = [
         coat_type: "Hustá srst různých barev (od blond až po tmavohnědou).",
         reproduction: "Medvěd hnědý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://deti.vls.cz/data/web/savci/medved.jpg",
 
     },
     {
@@ -62,6 +54,7 @@ const animals = [
         coat_type: "Dlouhá, hrubá srst v různých odstínech hnědé.",
         reproduction: "Medvěd grizzly se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://jakdokanady.cz/wp-content/uploads/2019/07/Webp.net-compress-image-3.jpg",
     },
     {
         name: "Medvěd lední",
@@ -79,6 +72,7 @@ const animals = [
         coat_type: "Dlouhá a hustá srst, bílá až žlutavá.",
         reproduction: "Medvěd lední se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 8-9 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://www.stoplusjednicka.cz/sites/default/files/clankyold/obrazky/1/5/6/9/3/6/2/8/2/0/25_01_kozich.jpg",
     },
     {
         name: "Medvěd ušatý",
@@ -96,6 +90,7 @@ const animals = [
         coat_type: "Dlouhá a hustá srst, hnědá nebo černá.",
         reproduction: "Medvěd ušatý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://i.ytimg.com/vi/3W51JEMGnDA/maxresdefault.jpg",
     },
     {
         name: "Medvěd malajský",
@@ -113,6 +108,7 @@ const animals = [
         coat_type: "Hustá srst, která může být černá nebo tmavě hnědá.",
         reproduction: "Medvěd malajský se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://www.zoousti.cz/data/clanky/3913/uvod/big/3913-909208.jpg",
     },
 
     {
@@ -131,6 +127,7 @@ const animals = [
         coat_type: "Trnitý opeřený hřbet a hustá srst na těle.",
         reproduction: "Dikobraz se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://zoojihlava.cz/zoo/uploads/2018/04/0m0a1814_velikost.jpg",
     },
     {
         name: "Buvolec běloocasý",
@@ -148,6 +145,7 @@ const animals = [
         coat_type: "Hrubá srst různých odstínů hnědé.",
         reproduction: "Buvolec běloocasý se rozmnožuje pomocí vnějšího oplození. Samci bojují o samice pomocí svých rohů. Po úspěšném páření dochází k vývoji plodu uvnitř samice po dobu přibližně 9-11 měsíců. Samice pak rodí živé mládě, které je od počátku samostatné.",
         kind: "Savec",
+        url:"https://d55-a.sdn.cz/d_55/c_img_QP_u/iJ1BWL.jpeg",
     },
     {
         name: "Gibon bělolící",
@@ -165,6 +163,7 @@ const animals = [
         coat_type: "Hustá a jemná srst bílé barvy na obličeji.",
         reproduction: "Gibon bělolící se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí živé mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://www.zooliberec.cz/wp-content/uploads/2021/01/gibon_2.jpeg",
     },
     {
         name: "Kočkodan",
@@ -182,6 +181,7 @@ const animals = [
         coat_type: "Krátká srst s charakteristickými tmavými skvrnami na světlém podkladu.",
         reproduction: "Kočkodan se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 3-3,5 měsíce. Samice pak rodí živé mládě, které je od počátku samostatné.",
         kind: "Savec",
+        url:"https://www.zoo-olomouc.cz/sites/default/files/images/animalcard/dsc_0189.jpg",
     },
     {
         name: "Lemur",
@@ -199,6 +199,7 @@ const animals = [
         coat_type: "Hustá a měkká srst různých barev.",
         reproduction: "Lemurové se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 4-5 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://www.zoo-ostrava.cz/images_texty/686_2.jpg",
     },
     {
         name: "Lemur černý",
@@ -216,6 +217,7 @@ const animals = [
         coat_type: "Hustá a měkká černá srst.",
         reproduction: "Lemur černý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 4-5 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://cdn.megapixel.cz/gallery/w1380h900/6/159576.jpg?v=1440652664",
     },
     {
         name: "Lev berberský",
@@ -233,6 +235,7 @@ const animals = [
         coat_type: "Hustá a krátká srst světle hnědé barvy.",
         reproduction: "Lvi berberští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 100-110 dní. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://zoomagazin.cz/wp-content/uploads/2016/02/Mat%E2%94%9C%C5%BBsek-a-Lekysha-Vobruba-%E2%94%9C%E2%95%91vodn%E2%94%9C%C5%9F.jpg_590.jpg",
     },
     {
         name: "Levhart čínský",
@@ -250,6 +253,7 @@ const animals = [
         coat_type: "Hustá a krátká srst s charakteristickými tmavými skvrnami na světlejším podkladu.",
         reproduction: "Levharti čínští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 90-105 dní. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://cdn.megapixel.cz/gallery/w1380h900/2/635022.jpg?v=1674241984",
     },
     {
         name: "Levhart sněžný",
@@ -267,6 +271,7 @@ const animals = [
         coat_type: "Hustá a dlouhá srst bílé barvy s charakteristickými tmavými skvrnami.",
         reproduction: "Levharti sněžní se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 90-105 dní. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://c3.primacdn.cz/sites/default/files/styles/landscape_extra_large/public/3/8a/4467169-snow-leopard-1972724_1280.jpg?itok=ogRChZDi&c=8f6de64155b63ae4aef89a4ef64953fe",
     },
     {
         name: "Mravenečník velký",
@@ -284,6 +289,7 @@ const animals = [
         coat_type: "Hustá a hrubá srst různých odstínů hnědé barvy.",
         reproduction: "Mravenečníci velcí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 8-9 měsíců. Samice pak rodí jedno živé mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://www.biolib.cz/IMG/GAL/93812.jpg",
     },
     {
         name: "Nyala nížinná",
@@ -301,6 +307,7 @@ const animals = [
         coat_type: "Hustá a lesklá srst s charakteristickým zbarvením: tmavě hnědá s bílými pruhy.",
         reproduction: "Nyaly nížinné se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 220-240 dní. Samice pak rodí jedno živé mládě, které se rychle osamostatňuje.",
         kind: "Savec",
+        url:"https://botany.cz/foto4/tragelangas2.jpg",
     },
     {
         name: "Osel somálský",
@@ -318,6 +325,7 @@ const animals = [
         coat_type: "Krátce obočená srst různých odstínů hnědé, šedé nebo rezavé barvy.",
         reproduction: "Osli somálští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 11-14 měsíců. Samice pak rodí živé mládě, které je brzy schopné chůze a následuje matku.",
         kind: "Savec",
+        url:"https://www.biolib.cz/IMG/GAL/42796.jpg",
     },
     {
         name: "Panda červená",
@@ -335,6 +343,7 @@ const animals = [
         coat_type: "Hustá a měkká srst s charakteristickým zbarvením: červenohnědá s tmavými odstíny.",
         reproduction: "Pandy červené se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 90-160 dní. Samice pak rodí slepá a nezralá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://portal.rozhlas.cz/sites/default/files/images/8d8359246de8f5e08f420898e99a8334.jpg",
     },
     {
         name: "Panda velká",
@@ -352,6 +361,7 @@ const animals = [
         coat_type: "Hustá a měkká srst s charakteristickým zbarvením: černá a bílá.",
         reproduction: "Pandy velké se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 90-160 dní. Samice pak rodí slepé a nezralé mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://www.casopis.ochranaprirody.cz/res/archive/024/002961.jpg?seek=1317110566",
     },
     {
         name: "Šimpanz",
@@ -369,6 +379,7 @@ const animals = [
         coat_type: "Dlouhá a hustá srst různých odstínů hnědé a černé barvy.",
         reproduction: "Šimpanzi se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 200-230 dní. Samice pak rodí jedno mládě, které je závislé na mateřské péči a učení od ostatních členů skupiny.",
         kind: "Savec",
+        url:"https://www.cojeco.cz/images/descript/1d219a9ce2883ab2237f516f18f881a8.jpeg",
     },
     {
         name: "Slon indický",
@@ -386,6 +397,7 @@ const animals = [
         coat_type: "Hrubá kůže s řídkými chlupy, šedá až tmavě šedá barva.",
         reproduction: "Sloni indičtí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k dlouhému vývoji plodu uvnitř matky po dobu přibližně 18-22 měsíců. Samice pak rodí jedno mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://www.biolib.cz/IMG/GAL/30819.jpg",
     },
     {
         name: "Slon africký",
@@ -403,6 +415,7 @@ const animals = [
         coat_type: "Hrubá kůže s řídkými chlupy, šedá až tmavě šedá barva.",
         reproduction: "Sloni africští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k dlouhému vývoji plodu uvnitř matky po dobu přibližně 22 měsíců. Samice pak rodí jedno mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://img.myloview.cz/fototapety/africky-slon-loxodonta-africana-jizni-afrika-700-111728686.jpg",
     },
     {
         name: "Surikata",
@@ -420,6 +433,7 @@ const animals = [
         coat_type: "Hustá srst s převážně žlutým a hnědým zbarvením.",
         reproduction: "Surikaty se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 10-11 týdnů. Samice pak rodí větší počet mláďat, která jsou závislá na mateřské péči a učení od ostatních členů skupiny.",
         kind: "Savec",
+        url:"https://www.chovzvirat.cz/images/clanky/759/759_bvj57l.jpg",
     },
     {
         name: "Takin čínský",
@@ -437,6 +451,7 @@ const animals = [
         coat_type: "Dlouhá a hrubá srst v různých odstínech hnědé a šedé barvy.",
         reproduction: "Takini čínští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí jedno nebo občas dvě mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://zoopark.cz/uploads-files/2021/01/20200228_DSC8953.jpg",
     },
     {
         name: "Tapír",
@@ -454,6 +469,7 @@ const animals = [
         coat_type: "Hustá srst s tmavě hnědým nebo černým zbarvením.",
         reproduction: "Tapíři se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k dlouhému vývoji plodu uvnitř matky po dobu přibližně 13-14 měsíců. Samice pak rodí jedno mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://www.zoopraha.cz/images/lexikon/Tapir_cabrakovy_TTT0274.jpg",
     },
     {
         name: "Tygr indický",
@@ -471,6 +487,7 @@ const animals = [
         coat_type: "Hustá srst s oranžovým základním zbarvením a tmavými pruhy.",
         reproduction: "Tygři indičtí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 104-106 dní. Samice pak rodí větší počet mláďat, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://upload.wikimedia.org/wikipedia/commons/d/d8/Panthera_tigris_corbetti_%28Tierpark_Berlin%29_832-714-%28118%29.jpg",
     },
     {
         name: "Velbloud dvouhrbný",
@@ -488,6 +505,7 @@ const animals = [
         coat_type: "Hrubá srst s šedohnědým zbarvením.",
         reproduction: "Velbloudi dvouhrbí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k dlouhému vývoji plodu uvnitř matky po dobu přibližně 12-14 měsíců. Samice pak rodí jedno mládě, které je závislé na mateřské péči.",
         kind: "Savec",
+        url:"https://velbloudi.cz/wp-content/uploads/2019/09/%C5%A0ajty-velbloud02.jpg",
     },
     {
         name: "Tygr usurijský",
@@ -505,6 +523,7 @@ const animals = [
         coat_type: "Hustá srst s jemným zlatohnědým zbarvením a černými pruhy.",
         reproduction: "Tygři usurijskí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 95-112 dní. Samice pak rodí větší počet mláďat, která jsou závislá na mateřské péči.",
         kind: "Savec",
+        url:"https://g.denik.cz/1/d2/resized-shutterstock-536201545.jpg",
     },
     {
         name: "Zebra",
@@ -522,6 +541,7 @@ const animals = [
         coat_type: "Hustá srst s černo-bílým pruhovaným zbarvením.",
         reproduction: "Zebry se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 12-13 měsíců. Samice pak rodí jedno mládě, které je schopné rychle se přizpůsobit životu v divočině.",
         kind: "Savec",
+        url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Zebra_1424.jpg/1200px-Zebra_1424.jpg",
     },
     {
         name: "Žirafa",
@@ -539,6 +559,7 @@ const animals = [
         coat_type: "Hustá srst s velkými hnědými skvrnami na světlejším základním zbarvení.",
         reproduction: "Žirafy se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 14-15 měsíců. Samice pak rodí jedno mládě, které je schopné rychle se postavit na nohy a připojit se ke stádu.",
         kind: "Savec",
+        url:"https://www.zoobratislava.sk/assets/Uploads/Lexikon/Cicavce/Fretka-domaca/TH72896__ScaleMaxWidthWzEyMDBd.jpg",
     },
     {
         name: "Hroch",
@@ -556,6 +577,7 @@ const animals = [
         coat_type: "Hrubá kůže bezsrstá nebo s řídkými chlupy.",
         reproduction: "Hroši se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 8-9 měsíců. Samice pak rodí jedno mládě ve vodě.",
         kind: "Savec",
+        url:"https://www.zoodvorec.cz/images/preview/1671522764.jpg",
     },
     {
         name: "Nosorožec",
@@ -573,6 +595,7 @@ const animals = [
         coat_type: "Hrubá kůže s vrstvou vrásčitých záhybů.",
         reproduction: "Nosorožci se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 15-16 měsíců. Samice pak rodí jedno mládě, které je schopné rychle se přizpůsobit životu v divočině.",
         kind: "Savec",
+        url:"https://ct24.ceskatelevize.cz/sites/default/files/styles/node-article_horizontal/public/2139244-2018_nwr_fatu_kenya_jan_stejskal_safari_park_dvur_kralove.jpg?itok=o6j9n4Nr",
     },
     {
         name: "Krokodýl",
@@ -590,6 +613,7 @@ const animals = [
         coat_type: "Hrubá šupinatá kůže.",
         reproduction: "Krokodýli se rozmnožují pomocí vnějšího oplození. Samice naklade vajíčka, která jsou následně zahrabána do hnízda a zde jsou ponechána ke klíčení. Po vyklubání se mláďata samostatně vydávají k vodě.",
         kind: "Plaz",
+        url:"https://cdn.xsd.cz/original/7984b8cf5c023eed8f50e46efdb1fa21.jpg",
     },
     {
         name: "Aligátor",
@@ -607,6 +631,7 @@ const animals = [
         coat_type: "Hrubá šupinatá kůže.",
         reproduction: "Aligátoři se rozmnožují pomocí vnějšího oplození. Samice naklade vajíčka, která jsou následně zahrabána do hnízda a zde jsou ponechána ke klíčení. Po vyklubání se mláďata samostatně vydávají k vodě.",
         kind: "Plaz",
+        url:"https://www.zenysro.cz/images/blog/38164/main.jpg",
     },
     {
         name: "Antilopa",
@@ -624,6 +649,7 @@ const animals = [
         coat_type: "Krátká srst s různými vzory a barvami.",
         reproduction: "Antilopy se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 6-9 měsíců. Samice pak rodí jedno mládě nebo výjimečně dvě mláďata.",
         kind: "Savec",
+        url:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Springbok_Namibia.jpg/1200px-Springbok_Namibia.jpg",
     },
     {
         name: "Vlk",
@@ -641,6 +667,7 @@ const animals = [
         coat_type: "Dlouhá hustá srst s různými odstíny šedé, hnědé a černé.",
         reproduction: "Vlci se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 60-63 dní. Samice pak rodí 4-6 mláďat, která jsou slepá a závislá na péči smečky.",
         kind: "Savec",
+        url:"https://www.zoopraha.cz/images/lexikon/Vlk_eurasijsky_DSC_0474_export.jpg",
     },
     {
         name: "Puma",
@@ -658,6 +685,7 @@ const animals = [
         coat_type: "Hustá krátká srst s různými odstíny hnědé, šedé a černé.",
         reproduction: "Pumy se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 90-96 dní. Samice pak rodí 1-4 mláďata, která jsou slepá a závislá na péči matky.",
         kind: "Savec",
+        url:"https://1gr.cz/fotky/idnes/19/063/r7/JB7c3eb7_Depositphotos_226261192_xl_2015.jpg",
     },
     {
         name: "Anakonda",
@@ -675,12 +703,13 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s různými odstíny zelené a hnědé barvy.",
         reproduction: "Anakondy jsou vejcorodé plazy. Samice naklade vejce, která jsou následně inkubována vnějším prostředím. Po inkubaci se mláďata vylíhnou a jsou samostatná.",
         kind: "Plaz",
+        url:"https://d15-a.sdn.cz/d_15/c_img_F_F/bLjOR3.jpeg?fl=cro,0,30,800,450%7Cres,1200,,1%7Cjpg,80,,1",
     },
     {
         name: "Hroznýš",
         max_age: "20-30 let",
         description_short: "Hroznýš je velký had se silným tělem a výrazným vzorem na kůži.",
-        description_long: ".............................................................................................................................",
+        description_long: "Hroznýš královský (Boa constrictor) sice není klasickým domácím zvířetem, ale rozhodně patří k těm nejpůsobivějším. Jak obtížný je vlastně chov v teráriu? V našem portrétu získáte nejdůležitější informace o péči o obřího hada. Vysvětlíme Vám také, proč je v podstatě poměrně nenáročným obyvatelem terárií. Hroznýš královský patří do druhově bohaté čeledi hroznýšovití (Boidae). Hroznýši jsou škrtiči, kteří svou kořist usmrcují tak, že ji obtočí kolem těla. Označuje to latinský výraz constrictor, který lze přeložit jako „stahovač“. Mezi hroznýšovité patří některé z největších druhů hadů na světě, například anakonda. Přirozený areál hroznýšů se rozprostírá od severního Mexika přes Střední Ameriku až po Jižní Ameriku. Hroznýšovité najdeme v různých biotopech. Obývají vlhké deštné pralesy, jako je amazonská džungle, suché savany a křovinaté krajiny, ale také tropické horské lesy. Nejčastěji se hroznýš královský vyskytuje v blízkosti vodních ploch.",
         food: "Převážně žere různé druhy savců, ptáků a plazů.",
         occurrence: "Obývá různé prostředí, včetně lesů, savan, bažin a polopouští, převážně v tropických a subtropických oblastech.",
         number_of_young: "10-50 mláďat.",
@@ -692,6 +721,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s různými vzory a barvami.",
         reproduction: "Hroznýši jsou vejcorodí plazi. Samice naklade vejce, která jsou následně inkubována vnějším prostředím. Po inkubaci se mláďata vylíhnou a jsou samostatná.",
         kind: "Plaz",
+        url:"https://budejovice.rozhlas.cz/sites/default/files/images/02180578.jpeg",
     },
     {
         name: "Krajta mřížkovaná",
@@ -709,6 +739,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s charakteristickým mřížkovaným vzorem v různých odstínech šedé, hnědé a černé barvy.",
         reproduction: "Krajty mřížkované jsou vejcorodí plazi. Samice naklade vejce, která jsou následně inkubována vnějším prostředím. Po inkubaci se mláďata vylíhnou a jsou samostatná.",
         kind: "Plaz",
+        url:"https://www.gamepark.cz/img/pictures/00/14/23/142387.jpg",
     },
     {
         name: "Krajta královská",
@@ -726,6 +757,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s charakteristickým vzorem tvořeným velkými tmavými skvrnami na světlejším podkladu.",
         reproduction: "Krajty královské jsou vejcorodí plazi. Samice naklade vejce, která jsou následně inkubována vnějším prostředím. Po inkubaci se mláďata vylíhnou a jsou samostatná.",
         kind: "Plaz",
+        url:"https://mojeterarko.cz/wp-content/uploads/2022/08/krajta-kralovska.jpg",
     },
     {
         name: "Chřestýš skalní",
@@ -743,6 +775,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s různými odstíny šedé, hnědé a černé barvy.",
         reproduction: "Chřestýši skalní jsou vejcorodí plazi. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://upload.wikimedia.org/wikipedia/commons/d/d2/Crotalus_lepidus_lepidus_1.jpg",
     },
     {
         name: "Kobra královská",
@@ -760,6 +793,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s převážně hnědým, černým nebo šedým zbarvením.",
         reproduction: "Kobra královská je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://www.mundo.cz/sites/default/files/styles/mt2020_346/public/images/fauna-a-flora/kobra-indicka.jpg?itok=kH6k3oYj",
     },
     {
         name: "Kobra červená",
@@ -777,6 +811,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s převážně červeným zbarvením.",
         reproduction: "Kobra červená je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://upload.wikimedia.org/wikipedia/commons/a/ab/Red_Spitting_Cobra.jpg",
     },
     {
         name: "Kobra indická",
@@ -794,6 +829,7 @@ const animals = [
         coat_type: "Hladká a lesklá kůže s převážně hnědým zbarvením.",
         reproduction: "Kobra indická je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://zoomagazin.cz/wp-content/uploads/2017/03/kobra-indicka.jpg",
     },
     {
         name: "Maba černá",
@@ -811,6 +847,7 @@ const animals = [
         coat_type: "Hladká kůže s černým zbarvením.",
         reproduction: "Maba černá je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://1gr.cz/fotky/idnes/11/023/cl6h/CEN396e58_mamba.jpg",
     },
     {
         name: "Maba zelená",
@@ -828,7 +865,9 @@ const animals = [
         coat_type: "Hladká kůže s zeleným zbarvením.",
         reproduction: "Maba zelená je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://upload.wikimedia.org/wikipedia/commons/9/9e/Mamba_Dendroaspis_angusticeps.jpg",
     },
+    
     {
         name: "Pakobra červenobřichá",
         max_age: "10-15 let",
@@ -845,6 +884,7 @@ const animals = [
         coat_type: "Hladká kůže s černým zbarvením na hřbetu a červeným zbarvením na břiše.",
         reproduction: "Pakobra červenobřichá je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://img.obrazky.cz/?url=7fc9e7c5178b19ed&size=2",
     },
     {
         name: "Pakobra východní",
@@ -862,6 +902,7 @@ const animals = [
         coat_type: "Hladká kůže s hnědým zbarvením a černými pruhy.",
         reproduction: "Pakobra východní je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://cdn.administrace.tv/2022/04/23/hd/3411d2f540dc42f1c5e55af88e4908c8.jpg",
     },
     {
         name: "Zmije rohatá",
@@ -879,6 +920,7 @@ const animals = [
         coat_type: "Hladká kůže s hnědým zbarvením a tmavými skvrnami.",
         reproduction: "Zmije rohatá je vejcorodý had. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://mojeterarko.cz/wp-content/webp-express/webp-images/uploads/2021/07/zmije-rohata-vzhled.jpg.webp",
     },
     {
         name: "Gekon modrý",
@@ -896,6 +938,7 @@ const animals = [
         coat_type: "Hladká kůže s modrým zbarvením.",
         reproduction: "Gekon modrý je vejcorodý ještěr. Samice naklade vejce, která se líhnou uvnitř těla samice a mláďata se rodí živá.",
         kind: "Plaz",
+        url:"https://www.biolib.cz/IMG/GAL/BIG/405117.jpg",
     },
     {
         name: "Želva ostruhatá",
@@ -913,6 +956,7 @@ const animals = [
         coat_type: "Tvrdý krunýř s hnědým zbarvením a ostruhami na nohách.",
         reproduction: "Želva ostruhatá je vejcorodá želva. Samice naklade vejce, která se inkubují v zemi a mláďata se líhnou po několika měsících.",
         kind: "Plaz",
+        url:"https://www.zooplzen.cz/Files/zoo2/zvirata/ZelvaostruhataGeochelonesulcata_30.6.2006.jpg",
     },
     {
         name: "Želva obrovská",
@@ -930,6 +974,7 @@ const animals = [
         coat_type: "Silný krunýř s hnědým zbarvením.",
         reproduction: "Želva obrovská je vejcorodá želva. Samice naklade vejce na pláže, kde se inkubují a mláďata se líhnou po několika měsících.",
         kind: "Plaz",
+        url:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg/800px-Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg",
     },
     {
         name: "Želva nádherná",
@@ -947,6 +992,7 @@ const animals = [
         coat_type: "Krunýř s pestrobarevným zbarvením a žluto-černými pruhy na končetinách.",
         reproduction: "Želva nádherná je vejcorodá želva. Samice naklade vejce, která se inkubují v zemi a mláďata se líhnou po několika měsících.",
         kind: "Plaz",
+        url:"https://www.zooliberec.cz/wp-content/uploads/2020/12/zelva_nadherna_tit.jpg",
     },
     {
         name: "Ara",
@@ -966,6 +1012,7 @@ const animals = [
         coat_type: "Pestrobarevné peří s výraznými kombinacemi modré, žluté, červené a zelené barvy.",
         reproduction: "Ara je vejcorodý pták. Samice naklade vejce do hnízda ve stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.zoohit.cz/magazin/wp-content/uploads/2021/07/Cerveni-papousci-ara.jpeg",
     },
     {
         name: "Bažant zlatý",
@@ -981,6 +1028,7 @@ const animals = [
         coat_type: "Nápadné zlaté peří s černým a hnědým zbarvením, dlouhý ocas s pruhy.",
         reproduction: "Bažant zlatý je vejcorodý pták. Samice naklade vejce do hnízda na zemi a samec se podílí na inkubaci a ochraně mláďat.",
         kind: "Pták",
+        url:"https://zooparknehvizdy.cz/wp-content/uploads/zvire_bazant_zlaty_01_titulni.jpg",
     },
     {
         name: "Jeřáb černokrký",
@@ -998,6 +1046,7 @@ const animals = [
         coat_type: "Černý krk a hlava, hnědé peří na těle, bílé a šedé peří na křídlech.",
         reproduction: "Jeřáb černokrký je vejcorodý pták. Samice naklade vejce na zem do hnízda a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.biolib.cz/IMG/GAL/BIG/423827.jpg",
     },
     {
         name: "Krkavec bělokrký",
@@ -1015,6 +1064,7 @@ const animals = [
         coat_type: "Černé peří, bílé zbarvení na krku.",
         reproduction: "Krkavec bělokrký je vejcorodý pták. Samice naklade vejce do hnízda ve výškách a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.zoopraha.cz/images/lexikon-images/krkavec_belokrky_-_Martin_Smrcek.jpg",
     },
     {
         name: "Nestor kea",
@@ -1032,6 +1082,7 @@ const animals = [
         coat_type: "Olivově zelené peří, oranžově červený zobák.",
         reproduction: "Nestor kea je vejcorodý pták. Samice naklade vejce do dutin ve stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.zoopraha.cz/images/lexikon/nestor_kea_Nestor_notabilis_-Mark_Whatmough_CC-BY-SA-2.0.jpg",
     },
     {
         name: "Orel bělohlavý",
@@ -1049,6 +1100,7 @@ const animals = [
         coat_type: "Hnědé peří, bílá hlava a ocas.",
         reproduction: "Orel bělohlavý je vejcorodý pták. Samice naklade vejce na hnízdo ve vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://cdn.shopify.com/s/files/1/0266/5817/7121/articles/ingo-doerrie-TQWAmOShbEM-unsplash_1_1200x1200.jpg?v=1646974697",
     },
     {
         name: "Orel královský",
@@ -1066,6 +1118,7 @@ const animals = [
         coat_type: "Tmavě hnědé peří, bílá hlava a ocas.",
         reproduction: "Orel královský je vejcorodý pták. Samice naklade vejce na hnízdo ve vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.kdelovit.cz/files/birds/14/images/source/5391b9268f581.jpg",
     },
     {
         name: "Orel křiklavý",
@@ -1084,6 +1137,7 @@ const animals = [
         coat_type: "Tmavě hnědé peří, bílý ocas.",
         reproduction: "Orel křiklavý je vejcorodý pták. Samice naklade vejce na hnízdo ve vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.cojeco.cz/images/descript/8e573c7a78a313dc5b63a4d7585af85b.jpg",
     },
     {
         name: "Orel mořský",
@@ -1100,6 +1154,7 @@ const animals = [
         coat_type: "Tmavě hnědé peří, bílá hlava a ocas.",
         reproduction: "Orel mořský je vejcorodý pták. Samice naklade vejce na hnízdo na útesech nebo ve vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.ceskeparky.cz/user/articles/images/orel.jpg",
     },
     {
         name: "Orel skalní",
@@ -1117,6 +1172,7 @@ const animals = [
         coat_type: "Tmavě hnědé peří, bílý ocas s černým pruhováním.",
         reproduction: "Orel skalní je vejcorodý pták. Samice naklade vejce na hnízdo ve vysokých skalách a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.lesaktualne.cz/wp-content/uploads/2022/02/Orel-morsky-na-vetvi-b_123rf-ondrejprosicky.jpg",
     },
     {
         name: "Orel volavý",
@@ -1134,6 +1190,7 @@ const animals = [
         coat_type: "Tmavě hnědé peří, bílá hlava a ocas.",
         reproduction: "Orel volavý je vejcorodý pták. Samice naklade vejce na hnízdo na stromech nebo na skalách a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://upload.wikimedia.org/wikipedia/commons/f/ff/Aquila_clanga_from_Tal_Chapar_Wildlife_Sanctuary.jpg",
     },
     {
         name: "Orel východní",
@@ -1151,6 +1208,7 @@ const animals = [
         coat_type: "Hnědé peří, bílá hlava a ocas.",
         reproduction: "Orel východní je vejcorodý pták. Samice naklade vejce na hnízdo na vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://zoopark.cz/uploads-files/2019/05/20210106_DSC9341.jpg",
     },
     {
         name: "Pelikán bílý",
@@ -1168,6 +1226,7 @@ const animals = [
         coat_type: "Bílé peří.",
         reproduction: "Pelikán bílý je vejcorodý pták. Samice naklade vejce na hnízdo na zemi nebo ve vysokých stromech a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://upload.wikimedia.org/wikipedia/commons/6/66/Whitepelican_edit_shadowlift.jpg",
     },
     {
         name: "Plamének růžový",
@@ -1185,6 +1244,7 @@ const animals = [
         coat_type: "Růžové peří.",
         reproduction: "Plamének růžový je vejcorodý pták. Samice naklade vejce na hnízdo v blízkosti vodních oblastí a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://portal.rozhlas.cz/sites/default/files/images/0f6a68b270f7431059e2429a35fff3e7.jpg",
     },
     {
         name: "Sovice sněžná",
@@ -1202,6 +1262,7 @@ const animals = [
         coat_type: "Bílé peří se černými tečkami.",
         reproduction: "Sovice sněžná je vejcorodý pták. Samice naklade vejce do hnízda v dutinách stromů nebo skalních puklin a samec se podílí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://api.zoohluboka.cz/storage/1920x1920_1587508003.5179_8602-sovice_snezni_1.jpg",
     },
     {
         name: "Sup hnědý",
@@ -1219,6 +1280,7 @@ const animals = [
         coat_type: "Hnědé peří s hrdelní kresbou.",
         reproduction: "Sup hnědý je vejcorodý pták. Samice naklade vejce do hnízda na stromě nebo skalní stěně a oba rodiče se podílejí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.zoopraha.cz/images/lexikon/sup_hnedy.jpg",
     },
     {
         name: "Tučňák",
@@ -1236,6 +1298,7 @@ const animals = [
         coat_type: "Černobílé peří.",
         reproduction: "Tučňáci jsou vejcorodí ptáci. Samice naklade vejce do hnízda na pevninské nebo ledové půdě a oba rodiče se střídají v inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://st2.depositphotos.com/7402484/10296/i/450/depositphotos_102968760-stock-photo-group-of-king-penguins.jpg",
     },
     {
         name: "Zobrorožec vrásčitý",
@@ -1253,6 +1316,7 @@ const animals = [
         coat_type: "Pestře zbarvené peří.",
         reproduction: "Zobrorožec vrásčitý je vejcorodý pták. Samice naklade vejce do hnízda ve výškách stromů a samec se podílí na inkubaci a péči o mláďata.",
         kind: "Pták",
+        url:"https://www.zoousti.cz/data/clanky/3807/big/zoborozec-03.jpg",
     },
     {
         name: "Pralesnička barvířská",
@@ -1270,6 +1334,7 @@ const animals = [
         coat_type: "Pestře zbarvená kůže.",
         reproduction: "Pralesnička barvířská klade vajíčka na vlhká místa v blízkosti vody. Samec se stará o vejce a mláďata a chrání je před nebezpečím.",
         kind: "Obojživelník",
+        url:"https://www.zoohit.cz/magazin/wp-content/uploads/2022/06/Pralesnickoviti.jpg",
     },
     {
         name: "Pralesnička strašná",
@@ -1287,6 +1352,7 @@ const animals = [
         coat_type: "Černá kůže.",
         reproduction: "Pralesnička strašná klade vajíčka na listy a vegetaci poblíž vodních zdrojů. Samec se stará o vejce a mláďata a chrání je před nebezpečím.",
         kind: "Obojživelník",
+        url:"https://zoomagazin.cz/wp-content/uploads/2019/10/Phyllobates-terribilis-Zoo-Zuerich.jpg",
     },
     {
         name: "Rosnička včelí",
@@ -1304,6 +1370,7 @@ const animals = [
         coat_type: "Pestře zbarvená a lepkavá kůže.",
         reproduction: "Rosnička včelí klade vajíčka do vody, kde se následně vyvíjí pulci. Samec se stará o vejce a mláďata a chrání je před nebezpečím.",
         kind: "Obojživelník",
+        url:"https://www.biolib.cz/IMG/GAL/404982.jpg",
     },
     {
         name: "Bizon",
@@ -1321,6 +1388,7 @@ const animals = [
         coat_type: "Bizoni mají hustý a hrubý srst, která je obvykle hnědá až černá.",
         reproduction: "Bizoni se rozmnožují sexuálním rozmnožováním, samice rodí mláďata a následně se o ně stará.",
         kind: "Savec",
+        url:"https://d15-a.sdn.cz/d_15/c_img_E_I/BPVBK6I.jpeg?fl=cro,0,78,1250,703%7Cres,1200,,1%7Cjpg,80,,1",
     },
     {
         name: "Bazilišek zelený",
@@ -1338,6 +1406,7 @@ const animals = [
         coat_type: "Bazilišek zelený má lesklou a hladkou kůži.",
         reproduction: "Bazilišek zelený se rozmnožuje vejcorodě, samice klade vejce a po inkubaci se z vajec vylíhnou mláďata.",
         kind: "Plaz",
+        url:"https://www.chovzvirat.cz/images/zvirata/bazilisek-zeleny_fqm90ti.jpg",
     },
     {
         name: "Chameleon obrovský",
@@ -1355,6 +1424,8 @@ const animals = [
         coat_type: "Chameleon obrovský má drsnou a šupinatou kůži s různými odstíny zelené, hnědé a žluté barvy.",
         reproduction: "Chameleon obrovský se rozmnožuje vejcorodě, samice klade vejce a po inkubaci se z vajec vylíhnou mláďata.",
         kind: "Plaz",
+        url:"https://pbs.twimg.com/media/EYR8PW0WAAIAHkp.jpg",
+        
     },
     {
         name: "Čáp bílý",
@@ -1372,9 +1443,11 @@ const animals = [
         coat_type: "Bílé peří, černé končetiny a zobák",
         reproduction: "Vejcorodý",
         kind: "Pták",
+        url:"https://www.chovzvirat.cz/images/zvirata/cap-bily_wau96rs.jpg",
     },
     
     
   
 ]
 
+export default animals
