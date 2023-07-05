@@ -19,7 +19,7 @@ const Kariera = () => {
                 <h2 style={{fontWeight:"900", fontSize:"20px"}}>{one.position}</h2>
                 <h3>Plat {one.pay} Kč</h3>
               </div>
-              <Link to={`/kariera/${index}`}>Více informací zde:</Link>
+              <Link to={`/kariera/${index}`}>Více informací <span>zde:</span> </Link>
 
             </div>
           })

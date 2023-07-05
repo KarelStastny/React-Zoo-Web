@@ -17,7 +17,7 @@ import Zamestnanci from './pages/Zamestanci';
 import Mapa from './pages/Mapa';
 import OteviraciDoba from './pages/OteviraciDoba';
 import Foto from './pages/Foto';
-import OneKariera from './pages/OneKariera';
+import OneKariera from './components/OneKariera';
 
 
 const App = () => {

@@ -1,0 +1,33 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.vacancies-container{
+    .box-vacan{
+        max-width: 800px;
+        width: 100%;
+        margin: 20px auto;
+        box-shadow:  0 0 10px $light-brown;
+        padding: 15px;
+        border-radius: $mini-radius;
+        h2,h3{
+            font-weight: 700;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        p{
+            margin-left: 20px;
+            text-align: justify;
+        }
+        a{
+            text-align: right;
+            display: block;
+            font-weight: 900;
+            transition: 0.3s;
+
+            &:hover{
+                color: $orange-icon;
+            }
+        }
+    }
+}
