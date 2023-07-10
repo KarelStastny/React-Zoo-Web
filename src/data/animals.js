@@ -16,7 +16,7 @@ const animals = [
         coat_type: "Hustá srst různých barev (černá, hnědá, blond, šedá).",
         reproduction: "Medvěd černý se rozmnožuje pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 7-8 měsíců. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
-        url:"https://upload.wikimedia.org/wikipedia/commons/6/6e/Canadian_Rockies_-_the_bear_at_Lake_Louise.jpg",
+        url:"https://images.immediate.co.uk/production/volatile/sites/23/2014/08/GettyImages-635725340-33bbe2e.jpg",
         
     },
     {
@@ -235,7 +235,7 @@ const animals = [
         coat_type: "Hustá a krátká srst světle hnědé barvy.",
         reproduction: "Lvi berberští se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 100-110 dní. Samice pak rodí živá mláďata, která jsou závislá na mateřské péči.",
         kind: "Savec",
-        url:"https://zoomagazin.cz/wp-content/uploads/2016/02/Mat%E2%94%9C%C5%BBsek-a-Lekysha-Vobruba-%E2%94%9C%E2%95%91vodn%E2%94%9C%C5%9F.jpg_590.jpg",
+        url:"https://a-z-animals.com/media/2022/09/iStock-492611032.jpg",
     },
     {
         name: "Levhart čínský",
@@ -289,7 +289,7 @@ const animals = [
         coat_type: "Hustá a hrubá srst různých odstínů hnědé barvy.",
         reproduction: "Mravenečníci velcí se rozmnožují pomocí vnitřního oplození. Samice mají období říje, během kterého jsou pohlavně aktivní. Po páření dochází k oplození vajíčka uvnitř samice. Poté dochází k vývoji plodu uvnitř matky po dobu přibližně 8-9 měsíců. Samice pak rodí jedno živé mládě, které je závislé na mateřské péči.",
         kind: "Savec",
-        url:"https://www.biolib.cz/IMG/GAL/93812.jpg",
+        url:"https://www.naturephoto.cz/data/photos-stack/4/9/0/5/09-2011-0211.jpg",
     },
     {
         name: "Nyala nížinná",

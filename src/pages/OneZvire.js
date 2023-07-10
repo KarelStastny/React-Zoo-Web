@@ -3,12 +3,13 @@ import animals from '../data/animals'
 import { useParams, Link } from 'react-router-dom'
 import "./OneZvire.scss"
 import SocialMedia from '../components/SocialMedia'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import IconBack from "../images/icon/back.png"
 
 
 
 const OneZvire = () => {
+
   const { zvirataId } = useParams();
   const [similarAnimals, setSimialrAnimals] = useState([]); 
 
@@ -22,6 +23,16 @@ const OneZvire = () => {
     const similarKind = animals.filter((one) => one.kind === animal.kind); 
     setSimialrAnimals(similarKind); 
   },[])
+
+  // Funkce pro vrácení stránky zpět nahoru
+
+  const ScrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
 
 
   return <div className="specific-animal">
@@ -84,7 +95,7 @@ const OneZvire = () => {
         <div className="similiar-container">
           {
             similarAnimals.map( (one, index) => {
-              return <Link to={`/zvirata/${index}`} key={index} className="similar-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
+              return <Link onClick={() => ScrollTop()} to={`/zvirata/${index}`} key={index} className="similar-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
               <div className="box">
                   <h2>{one.name}</h2>
                 </div>

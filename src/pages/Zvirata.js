@@ -5,12 +5,21 @@ import { Link } from 'react-router-dom'
 
 
 const Zvirata = () => {
+  // Funkce pro scrollUp po kliknutí
+  const ScrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" 
+    })
+  }
+
+
   return <div className="zoo-animal ">
     <div className="zoo-animal-container ">
         {
           animals.map( (one, index) => {
         
-          return  <Link to={`/zvirata/${index}`} key={index} className="animal-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
+          return  <Link onClick={() => ScrollTop()} to={`/zvirata/${index}`} key={index} className="animal-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
      
             <div className="box">
               <div className="up-box">
