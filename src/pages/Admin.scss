@@ -2,6 +2,26 @@
 @import "../variables.scss";
 
 .login-admin-page{
-    background-color: red;
-    margin: 30px;
+    @include flexColumn;
+    margin: 80px;
+    input{
+        margin: 1px;
+        width: 250px;
+        height: 40px;
+        padding-left: 10px;
+        outline: none;
+        border-radius: $mini-radius;
+        border: 0.1px solid $dark-brown;
+
+        &:nth-child(3){
+            padding: 0;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $orange-icon;
+            }
+        }
+    }
+
 }
+
