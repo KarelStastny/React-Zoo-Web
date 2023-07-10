@@ -3,18 +3,25 @@ import animals from '../data/animals'
 import { useParams, Link } from 'react-router-dom'
 import "./OneZvire.scss"
 import SocialMedia from '../components/SocialMedia'
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import IconBack from "../images/icon/back.png"
 
 
 
 const OneZvire = () => {
-  const { zvirataId } = useParams()
+  const { zvirataId } = useParams();
+  const [similarAnimals, setSimialrAnimals] = useState([]); 
 
-  const animal = animals.find( (one, index) => {
-    return  index === parseInt(zvirataId)
-  })
-
+  // Vyfiltrování správné zvířete do stránky
+    const animal = animals.find((one, index) => {
+    return index === parseInt(zvirataId);
+  });
+  
+  // Podobné duruhy filter
+  useEffect( () => {
+    const similarKind = animals.filter((one) => one.kind === animal.kind); 
+    setSimialrAnimals(similarKind); 
+  },[])
 
 
   return <div className="specific-animal">
@@ -66,14 +73,33 @@ const OneZvire = () => {
           <h3>Rozmnožování</h3>
           <p>{animal.reproduction}</p>
         </div>
-
-  
           <h3>Popis</h3>
           <p>{animal.description_long}</p>
    
 
       </div>
-      <h2>Další ${} v naší zoo:</h2>
+      
+      <div className="similar-kind">
+        <h2>Další {animal.kind} v naší zoo:</h2>
+        <div className="similiar-container">
+          {
+            similarAnimals.map( (one, index) => {
+              return <Link to={`/zvirata/${index}`} key={index} className="similar-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
+              <div className="box">
+                  <h2>{one.name}</h2>
+                </div>
+              </Link>
+              
+            })
+            
+          }
+            </div>
+      </div>
+
+
+
+
+
    </div>
   </div>
 }

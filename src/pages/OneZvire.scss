@@ -19,9 +19,6 @@
                 img{
                     width:40px;
                     height: 40px;
-    
-                   
-                    
                 }
                 &:hover{
                     background-color: $orange-icon;
@@ -98,6 +95,48 @@
         .media-animal{
             max-width: 350px;
             margin: 30px auto;
+        }
+        // DAlší druhy zvířat
+        .similar-kind{
+            border: 3px solid red;
+           
+            .similiar-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 10px;
+                margin: 35px;
+                color: $white-brown;
+        
+                @media (max-width: 900px) {
+                    grid-template-columns: 1fr 1fr;
+                }
+                @media (max-width: 600px) {
+                    grid-template-columns: 1fr;
+                }
+
+                .similar-box{
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    aspect-ratio: 1/1;
+                    border-radius: $mini-radius;
+
+                    h2{
+                        color: $white-brown;
+                        min-width: 90%;
+                        background-color: $color-transparent;
+                        // text-align: center;
+                        padding: 5px;
+                        padding-left: 20px;
+                        font-weight: 600;
+                        border: $mini-radius;
+                        &:hover{
+                            color: $orange-icon;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }
