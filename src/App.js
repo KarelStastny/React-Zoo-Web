@@ -21,6 +21,7 @@ import OneKariera from './components/OneKariera';
 import CasteOtazky from './pages/CasteOtazky';
 import Zvirata from './pages/Zvirata';
 import OneZvire from './pages/OneZvire';
+import Admin from './pages/Admin';
 
 
 const App = () => {
@@ -69,6 +70,7 @@ return <div className="app">
         <Route path='/zvirata' element={<Zvirata/>} />
         <Route path='/zvirata/:zvirataId' element={<OneZvire/>} />
         <Route path='/eshop' element={<Error/>} />
+        <Route path='/admin' element={<Admin/>} />
 
     </Route>
 

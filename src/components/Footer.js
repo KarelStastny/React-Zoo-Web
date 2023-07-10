@@ -1,11 +1,13 @@
 import "./Footer.scss"
 import SocialMedia from "./SocialMedia"
+import {Link} from "react-router-dom"
 
 const Footer = () => {
   return <footer>
     <div className="footer-container row">
         <div>
             <h4>© 2023 Světová zoo Všechna práva vyhrazena</h4>
+            <Link to="/admin">Admin</Link>
             <SocialMedia/>
         </div>
         <div className="footer-all">
