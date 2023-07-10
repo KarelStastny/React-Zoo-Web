@@ -20,7 +20,6 @@ const Aktuality = () => {
             </div>
           })
         }
-
       </div>
     </div>
   

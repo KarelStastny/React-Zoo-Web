@@ -2,7 +2,7 @@ import React from 'react'
 import "./DailyProgram.scss"
 
 const DailyProgram = () => {
-  return <div className="daily-program row">
+  return <div className="daily-program row2">
     <h1>Denní program </h1>
     <section>
         <h2>Každý den</h2>

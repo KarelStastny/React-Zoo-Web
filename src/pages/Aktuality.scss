@@ -6,6 +6,7 @@
     .actuality-user-container{
         h1{
             @include heading;
+
         }
         margin: 30px auto;
       
@@ -16,6 +17,7 @@
             display: grid;
             grid-template-columns: 2fr 2fr 4fr;
             padding: 10px;
+            
             p{
                 text-align: justify;
             }
@@ -31,3 +33,4 @@
         }
     }
 }
+

@@ -1,0 +1,31 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+.home-page {
+    .home-conatainer {
+      section {
+        display: flex;
+       
+
+        &:nth-child(2n){
+            flex-direction: row-reverse;
+        }
+
+        
+        .left {
+          min-height: 110vh;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 60%;
+          
+        }
+        
+        .right {
+          /* Styly pro pravou část */
+          width: 40%;
+        }
+      }
+    }
+  }
+  
+  
