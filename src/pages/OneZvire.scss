@@ -5,9 +5,30 @@
     padding: 10px;
     .one-animal-container{
        
-        h1{
-            @include heading;
+        .heading{
+            @include flexStandartSpaceBetween;
+            h1{
+                @include heading;
+            }
+            a{
+                border-radius: $cirkle-radius;
+                width: 60px;
+                height: 60px;
+                @include flexStandart;
+                transition: all 0.15s linear;
+                img{
+                    width:40px;
+                    height: 40px;
+    
+                   
+                    
+                }
+                &:hover{
+                    background-color: $orange-icon;
+                }
+            }
         }
+
         .about-animal-container{
             display: grid;
             grid-template-columns: 3fr 2fr;
@@ -74,6 +95,9 @@
                 text-align: justify;
             }
         }
-
+        .media-animal{
+            max-width: 350px;
+            margin: 30px auto;
+        }
     }
 }

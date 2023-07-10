@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom'
 import "./OneZvire.scss"
 import SocialMedia from '../components/SocialMedia'
 import React, { useEffect } from 'react';
+import IconBack from "../images/icon/back.png"
 
 
 
@@ -18,7 +19,12 @@ const OneZvire = () => {
 
   return <div className="specific-animal">
    <div className="one-animal-container row3">
+  
+    <div className="heading">
     <h1>{animal.name}</h1>
+    <Link to="/zvirata"><img src={IconBack} alt="" /></Link>
+    </div>
+
     <div className="about-animal-container">
       <img src={animal.url} alt="" />
       <div className="about-descritpion">
@@ -37,6 +43,7 @@ const OneZvire = () => {
         </ul>
       </div>
     </div>
+    <div className="media-animal"><SocialMedia/></div>
       <h2> Přečtěte si vice o {animal.name}</h2>
       <div className="long-description">
         <div>
@@ -66,14 +73,8 @@ const OneZvire = () => {
    
 
       </div>
-
       <h2>Další ${} v naší zoo:</h2>
-
    </div>
-
-    <h1>Zde nás můžete sledovat</h1>
-    <div className="media-animal"><SocialMedia/></div>
-   
   </div>
 }
 
