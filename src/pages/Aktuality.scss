@@ -1,0 +1,33 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.actuality-user{
+   
+    .actuality-user-container{
+        h1{
+            @include heading;
+        }
+        margin: 30px auto;
+      
+        .actuality-box{
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 2fr 4fr;
+            padding: 10px;
+            p{
+                text-align: justify;
+            }
+
+            &:nth-child(2n){
+                background-color: $second-background;
+            }
+
+            @media (max-width:500px) {
+                grid-template-columns: 1fr;
+                
+            }
+        }
+    }
+}
