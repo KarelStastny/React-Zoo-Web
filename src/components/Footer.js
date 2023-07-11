@@ -33,7 +33,7 @@ const Footer = () => {
             <section>
                 <h2>Mapa</h2>
                 <div className="map-footer">
-                    <iframe width="100%" height="150" frameBorder="0" scrolling="no" margintop="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Borsk%C3%A9%20Pole+(Sv%C4%9Btov%C3%A1%20Zoo)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7086.818171322711!2d13.3390759575474!3d49.729863661503366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470aede42ef78651%3A0x1bfab9632b571d22!2sNC%20Borska%20pole!5e0!3m2!1sen!2sus!4v1689057623427!5m2!1sen!2sus" width="100%" height="150" style={{border:0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 
