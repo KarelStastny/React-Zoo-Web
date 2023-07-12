@@ -62,18 +62,20 @@ const Zvirata = () => {
 
   return (
     <div className="zoo-animal">
+      <h1>Zvířata v naší Světové Zoo</h1>
       <form>
         <input value={searchBox} onChange={inputSearch} type="text" />
       </form>
       
 
       {/* Tlačítka pro filtrování */}
-      <button onClick={() => filterAll(null)}>Vše</button>
-      <button onClick={() => filterAll('Savec')}>Savci</button>
-      <button onClick={() => filterAll('Pták')}>Ptáci</button>
-      <button onClick={() => filterAll('Plaz')}>Plazi</button>
-      <button onClick={() => filterAll('Obojživelník')}>Obojživelníci</button>
-
+      <div className="button-container-animal">
+        <button onClick={() => filterAll(null)}>Vše</button>
+        <button onClick={() => filterAll('Savec')}>Savci</button>
+        <button onClick={() => filterAll('Pták')}>Ptáci</button>
+        <button onClick={() => filterAll('Plaz')}>Plazi</button>
+        <button onClick={() => filterAll('Obojživelník')}>Obojživelníci</button>
+      </div>
 {/* Výpis do stránky */}
       <div className="zoo-animal-container">
         {filteredAnimals.map((one, index) => (

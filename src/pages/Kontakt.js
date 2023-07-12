@@ -44,7 +44,7 @@ const Kontakt = () => {
             />
 
             <textarea
-              placeholder='text zprávy'
+              placeholder='text zprávy "formulář je funkční"'
               id="message"
               name="message"
             />

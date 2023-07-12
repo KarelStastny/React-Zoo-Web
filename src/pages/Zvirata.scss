@@ -5,6 +5,49 @@
     max-width: 1200px;
     margin: 0 auto;
 
+    h1{
+        @include heading;
+    }
+
+    form{
+        text-align: center;
+        input{
+            max-width: 350px;
+            width: 100%;
+            height: 35px;
+            border-radius: $mini-radius;
+            outline: none;
+            border: 1px solid $dark-brown;
+            padding-left: 15px ;
+        }
+    }
+
+    .button-container-animal{
+        display: flex;
+        margin: 30px auto;
+        padding:0 30px;
+
+        button{
+            width: 100%;
+            padding: 5px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: $dark-brown;
+            color: $white-brown;
+            border: 1px solid $dark-brown;
+            border-radius: $mini-radius;
+            transition: all linear .15s;
+
+            &:hover{
+                color: $orange-icon;
+                font-weight: 900;
+            }
+        }
+    }
+
+
+
+
     .zoo-animal-container{
 
         display: grid;
