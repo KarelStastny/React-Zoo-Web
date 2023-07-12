@@ -3,7 +3,6 @@ import React from 'react'
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Layout from "./pages/Layout"
 import Aktuality  from "./pages/Aktuality"
-import Budoucnost  from "./pages/Budoucnost"
 import Home  from "./pages/Home"
 import Kariera  from "./pages/Kariera"
 import Kontakt  from "./pages/Kontakt"
@@ -22,6 +21,8 @@ import CasteOtazky from './pages/CasteOtazky';
 import Zvirata from './pages/Zvirata';
 import OneZvire from './pages/OneZvire';
 import Admin from './pages/Admin';
+import OchranaLesu from './pages/OchranaLesu';
+import OchranaZvirat from './pages/OchranaZvirat';
 
 
 const App = () => {
@@ -43,7 +44,6 @@ return <div className="app">
         <Route path='/kontakt' element={<Kontakt/>} />
         <Route path='/kariera' element={<Kariera/>} />
         <Route path='/kariera/:karieraId' element={<OneKariera/>} />
-        <Route path='/budoucnost' element={<Budoucnost/>} />
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
         <Route path='/mapa' element={<Mapa/>} />
 
@@ -56,9 +56,9 @@ return <div className="app">
         <Route path='/dotazy' element={<CasteOtazky/>} />
 
         {/* 3 část Ochrana přírody */}
-        <Route path='/ochrana-prirody' element={<Error/>} />
-        <Route path='/jak-pomoc' element={<Error/>} />
-        <Route path='/mecenas-chovu' element={<Error/>} />
+        <Route path='/ochrana-prirody' element={<OchranaZvirat/>} />
+        <Route path='/ochrana-lesu' element={<OchranaLesu/>} />
+        <Route path='/ochrana-zvirat' element={<OchranaZvirat/>} />
 
         {/* 4 část Galerie */}
         <Route path='/galerie' element={<Galerie/>} />

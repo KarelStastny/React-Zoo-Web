@@ -65,7 +65,6 @@ const Navbar = () => {
                         <li><NavLink to="/aktuality" >Aktuality</NavLink></li>
                         <li><NavLink to="/kontakt" >Kontakty</NavLink></li>
                         <li><NavLink to="/kariera" >Kariéra</NavLink></li>
-                        <li><NavLink to="/budoucnost" >Budoucnost</NavLink></li>
                         <li><NavLink to="/zamestnanci" >Zaměstnanci</NavLink></li>
                         <li><NavLink to="/mapa" >Mapa</NavLink></li>
                     </ul>
@@ -83,8 +82,8 @@ const Navbar = () => {
 
                 <div className="big-link"><NavLink to="/ochrana-prirody" >Ochrana Přírody</NavLink>
                     <ul>
-                        <li><NavLink to="/jak-pomoc" >Jak Pomoci</NavLink></li>
-                        <li><NavLink to="/mecenas-chovu" >Mecenáš chovu</NavLink></li>
+                        <li><NavLink to="/ochrana-lesu" >Ochrana lesů</NavLink></li>
+                        <li><NavLink to="/ochrana-zvirat" >Ochrana zvířat</NavLink></li>
                     </ul>
                 </div>
 
