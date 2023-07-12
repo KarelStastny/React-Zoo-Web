@@ -1,44 +1,36 @@
-import React from 'react'
-import "./Prohibitons.scss"
-import prohib from "../data/DataProhibitions"
-import DataImages from '../data/DataImages'
-import { useState } from 'react'
+
+import React, { useState } from 'react';
+import "./Prohibitons.scss";
+import prohib from "../data/DataProhibitions";
+import DataImages from '../data/DataImages';
+
 
 const Prohibitions = () => {
+  const [index, setIndex] = useState(0);
+
+  // po kliknutí nastaví index, 
+  const handleClickPrev = () => {
+    setIndex((prevIndex) => (prevIndex === 0 ? prohib.length - 1 : prevIndex - 1));
+  };
+
+  const handleClickNext = () => {
+    setIndex((prevIndex) => (prevIndex === prohib.length - 1 ? 0 : prevIndex + 1));
+  };
+
+  return (
+    <div className="prohibitions row">
+      <img onClick={() => handleClickPrev()} src={DataImages[7]} alt="Previous" />
+      <div className="prohib-container">
+        <div className='prohib-box'>
+          <section><img src={prohib[index].image} alt="" /></section>
+          <div><p>{prohib[index].name}</p></div>
+        </div>
+      </div>
+      <img onClick={() => handleClickNext()} src={DataImages[8]} alt="Next" />
+    </div>
+  );
+};
 
 
-    const [index, setIndex] = useState(0)
+export default Prohibitions;
 
-// když je idnex záporné číslo
-// console.log(index);
-//     if(index < 0 ){
-//         setIndex(3)
-//     }
-
-// když je index větší než max
-console.log(index);
-// console.log(prohib.length);
-
-
-
-
-
-  return <div className="prohibitions row">
-            <img onClick={() => setIndex( index -1)} src={DataImages[7]} alt='#'  />
-            <div className="prohib-container">
-
- 
-
-            <div className='prohib-box'>
-                {/* <img src={prohib[index].name} alt="" /> */}
-                <div><p>{prohib[index].name}</p></div>
-
-            </div>
-
-            </div>
-            <img onClick={() => setIndex(index>3 ? setIndex( 3) : setIndex( index +1 ))} src={DataImages[8]} alt='#'  />
-
-  </div>
-}
-
-export default Prohibitions
