@@ -27,7 +27,10 @@ const Foto = () => {
     <h1>Foto Galerie</h1>
     {/* Zobrazovací okno */}
     <div className={model ? "model open" : "model"}>
-        <img src={imgSrc} alt="" />
+        <img 
+        src={imgSrc} 
+        alt=""
+        loading='lazy' />
         <div><img src={DataImages[6]} alt="#" onClick={() => closeImg()} /></div>
 
 

@@ -67,6 +67,7 @@ const Navbar = () => {
                         <li><NavLink to="/kariera" >Kariéra</NavLink></li>
                         <li><NavLink to="/zamestnanci" >Zaměstnanci</NavLink></li>
                         <li><NavLink to="/mapa" >Mapa</NavLink></li>
+                        <li><NavLink to="/databaze" >Databaze</NavLink></li>
                     </ul>
                 </div>
 
@@ -87,7 +88,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="big-link"><NavLink to="/galerie" >Galerie</NavLink>
+                <div className="big-link"><NavLink to="/foto" >Galerie</NavLink>
                 <ul>
                         <li><NavLink to="/z-nasi-zoo" >Z naší ZOO</NavLink></li>
                         <li><NavLink to="/mladata" >Mláďata</NavLink></li>

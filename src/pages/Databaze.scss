@@ -1,0 +1,21 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+.databaze-page{
+    h1{
+        @include heading;
+    }
+    .databaze-container{
+        div{
+            text-align: center;
+            padding: 10px;
+            p{
+                padding-bottom: 5px;
+              
+            }
+            .animals-number{
+                font-weight: 900;
+            }
+        }
+    }
+}

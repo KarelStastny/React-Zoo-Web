@@ -7,7 +7,6 @@ import Home  from "./pages/Home"
 import Kariera  from "./pages/Kariera"
 import Kontakt  from "./pages/Kontakt"
 import Onas  from "./pages/ONas"
-import Galerie  from "./pages/Galerie"
 import ZnasiZoo  from "./pages/ZnasiZoo"
 import Mladata  from "./pages/Mladata"
 import Error from './pages/Error';
@@ -23,6 +22,7 @@ import OneZvire from './pages/OneZvire';
 import Admin from './pages/Admin';
 import OchranaLesu from './pages/OchranaLesu';
 import OchranaZvirat from './pages/OchranaZvirat';
+import Databaze from './pages/Databaze';
 
 
 const App = () => {
@@ -46,6 +46,7 @@ return <div className="app">
         <Route path='/kariera/:karieraId' element={<OneKariera/>} />
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
         <Route path='/mapa' element={<Mapa/>} />
+        <Route path='/databaze' element={<Databaze/>} />
 
         {/* 2 část Návštěva Zoo */}
         <Route path='/navsteva' element={<Error/>} />
@@ -61,7 +62,7 @@ return <div className="app">
         <Route path='/ochrana-zvirat' element={<OchranaZvirat/>} />
 
         {/* 4 část Galerie */}
-        <Route path='/galerie' element={<Galerie/>} />
+        <Route path='/foto' element={<Foto/>} />
         <Route path='/z-nasi-zoo' element={<ZnasiZoo/>} />
         <Route path='/mladata' element={<Mladata/>} />
         <Route path='/foto' element={<Foto/>} />
