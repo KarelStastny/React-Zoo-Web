@@ -104,6 +104,8 @@ const OneZvire = () => {
             })
             
           }
+
+   
             </div>
       </div>
 

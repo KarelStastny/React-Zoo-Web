@@ -1,6 +1,7 @@
 
 const animals = [
     {
+        id:1,
         name: "Medvěd černý",
         max_age: "20-30 let",
         description_short: "Medvěd černý je středně velký savec se širokým rozšířením na severní polokouli.",
@@ -20,6 +21,7 @@ const animals = [
         
     },
     {
+        id:2,
         name: "Medvěd hnědý",
         max_age: "20-30 let",
         description_short: "Medvěd hnědý je velký savec se širokým rozšířením v Severní Americe, Eurasi a v některých částech Severní Afriky.",
@@ -39,6 +41,7 @@ const animals = [
 
     },
     {
+        id:3,
         name: "Medvěd grizzly",
         max_age: "25-30 let",
         description_short: "Medvěd grizzly je velký savec přirozeně se vyskytující v Severní Americe.",
@@ -57,6 +60,7 @@ const animals = [
         url:"https://jakdokanady.cz/wp-content/uploads/2019/07/Webp.net-compress-image-3.jpg",
     },
     {
+        id:4,
         name: "Medvěd lední",
         max_age: "25-30 let",
         description_short: "Medvěd lední je velký savec žijící v arktických oblastech Severního ledového oceánu.",
@@ -75,6 +79,7 @@ const animals = [
         url:"https://www.stoplusjednicka.cz/sites/default/files/clankyold/obrazky/1/5/6/9/3/6/2/8/2/0/25_01_kozich.jpg",
     },
     {
+        id:5,
         name: "Medvěd ušatý",
         max_age: "20-30 let",
         description_short: "Medvěd ušatý je velký savec se širokým rozšířením v Eurasii.",
@@ -93,6 +98,7 @@ const animals = [
         url:"https://i.ytimg.com/vi/3W51JEMGnDA/maxresdefault.jpg",
     },
     {
+        id:6,
         name: "Medvěd malajský",
         max_age: "20-30 let",
         description_short: "Medvěd malajský je středně velký savec endemický pro oblast jihovýchodní Asie.",
@@ -112,6 +118,7 @@ const animals = [
     },
 
     {
+        id:7,
         name: "Dikobraz",
         max_age: "10-15 let",
         description_short: "Dikobraz je středně velký savec s trnitým opeřením na těle.",
@@ -130,6 +137,7 @@ const animals = [
         url:"https://zoojihlava.cz/zoo/uploads/2018/04/0m0a1814_velikost.jpg",
     },
     {
+        id:8,
         name: "Buvolec běloocasý",
         max_age: "20-25 let",
         description_short: "Buvolec běloocasý je velký savec s charakteristickými rohy a bílým ocasem.",
@@ -148,6 +156,7 @@ const animals = [
         url:"https://d55-a.sdn.cz/d_55/c_img_QP_u/iJ1BWL.jpeg",
     },
     {
+        id:9,
         name: "Gibon bělolící",
         max_age: "25-30 let",
         description_short: "Gibon bělolící je malý opice se zářivě bílým srstí na obličeji.",
@@ -166,6 +175,7 @@ const animals = [
         url:"https://www.zooliberec.cz/wp-content/uploads/2021/01/gibon_2.jpeg",
     },
     {
+        id:10,
         name: "Kočkodan",
         max_age: "12-15 let",
         description_short: "Kočkodan je středně velký savec s charakteristickými skvrnami na srsti.",
@@ -184,6 +194,7 @@ const animals = [
         url:"https://www.zoo-olomouc.cz/sites/default/files/images/animalcard/dsc_0189.jpg",
     },
     {
+        id:11,
         name: "Lemur",
         max_age: "15-20 let",
         description_short: "Lemur je středně velký primát s dlouhým ocasem a charakteristickým obličejovým vzorem.",
@@ -202,6 +213,7 @@ const animals = [
         url:"https://www.zoo-ostrava.cz/images_texty/686_2.jpg",
     },
     {
+        id:12,
         name: "Lemur černý",
         max_age: "20-25 let",
         description_short: "Lemur černý je středně velký primát s černou srstí a charakteristickými oranžovými očima.",
@@ -220,6 +232,7 @@ const animals = [
         url:"https://cdn.megapixel.cz/gallery/w1380h900/6/159576.jpg?v=1440652664",
     },
     {
+        id:13,
         name: "Lev berberský",
         max_age: "10-15 let",
         description_short: "Lev berberský je velký šelma s dlouhou hřívou a charakteristickým zbarvením srsti.",
@@ -238,6 +251,7 @@ const animals = [
         url:"https://a-z-animals.com/media/2022/09/iStock-492611032.jpg",
     },
     {
+        id:14,
         name: "Levhart čínský",
         max_age: "10-15 let",
         description_short: "Levhart čínský je středně velká šelma s krásným zbarvením srsti a charakteristickými skvrnami.",
@@ -256,6 +270,7 @@ const animals = [
         url:"https://cdn.megapixel.cz/gallery/w1380h900/2/635022.jpg?v=1674241984",
     },
     {
+        id:15,
         name: "Levhart sněžný",
         max_age: "10-15 let",
         description_short: "Levhart sněžný je středně velká šelma žijící v chladných oblastech s bílou srstí a charakteristickými tmavými skvrnami.",
@@ -274,6 +289,7 @@ const animals = [
         url:"https://c3.primacdn.cz/sites/default/files/styles/landscape_extra_large/public/3/8a/4467169-snow-leopard-1972724_1280.jpg?itok=ogRChZDi&c=8f6de64155b63ae4aef89a4ef64953fe",
     },
     {
+        id:16,
         name: "Mravenečník velký",
         max_age: "15-20 let",
         description_short: "Mravenečník velký je velký savec s mohutným tělem a silnými končetinami, který se specializuje na lov termitů a mravenců.",
@@ -292,6 +308,7 @@ const animals = [
         url:"https://www.naturephoto.cz/data/photos-stack/4/9/0/5/09-2011-0211.jpg",
     },
     {
+        id:17,
         name: "Nyala nížinná",
         max_age: "10-12 let",
         description_short: "Nyala nížinná je středně velká antilopa s charakteristickým zbarvením a prodlouženými rohy u samců.",
@@ -310,6 +327,7 @@ const animals = [
         url:"https://botany.cz/foto4/tragelangas2.jpg",
     },
     {
+        id:18,
         name: "Osel somálský",
         max_age: "25-30 let",
         description_short: "Osel somálský je středně velké savčí zvíře se štíhlým tělem a charakteristickými dlouhými ušima.",
@@ -328,6 +346,7 @@ const animals = [
         url:"https://www.biolib.cz/IMG/GAL/42796.jpg",
     },
     {
+        id:19,
         name: "Panda červená",
         max_age: "20-25 let",
         description_short: "Panda červená je středně velký savec s charakteristickým zbarvením a bambusovou stravou.",
@@ -346,6 +365,7 @@ const animals = [
         url:"https://portal.rozhlas.cz/sites/default/files/images/8d8359246de8f5e08f420898e99a8334.jpg",
     },
     {
+        id:20,
         name: "Panda velká",
         max_age: "20-30 let",
         description_short: "Panda velká je velký savec s charakteristickým zbarvením a bambusovou stravou.",
@@ -364,6 +384,7 @@ const animals = [
         url:"https://www.casopis.ochranaprirody.cz/res/archive/024/002961.jpg?seek=1317110566",
     },
     {
+        id:21,
         name: "Šimpanz",
         max_age: "40-50 let",
         description_short: "Šimpanz je primát se schopností používat nástroje a komunikovat pomocí různých zvuků a gest.",
@@ -382,6 +403,7 @@ const animals = [
         url:"https://www.cojeco.cz/images/descript/1d219a9ce2883ab2237f516f18f881a8.jpeg",
     },
     {
+        id:22,
         name: "Slon indický",
         max_age: "60-70 let",
         description_short: "Slon indický je velký savec s prodlouženým chobotem a charakteristickými klůty.",
@@ -400,6 +422,7 @@ const animals = [
         url:"https://www.biolib.cz/IMG/GAL/30819.jpg",
     },
     {
+        id:23,
         name: "Slon africký",
         max_age: "60-70 let",
         description_short: "Slon africký je velký savec s prodlouženým chobotem a charakteristickými klůty.",
@@ -418,6 +441,7 @@ const animals = [
         url:"https://img.myloview.cz/fototapety/africky-slon-loxodonta-africana-jizni-afrika-700-111728686.jpg",
     },
     {
+        id:24,
         name: "Surikata",
         max_age: "10-12 let",
         description_short: "Surikata je malý savec připomínající sysla, který žije v savanách Afriky.",
@@ -436,6 +460,7 @@ const animals = [
         url:"https://www.chovzvirat.cz/images/clanky/759/759_bvj57l.jpg",
     },
     {
+        id:25,
         name: "Takin čínský",
         max_age: "15-20 let",
         description_short: "Takin čínský je velký savec připomínající jakýsi kříženec mezi buvolem a kozou.",
@@ -454,6 +479,7 @@ const animals = [
         url:"https://zoopark.cz/uploads-files/2021/01/20200228_DSC8953.jpg",
     },
     {
+        id:26,
         name: "Tapír",
         max_age: "25-30 let",
         description_short: "Tapír je velký savec s robustním tělem, krátkými nohama a charakteristickým chobotem.",
@@ -472,6 +498,7 @@ const animals = [
         url:"https://www.zoopraha.cz/images/lexikon/Tapir_cabrakovy_TTT0274.jpg",
     },
     {
+        id:27,
         name: "Tygr indický",
         max_age: "10-15 let",
         description_short: "Tygr indický je velká kočkovitá šelma s charakteristickými pruhy na srsti.",
@@ -490,6 +517,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/d/d8/Panthera_tigris_corbetti_%28Tierpark_Berlin%29_832-714-%28118%29.jpg",
     },
     {
+        id:28,
         name: "Velbloud dvouhrbný",
         max_age: "40-50 let",
         description_short: "Velbloud dvouhrbný je velký savec se dvěma hrboly na zádech a dlouhým chodidlem.",
@@ -508,6 +536,7 @@ const animals = [
         url:"https://velbloudi.cz/wp-content/uploads/2019/09/%C5%A0ajty-velbloud02.jpg",
     },
     {
+        id:29,
         name: "Tygr usurijský",
         max_age: "10-15 let",
         description_short: "Tygr usurijský je velká kočkovitá šelma s krásným zlatohnědým zbarvením a černými pruhy.",
@@ -526,6 +555,7 @@ const animals = [
         url:"https://g.denik.cz/1/d2/resized-shutterstock-536201545.jpg",
     },
     {
+        id:30,
         name: "Zebra",
         max_age: "20-25 let",
         description_short: "Zebra je středně velký savec s černo-bílým pruhovaným zbarvením.",
@@ -544,6 +574,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Zebra_1424.jpg/1200px-Zebra_1424.jpg",
     },
     {
+        id:31,
         name: "Žirafa",
         max_age: "20-25 let",
         description_short: "Žirafa je vysoký a štíhlý savec s dlouhým krkem a skvrnitým zbarvením.",
@@ -562,6 +593,7 @@ const animals = [
         url:"https://www.zoobratislava.sk/assets/Uploads/Lexikon/Cicavce/Fretka-domaca/TH72896__ScaleMaxWidthWzEyMDBd.jpg",
     },
     {
+        id:32,
         name: "Hroch",
         max_age: "40-50 let",
         description_short: "Hroch je velký a těžký savec s tlustou kůží, velkými ústy a širokými nozdrami.",
@@ -580,6 +612,7 @@ const animals = [
         url:"https://www.zoodvorec.cz/images/preview/1671522764.jpg",
     },
     {
+        id:33,
         name: "Nosorožec",
         max_age: "35-50 let",
         description_short: "Nosorožec je velký a robustní savec s masivním tělem a rohovitým výrůstkem na nose.",
@@ -598,6 +631,7 @@ const animals = [
         url:"https://ct24.ceskatelevize.cz/sites/default/files/styles/node-article_horizontal/public/2139244-2018_nwr_fatu_kenya_jan_stejskal_safari_park_dvur_kralove.jpg?itok=o6j9n4Nr",
     },
     {
+        id:34,
         name: "Krokodýl",
         max_age: "40-70 let",
         description_short: "Krokodýl je velký plaz s dlouhým tělem, silnými čelistmi a šupinatou kůží.",
@@ -616,6 +650,7 @@ const animals = [
         url:"https://cdn.xsd.cz/original/7984b8cf5c023eed8f50e46efdb1fa21.jpg",
     },
     {
+        id:35,
         name: "Aligátor",
         max_age: "30-50 let",
         description_short: "Aligátor je středně velký plaz s šupinatou kůží a charakteristickými čelistmi.",
@@ -634,6 +669,7 @@ const animals = [
         url:"https://www.zenysro.cz/images/blog/38164/main.jpg",
     },
     {
+        id:36,
         name: "Antilopa",
         max_age: "10-15 let",
         description_short: "Antilopa je středně velký savec s dlouhými nohami a rohatými parohy.",
@@ -652,6 +688,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Springbok_Namibia.jpg/1200px-Springbok_Namibia.jpg",
     },
     {
+        id:37,
         name: "Vlk",
         max_age: "10-15 let",
         description_short: "Vlk je středně velký savec ze skupiny psů s hustou srstí a výrazným smečkovým chováním.",
@@ -670,6 +707,7 @@ const animals = [
         url:"https://www.zoopraha.cz/images/lexikon/Vlk_eurasijsky_DSC_0474_export.jpg",
     },
     {
+        id:38,
         name: "Puma",
         max_age: "10-15 let",
         description_short: "Puma je velká kočkovitá šelma s krátkým srstnatým tělem a dlouhým ocasem.",
@@ -688,6 +726,7 @@ const animals = [
         url:"https://1gr.cz/fotky/idnes/19/063/r7/JB7c3eb7_Depositphotos_226261192_xl_2015.jpg",
     },
     {
+        id:39,
         name: "Anakonda",
         max_age: "10-15 let",
         description_short: "Anakonda je velká hadí šelma se silným tělem a schopností se svíjet kolem své kořisti.",
@@ -706,6 +745,7 @@ const animals = [
         url:"https://d15-a.sdn.cz/d_15/c_img_F_F/bLjOR3.jpeg?fl=cro,0,30,800,450%7Cres,1200,,1%7Cjpg,80,,1",
     },
     {
+        id:40,
         name: "Hroznýš",
         max_age: "20-30 let",
         description_short: "Hroznýš je velký had se silným tělem a výrazným vzorem na kůži.",
@@ -724,6 +764,7 @@ const animals = [
         url:"https://budejovice.rozhlas.cz/sites/default/files/images/02180578.jpeg",
     },
     {
+        id:41,
         name: "Krajta mřížkovaná",
         max_age: "15-20 let",
         description_short: "Krajta mřížkovaná je velký had s robustním tělem a charakteristickým mřížkovaným vzorem na kůži.",
@@ -742,6 +783,7 @@ const animals = [
         url:"https://www.gamepark.cz/img/pictures/00/14/23/142387.jpg",
     },
     {
+        id:42,
         name: "Krajta královská",
         max_age: "20-25 let",
         description_short: "Krajta královská je velký had s robustním tělem a charakteristickým geometrickým vzorem na kůži.",
@@ -760,6 +802,7 @@ const animals = [
         url:"https://mojeterarko.cz/wp-content/uploads/2022/08/krajta-kralovska.jpg",
     },
     {
+        id:43,
         name: "Chřestýš skalní",
         max_age: "15-20 let",
         description_short: "Chřestýš skalní je středně velký jedovatý had s charakteristickým hranatým tvarem hlavy.",
@@ -778,6 +821,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/d/d2/Crotalus_lepidus_lepidus_1.jpg",
     },
     {
+        id:44,
         name: "Kobra královská",
         max_age: "10-20 let",
         description_short: "Kobra královská je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
@@ -796,6 +840,7 @@ const animals = [
         url:"https://www.mundo.cz/sites/default/files/styles/mt2020_346/public/images/fauna-a-flora/kobra-indicka.jpg?itok=kH6k3oYj",
     },
     {
+        id:45,
         name: "Kobra červená",
         max_age: "10-20 let",
         description_short: "Kobra červená je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
@@ -814,6 +859,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/a/ab/Red_Spitting_Cobra.jpg",
     },
     {
+        id:46,
         name: "Kobra indická",
         max_age: "10-20 let",
         description_short: "Kobra indická je jedovatý had s charakteristickou kapucí na krku a štíhlým tělem.",
@@ -832,6 +878,7 @@ const animals = [
         url:"https://zoomagazin.cz/wp-content/uploads/2017/03/kobra-indicka.jpg",
     },
     {
+        id:47,
         name: "Maba černá",
         max_age: "20-30 let",
         description_short: "Maba černá je jedovatý had s robustním tělem a hladkou kůží.",
@@ -850,6 +897,7 @@ const animals = [
         url:"https://1gr.cz/fotky/idnes/11/023/cl6h/CEN396e58_mamba.jpg",
     },
     {
+        id:48,
         name: "Maba zelená",
         max_age: "20-30 let",
         description_short: "Maba zelená je jedovatý had s robustním tělem a hladkou kůží.",
@@ -867,8 +915,8 @@ const animals = [
         kind: "Plaz",
         url:"https://upload.wikimedia.org/wikipedia/commons/9/9e/Mamba_Dendroaspis_angusticeps.jpg",
     },
-    
     {
+        id:49,
         name: "Pakobra červenobřichá",
         max_age: "10-15 let",
         description_short: "Pakobra červenobřichá je jedovatý had s charakteristickým červeným břichem a černým zbarvením na hřbetu.",
@@ -887,6 +935,7 @@ const animals = [
         url:"https://img.obrazky.cz/?url=7fc9e7c5178b19ed&size=2",
     },
     {
+        id:50,
         name: "Pakobra východní",
         max_age: "10-15 let",
         description_short: "Pakobra východní je jedovatý had s charakteristickou kapucí na krku a hnědým zbarvením s černými pruhy.",
@@ -905,6 +954,7 @@ const animals = [
         url:"https://cdn.administrace.tv/2022/04/23/hd/3411d2f540dc42f1c5e55af88e4908c8.jpg",
     },
     {
+        id:51,
         name: "Zmije rohatá",
         max_age: "10-15 let",
         description_short: "Zmije rohatá je jedovatý had s charakteristickým rohem na konci hlavy a hnědým zbarvením s tmavými skvrnami.",
@@ -923,6 +973,7 @@ const animals = [
         url:"https://mojeterarko.cz/wp-content/webp-express/webp-images/uploads/2021/07/zmije-rohata-vzhled.jpg.webp",
     },
     {
+        id:52,
         name: "Gekon modrý",
         max_age: "10-15 let",
         description_short: "Gekon modrý je malý ještěr s nápadným modrým zbarvením a přilnavými chodidly pro lezení po plochých površích.",
@@ -941,6 +992,7 @@ const animals = [
         url:"https://www.biolib.cz/IMG/GAL/BIG/405117.jpg",
     },
     {
+        id:53,
         name: "Želva ostruhatá",
         max_age: "80-100 let",
         description_short: "Želva ostruhatá je velká želva s pevným krunýřem, charakteristickými ostruhami na nohách a dlouhým krkem.",
@@ -959,6 +1011,7 @@ const animals = [
         url:"https://www.zooplzen.cz/Files/zoo2/zvirata/ZelvaostruhataGeochelonesulcata_30.6.2006.jpg",
     },
     {
+        id:54,
         name: "Želva obrovská",
         max_age: "100-150 let",
         description_short: "Želva obrovská je jedna z největších želv na světě s robustním krunýřem a silnými končetinami.",
@@ -977,6 +1030,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg/800px-Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg",
     },
     {
+        id:55,
         name: "Želva nádherná",
         max_age: "40-50 let",
         description_short: "Želva nádherná je středně velká želva s atraktivním zbarvením krunýře a charakteristickými žluto-černými pruhy na končetinách.",
@@ -995,6 +1049,7 @@ const animals = [
         url:"https://www.zooliberec.cz/wp-content/uploads/2020/12/zelva_nadherna_tit.jpg",
     },
     {
+        id:56,
         name: "Ara",
         max_age: "50-60 let",
         description_short: "Ara je velký, barevný pták s výrazným zobákem a dlouhým ocasem.",
@@ -1013,6 +1068,7 @@ const animals = [
         url:"https://www.zoohit.cz/magazin/wp-content/uploads/2021/07/Cerveni-papousci-ara.jpeg",
     },
     {
+        id:57,
         name: "Bažant zlatý",
         max_age: "3-5 let",
         description_short: "Bažant zlatý je středně velký pták s nápadným zlatým peřím a dlouhým ocasem.",
@@ -1029,6 +1085,7 @@ const animals = [
         url:"https://zooparknehvizdy.cz/wp-content/uploads/zvire_bazant_zlaty_01_titulni.jpg",
     },
     {
+        id:58,
         name: "Jeřáb černokrký",
         max_age: "25-30 let",
         description_short: "Jeřáb černokrký je velký pták s dlouhými nohama, dlouhým krkem a charakteristickým černým zbarvením na krku.",
@@ -1047,6 +1104,7 @@ const animals = [
         url:"https://www.biolib.cz/IMG/GAL/BIG/423827.jpg",
     },
     {
+        id:59,
         name: "Krkavec bělokrký",
         max_age: "15-20 let",
         description_short: "Krkavec bělokrký je středně velký pták s výrazným zobákem, černým peřím a bílým zbarvením na krku.",
@@ -1065,6 +1123,7 @@ const animals = [
         url:"https://www.zoopraha.cz/images/lexikon-images/krkavec_belokrky_-_Martin_Smrcek.jpg",
     },
     {
+        id:60,
         name: "Nestor kea",
         max_age: "20-30 let",
         description_short: "Nestor kea je středně velký papoušek s olivově zeleným peřím a oranžově červeným zobákem.",
@@ -1083,6 +1142,7 @@ const animals = [
         url:"https://www.zoopraha.cz/images/lexikon/nestor_kea_Nestor_notabilis_-Mark_Whatmough_CC-BY-SA-2.0.jpg",
     },
     {
+        id:61,
         name: "Orel bělohlavý",
         max_age: "25-30 let",
         description_short: "Orel bělohlavý je velký dravec s charakteristickou bílou hlavou a ocasem, hnědým peřím a žlutými drápy a zobákem.",
@@ -1101,6 +1161,7 @@ const animals = [
         url:"https://cdn.shopify.com/s/files/1/0266/5817/7121/articles/ingo-doerrie-TQWAmOShbEM-unsplash_1_1200x1200.jpg?v=1646974697",
     },
     {
+        id:62,
         name: "Orel královský",
         max_age: "30-35 let",
         description_short: "Orel královský je velký dravec s tmavě hnědým peřím, bílou hlavou a ocasem, a žlutými drápy a zobákem.",
@@ -1119,6 +1180,7 @@ const animals = [
         url:"https://www.kdelovit.cz/files/birds/14/images/source/5391b9268f581.jpg",
     },
     {
+        id:63,
         name: "Orel křiklavý",
         max_age: "20-25 let",
         description_short: "Orel křiklavý je středně velký dravec s tmavě hnědým peřím, žlutýma nohama a zobákem a charakteristickým bílým ocasem.",
@@ -1137,6 +1199,7 @@ const animals = [
         url:"https://www.cojeco.cz/images/descript/8e573c7a78a313dc5b63a4d7585af85b.jpg",
     },
     {
+        id:64,
         name: "Orel mořský",
         max_age: "20-30 let",
         description_short: "Orel mořský je impozantní druh dravého ptáka, který je specializován na život a lov v přímořských oblastech. Existuje několik druhů orlů mořských, z nichž nejznámější je orel mořský bělohlavý (Haliaeetus albicilla) a orel mořský bradavičnatý (Haliaeetus leucoryphus). Orel mořský je jedním z největších druhů orlů a jeho rozpětí křídel může dosahovat až 2,4 metru. Má tmavé peří a charakteristickou bílou hlavu, která mu dodává výrazný vzhled. Jeho silné drápy a velký zobák jsou skvěle přizpůsobeny k lovu ryb a dalšího mořského života. Orel mořský se živí převážně rybami, ale také může lovit ptáky, savce nebo mršiny. Jeho lov je spojen s náročným letovým manévrováním a rychlým sestupem ke hladině vody, kde chytá svou kořist. Je schopen se ponořit do vody a udržet se na hladině pomocí svých širokých křídel. Tito orli jsou známí svými hnízdy, která staví na stromech, skalách nebo útesech poblíž vody. Samice snáší obvykle 1-3 vejce, která inkubuje po dobu přibližně 35-40 dnů. Oba rodiče se podílejí na péči o mláďata, která se postupně osamostatňují a opouštějí hnízdo po několika měsících. Orelové mořští mají významnou roli ve svém ekosystému, kde pomáhají udržovat rovnováhu v populacích ryb a kontrolují přemnožení určitých druhů. Bohužel, některé druhy orlů mořských jsou ohrožené kvůli ztrátě přirozeného prostředí, lovu a otravám. Proto se věnuje pozornost jejich ochraně a monitorování populací. Orelové mořští jsou fascinujícími tvory, kteří symbolizují krásu a sílu divokého pobřežního prostředí. Jejich úsilí o lov a přežití v náročných podmínkách oceánů a moří je obdivuhodné a připomíná nám důležitost ochrany.",
@@ -1154,6 +1217,7 @@ const animals = [
         url:"https://www.ceskeparky.cz/user/articles/images/orel.jpg",
     },
     {
+        id:65,
         name: "Orel skalní",
         max_age: "25-30 let",
         description_short: "Orel skalní je velký dravec s tmavě hnědým peřím, žlutýma nohama a zobákem, a charakteristickým bílým ocasem s černým pruhováním.",
@@ -1172,6 +1236,7 @@ const animals = [
         url:"https://www.lesaktualne.cz/wp-content/uploads/2022/02/Orel-morsky-na-vetvi-b_123rf-ondrejprosicky.jpg",
     },
     {
+        id:66,
         name: "Orel volavý",
         max_age: "30-40 let",
         description_short: "Orel volavý je velký dravec s tmavě hnědým peřím, bílou hlavou a ocasem, a žlutými nohama a zobákem.",
@@ -1190,6 +1255,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/f/ff/Aquila_clanga_from_Tal_Chapar_Wildlife_Sanctuary.jpg",
     },
     {
+        id:67,
         name: "Orel východní",
         max_age: "30-40 let",
         description_short: "Orel východní je velký dravec s hnědým peřím, bílou hlavou a ocasem, a žlutýma nohama a zobákem.",
@@ -1208,6 +1274,7 @@ const animals = [
         url:"https://zoopark.cz/uploads-files/2019/05/20210106_DSC9341.jpg",
     },
     {
+        id:68,
         name: "Pelikán bílý",
         max_age: "25-30 let",
         description_short: "Pelikán bílý je velký vodní pták s bílým peřím, dlouhým zobákem a výrazným vakuem na dolní části zobáku.",
@@ -1226,6 +1293,7 @@ const animals = [
         url:"https://upload.wikimedia.org/wikipedia/commons/6/66/Whitepelican_edit_shadowlift.jpg",
     },
     {
+        id:69,
         name: "Plamének růžový",
         max_age: "30-50 let",
         description_short: "Plamének růžový je velký vodní pták s dlouhým zakřiveným zobákem, růžovým peřím a dlouhými nohama.",
@@ -1244,6 +1312,7 @@ const animals = [
         url:"https://portal.rozhlas.cz/sites/default/files/images/0f6a68b270f7431059e2429a35fff3e7.jpg",
     },
     {
+        id:70,
         name: "Sovice sněžná",
         max_age: "10-15 let",
         description_short: "Sovice sněžná je malý noční dravec s kouzelným bílým peřím, velkýma oranžovýma očima a charakteristickým zvukem.",
@@ -1262,6 +1331,7 @@ const animals = [
         url:"https://api.zoohluboka.cz/storage/1920x1920_1587508003.5179_8602-sovice_snezni_1.jpg",
     },
     {
+        id:71,
         name: "Sup hnědý",
         max_age: "25-30 let",
         description_short: "Sup hnědý je velký dravec s širokými křídly, hnědým peřím a charakteristickou hrdelní kresbou.",
@@ -1280,6 +1350,7 @@ const animals = [
         url:"https://www.zoopraha.cz/images/lexikon/sup_hnedy.jpg",
     },
     {
+        id:72,
         name: "Tučňák",
         max_age: "20-30 let",
         description_short: "Tučňák je charakteristický pták s krátkými křídly, černobílým peřím a chodícím stylem.",
@@ -1298,6 +1369,7 @@ const animals = [
         url:"https://st2.depositphotos.com/7402484/10296/i/450/depositphotos_102968760-stock-photo-group-of-king-penguins.jpg",
     },
     {
+        id:73,
         name: "Zobrorožec vrásčitý",
         max_age: "30-40 let",
         description_short: "Zobrorožec vrásčitý je exotický pták s pestrou barevnou šatou, dlouhým zobákem a výraznými vráskami na tváři.",
@@ -1316,6 +1388,7 @@ const animals = [
         url:"https://www.zoousti.cz/data/clanky/3807/big/zoborozec-03.jpg",
     },
     {
+        id:74,
         name: "Pralesnička barvířská",
         max_age: "10-15 let",
         description_short: "Pralesnička barvířská je malý obojživelník s pestrou barevnou šatou a jedovatou pokožkou.",
@@ -1334,6 +1407,7 @@ const animals = [
         url:"https://www.zoohit.cz/magazin/wp-content/uploads/2022/06/Pralesnickoviti.jpg",
     },
     {
+        id:75,
         name: "Pralesnička strašná",
         max_age: "8-12 let",
         description_short: "Pralesnička strašná je malý obojživelník s černým zbarvením, výraznými červenými očima a jedovatou pokožkou.",
@@ -1352,6 +1426,7 @@ const animals = [
         url:"https://zoomagazin.cz/wp-content/uploads/2019/10/Phyllobates-terribilis-Zoo-Zuerich.jpg",
     },
     {
+        id:76,
         name: "Rosnička včelí",
         max_age: "2-4 roky",
         description_short: "Rosnička včelí je malý obojživelník s pestrou barevnou šatou a lepkavou pokožkou.",
@@ -1370,6 +1445,7 @@ const animals = [
         url:"https://www.biolib.cz/IMG/GAL/404982.jpg",
     },
     {
+        id:77,
         name: "Bizon",
         max_age: "20-25 let",
         description_short: "Bizon je velké přežvýkavé zvíře s robustním tělem a hřívou na krku.",
@@ -1388,6 +1464,7 @@ const animals = [
         url:"https://d15-a.sdn.cz/d_15/c_img_E_I/BPVBK6I.jpeg?fl=cro,0,78,1250,703%7Cres,1200,,1%7Cjpg,80,,1",
     },
     {
+        id:78,
         name: "Bazilišek zelený",
         max_age: "3-5 let",
         description_short: "Bazilišek zelený je malý ještěr s výraznou zelenou barvou a charakteristickými tečkami na těle.",
@@ -1406,6 +1483,7 @@ const animals = [
         url:"https://www.chovzvirat.cz/images/zvirata/bazilisek-zeleny_fqm90ti.jpg",
     },
     {
+        id:79,
         name: "Chameleon obrovský",
         max_age: "5-10 let",
         description_short: "Chameleon obrovský je velký plaz se schopností měnit barvu své kůže a dlouhým jazykem.",
@@ -1425,6 +1503,7 @@ const animals = [
         
     },
     {
+        id:80,
         name: "Čáp bílý",
         max_age: "20-30 let",
         description_short: "Velký pták s bílým peřím a dlouhým zobákem.",
