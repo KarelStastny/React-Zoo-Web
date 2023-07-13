@@ -68,6 +68,7 @@ const Navbar = () => {
                         <li><NavLink to="/zamestnanci" >Zaměstnanci</NavLink></li>
                         <li><NavLink to="/mapa" >Mapa</NavLink></li>
                         <li><NavLink to="/databaze" >Zoo v číslech</NavLink></li>
+                        <li><NavLink to="/oblibene" >Oblíbená zvířata</NavLink></li>
                     </ul>
                 </div>
 

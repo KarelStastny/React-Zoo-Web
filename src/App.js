@@ -23,6 +23,7 @@ import Admin from './pages/Admin';
 import OchranaLesu from './pages/OchranaLesu';
 import OchranaZvirat from './pages/OchranaZvirat';
 import Databaze from './pages/Databaze';
+import Favourite from "./pages/Favourite.js"
 
 
 const App = () => {
@@ -47,6 +48,7 @@ return <div className="app">
         <Route path='/zamestnanci' element={<Zamestnanci/>} />
         <Route path='/mapa' element={<Mapa/>} />
         <Route path='/databaze' element={<Databaze/>} />
+        <Route path='/oblibene' element={<Favourite/>} />
 
         {/* 2 část Návštěva Zoo */}
         <Route path='/navsteva' element={<Error/>} />

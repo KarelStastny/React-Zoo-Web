@@ -8,6 +8,35 @@ const Zvirata = () => {
   const [searchBox, setSearchBox] = useState("")
   const [filteredAnimals, setFilteredAnimals] = useState([]);
   const [activeButton, setActiveButton] = useState(false);
+  const [favorite, setFavorite] = useState([])
+
+  // uložení do oblíbených a do local storage
+  const addToFavorites = (id) => {
+    // Přidání pokud to id tam už není
+    if (!favorite.includes(id)) {
+      setFavorite([...favorite, id]);
+
+      // Uložit aktualizované pole favorite do Local Storage
+      localStorage.setItem('favorite', JSON.stringify([...favorite, id]));
+    }
+  };
+
+
+  useEffect(()=> {
+    // Zjištění zda v local storage je favorite
+    const existFavorite = localStorage.getItem("favorite")
+
+    if(existFavorite){
+      setFavorite(JSON.parse(existFavorite))
+    }else{
+      setFavorite([])
+    }
+  },[])
+
+
+
+
+
 
   // Funkce pro aktivní button
   const activeBtn = (kind) => {
@@ -27,9 +56,7 @@ const Zvirata = () => {
     setFilter(kind)
     // Pokud je filtrováno druhem nastaví všechny filtry z inputu na nic
     setSearchBox("")
-
     activeBtn(kind)
-
   }
 
   const inputSearch = (e) => {
@@ -87,7 +114,7 @@ const Zvirata = () => {
 {/* Výpis do stránky */}
       <div className="zoo-animal-container">
         {filteredAnimals.map((one) => (
-          <Link
+          <div
             onClick={() => ScrollTop()}
             to={`/zvirata/${one.id}`}
             key={one.id}
@@ -97,11 +124,14 @@ const Zvirata = () => {
             <div className="box">
               <div className="up-box">
                 <h2>{one.name}</h2>
-                <div className="favourite"></div>
+                <div 
+                onClick={() => addToFavorites(one.id)}
+                className="favourite">F</div>
               </div>
+              <Link className='foto-animal'>   </Link>
               <Link to={`/podpora/${one.id}`}>Podpořit</Link>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>
