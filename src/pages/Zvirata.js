@@ -2,6 +2,8 @@ import React, { useState,useEffect } from 'react'
 import animals from "../data/animals"
 import "./Zvirata.scss"
 import { Link } from 'react-router-dom'
+import emptyStar from "../images/icon/emptyStar.png"
+import fullStar from "../images/icon/fullStar.png"
 
 const Zvirata = () => {
   const [filter, setFilter] = useState(null)
@@ -122,14 +124,17 @@ const Zvirata = () => {
             style={{ background: `url(${one.url})` }}
           >
             <div className="box">
-              <div className="up-box">
+             <div className="up-box">
                 <h2>{one.name}</h2>
                 <div 
                 onClick={() => addToFavorites(one.id)}
-                className="favourite">F</div>
-              </div>
-              <Link className='foto-animal'>   </Link>
-              <Link to={`/podpora/${one.id}`}>Podpořit</Link>
+                className="favourite"><img src={emptyStar} alt="" /></div>
+              </div> 
+              <Link to={`/zvirata/${one.id}`} className="box-down">
+              
+              </Link>
+              
+              <Link to={`/eshop`}>Podpořit</Link>
             </div>
           </div>
         ))}
