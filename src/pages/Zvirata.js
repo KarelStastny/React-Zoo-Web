@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import animals from "../data/animals"
 import "./Zvirata.scss"
 import { Link } from 'react-router-dom'
-import { useState,useEffect } from 'react'
-
 
 const Zvirata = () => {
   const [filter, setFilter] = useState(null)
   const [searchBox, setSearchBox] = useState("")
   const [filteredAnimals, setFilteredAnimals] = useState([]);
+  const [activeButton, setActiveButton] = useState(false);
+
+  // Funkce pro aktivní button
+  const activeBtn = (kind) => {
+    setActiveButton(kind)
+  }
 
   // Funkce pro scrollUp po kliknutí
   const ScrollTop = () => {
@@ -23,6 +27,9 @@ const Zvirata = () => {
     setFilter(kind)
     // Pokud je filtrováno druhem nastaví všechny filtry z inputu na nic
     setSearchBox("")
+
+    activeBtn(kind)
+
   }
 
   const inputSearch = (e) => {
@@ -70,11 +77,12 @@ const Zvirata = () => {
 
       {/* Tlačítka pro filtrování */}
       <div className="button-container-animal">
-        <button onClick={() => filterAll(null)}>Vše</button>
-        <button onClick={() => filterAll('Savec')}>Savci</button>
-        <button onClick={() => filterAll('Pták')}>Ptáci</button>
-        <button onClick={() => filterAll('Plaz')}>Plazi</button>
-        <button onClick={() => filterAll('Obojživelník')}>Obojživelníci</button>
+      <button className={activeButton === null ? "active-button-animal" : ""} onClick={() => {filterAll(null); activeBtn(null)}}>Vše</button>
+        <button className={activeButton === "Savec" ? "active-button-animal" : ""} onClick={() => {filterAll("Savec"); activeBtn("Savec")}}>Savci</button>
+        <button className={activeButton === "Pták" ? "active-button-animal" : ""} onClick={() => {filterAll("Pták"); activeBtn("Pták")}}>Ptáci</button>
+        <button className={activeButton === "Plaz" ? "active-button-animal" : ""} onClick={() => {filterAll("Plaz"); activeBtn("Plaz")}}>Plazi</button>
+        <button className={activeButton === "Obojživelník" ? "active-button-animal" : ""} onClick={() => {filterAll("Obojživelník"); activeBtn("Obojživelník")}}>Obojživelníci</button>
+
       </div>
 {/* Výpis do stránky */}
       <div className="zoo-animal-container">

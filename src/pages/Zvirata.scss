@@ -143,10 +143,8 @@
 
 // Filter
 
-.hide-animal{
-    display: none;
+.active-button-animal{
+    color: $orange-icon !important;
+    font-weight: 900;
 }
 
-.show-animal{
-    display: none;
-}
