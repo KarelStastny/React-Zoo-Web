@@ -86,11 +86,11 @@ const Zvirata = () => {
       </div>
 {/* Výpis do stránky */}
       <div className="zoo-animal-container">
-        {filteredAnimals.map((one, index) => (
+        {filteredAnimals.map((one) => (
           <Link
             onClick={() => ScrollTop()}
-            to={`/zvirata/${index}`}
-            key={index}
+            to={`/zvirata/${one.id}`}
+            key={one.id}
             className="animal-box"
             style={{ background: `url(${one.url})` }}
           >
@@ -99,7 +99,7 @@ const Zvirata = () => {
                 <h2>{one.name}</h2>
                 <div className="favourite"></div>
               </div>
-              <Link to={`/podpora/${index}`}>Podpořit</Link>
+              <Link to={`/podpora/${one.id}`}>Podpořit</Link>
             </div>
           </Link>
         ))}

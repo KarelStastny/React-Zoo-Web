@@ -14,8 +14,8 @@ const OneZvire = () => {
   const [similarAnimals, setSimialrAnimals] = useState([]); 
 
   // Vyfiltrování správné zvířete do stránky
-    const animal = animals.find((one, index) => {
-    return index === parseInt(zvirataId);
+    const animal = animals.find((one) => {
+    return one.id === parseInt(zvirataId);
   });
   
   // Podobné duruhy filter
@@ -55,9 +55,6 @@ const OneZvire = () => {
           <p>Délka: <li>{animal.length}</li></p>
           <p>Rychlost: <li>{animal.max_speed}</li></p>
           <p>Věk: <li>{animal.max_age}</li></p>
-
-
-
         </ul>
       </div>
     </div>
@@ -94,8 +91,8 @@ const OneZvire = () => {
         <h2>Další {animal.kind} v naší zoo:</h2>
         <div className="similiar-container">
           {
-            similarAnimals.map( (one, index) => {
-              return <Link onClick={() => ScrollTop()} to={`/zvirata/${index}`} key={index} className="similar-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
+            similarAnimals.map( (one) => {
+              return <Link onClick={() => ScrollTop()} to={`/zvirata/${one.id}`} key={one.id} className="similar-box" style={{background: `url( ${one.url})`, backgroundPosition: "center", backgroundSize: "cover"  }}>
               <div className="box">
                   <h2>{one.name}</h2>
                 </div>
