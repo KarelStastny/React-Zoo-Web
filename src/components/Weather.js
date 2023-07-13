@@ -1,4 +1,3 @@
-import "./Weather.scss"
 import React, { useEffect } from 'react'
 import { useState } from "react"
 
@@ -8,20 +7,20 @@ const urlWeather = "https://api.openweathermap.org/data/2.5/weather?units=metric
 // Funuje jméno ale má pak problémnačíst teplotu proč?
 
 const Weather = () => {
-const [weather, setWeather] = useState("")
+  const [temperature, setTemperature] = useState("");
 
 useEffect( () =>{
     fetch(urlWeather)
     .then( (res) => res.json())
     .then( (result) =>{
-        setWeather(result)
+        setTemperature(result.main.temp)
     })
-},[])
+},[temperature])
 
 
 
-  return <div >
-    <p>{`V naší zoo máme AKTUÁLNĚ krásných ${weather.name}°C`}</p>
+  return <div className="weather-component" >
+    <p>V naší Světové Zoo máme krásných <span style={{fontWeight:"900"}}>{temperature} °C</span></p>
   </div>
 }
 
