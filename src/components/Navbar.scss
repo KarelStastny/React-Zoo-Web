@@ -1,6 +1,7 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
+
 /*************************
 ******Desktop
 ************************/
@@ -20,6 +21,9 @@
                 @media screen and (max-width:800px){
                     height: 60px;
                 }
+                @media screen and (max-width:500px){
+                   height: 40px;
+                }
 
                 }
             h1{
@@ -31,10 +35,15 @@
                 span{
                     font-weight: 900;
                     font-size: $big-font;
+                    display: flex;
                     @media screen and (max-width:800px){
                         font-size: $middle-font;
                     }
+                    .favorite-numer{
+                        
+                    }
                 }
+
             }
         }
         .hamburger-hide{

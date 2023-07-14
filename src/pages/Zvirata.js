@@ -12,6 +12,22 @@ const Zvirata = () => {
   const [activeButton, setActiveButton] = useState(false);
   const [favorite, setFavorite] = useState([])
 
+
+// Zjistí jestli je v oblíbených
+  const isFavorite = (id) => {
+    return favorite.includes(id)
+  }
+
+// Odstarní z obíbených
+const removeFromFavorites = (id) => {
+  const updatedFavorite = favorite.filter((favId) => favId !== id);
+  setFavorite(updatedFavorite);
+  localStorage.setItem('favorite', JSON.stringify(updatedFavorite));
+};
+
+
+
+
   // uložení do oblíbených a do local storage
   const addToFavorites = (id) => {
     // Přidání pokud to id tam už není
@@ -34,10 +50,6 @@ const Zvirata = () => {
       setFavorite([])
     }
   },[])
-
-
-
-
 
 
   // Funkce pro aktivní button
@@ -126,10 +138,19 @@ const Zvirata = () => {
             <div className="box">
              <div className="up-box">
                 <h2>{one.name}</h2>
-                <div 
-                onClick={() => addToFavorites(one.id)}
-                className="favourite"><img src={emptyStar} alt="" /></div>
+                {/* po klikntuí zjisti zda je oblíbená, pokud je odstranit pokud ne přidat */}
+                <div onClick={() => { isFavorite(one.id) ? removeFromFavorites(one.id) : addToFavorites(one.id); }}
+                className="favourite">
+                  {/* Pokud toto id je oblíbené dát podle toho hvězdy */}
+                  <img src={isFavorite(one.id) ? fullStar : emptyStar} alt="" />
+                  </div>
               </div> 
+                    
+    
+                  
+                  
+    
+
               <Link to={`/zvirata/${one.id}`} className="box-down">
               
               </Link>

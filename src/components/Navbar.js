@@ -3,6 +3,7 @@ import DataImages from "../data/DataImages"
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 import SocialMedia from "./SocialMedia"
+import NumberFavorite from "./NumerFavorite"
 
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ const Navbar = () => {
     <section className="up-navbar row">
         <NavLink to="/" className="logo">
                 <img src={DataImages[0]} alt="#" />
-                 <h1>Světová <br /> <span>ZOO</span></h1>
+                 <h1>Světová <br /> <span>ZOO  <span className="favorite-numer"><NumberFavorite/></span></span></h1>
         </NavLink>
 
         <div onClick={ () => {
