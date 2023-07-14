@@ -3,6 +3,7 @@ import DataFoto from '../data/DataFoto';
 import { useState } from 'react';
 import "./Foto.scss"
 import DataImages from "../data/DataImages"
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 
 
@@ -24,6 +25,7 @@ const Foto = () => {
 
 
   return <div className='foto-galerie'>
+    <HeddingBodyLayout/>
     <h1>Foto Galerie</h1>
     {/* Zobrazovací okno */}
     <div className={model ? "model open" : "model"}>

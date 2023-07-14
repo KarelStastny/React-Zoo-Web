@@ -3,7 +3,7 @@ import "./OpenClose.scss"
 import OpenCloseTime from "../data/DataOpenCloseTime"
 
 const OpenClose = () => {
-  return <div className="open-close row">
+  return <div className="open-close row3">
         <h1>Otevírací doba</h1>
         <p>Zde najdete celoroční přehled otevírací doby.</p>
         <p>Otevřeno Každý den v roce</p>

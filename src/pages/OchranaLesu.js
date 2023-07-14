@@ -1,8 +1,10 @@
 import React from 'react'
 import "./OchranaLesu.scss"
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const OchranaLesu = () => {
   return <div className="ochrana-lesu-page">
+    <HeddingBodyLayout/>
     <div className="ochrana-lesu-container row2">
         <h1>Ochrana lesů: Klíčový krok k udržitelné budoucnosti</h1>
         <p>Lesy jsou vzácným a nepostradatelným přírodním zdrojem, který poskytuje mnoho prospěchu lidem i životnímu prostředí. Jsou domovem rozmanitého živočišného a rostlinného světa a zároveň plní mnoho důležitých funkcí, jako je zachycování uhlíku, produkce kyslíku, regulace vodního režimu a ochrana půdy. Bohužel však lesy jsou v současnosti vystaveny mnoha hrozbám, a proto je jejich ochrana nezbytná.</p>

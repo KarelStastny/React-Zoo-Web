@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Databaze.scss"
 import animals from '../data/animals'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const Databaze = () => {
 
@@ -10,10 +11,11 @@ const Databaze = () => {
     const OurPtaci = animals.filter((animals) => animals.kind === "Pták")
     const OurObojz = animals.filter((animals) => animals.kind === "Obojživelník" )
 
-  return <div className="databaze-page row2">
+  return <div className="databaze-page">
+    <HeddingBodyLayout/>
     <h1>Statistika naší Zoo</h1>
 
-    <div className="databaze-container">
+    <div className="databaze-container row2">
         <div>
             <p>Počet drhů zvířat v naší Zoo</p>
             <p className='animals-number'>{animals.length +1}</p>

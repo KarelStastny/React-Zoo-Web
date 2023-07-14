@@ -2,13 +2,17 @@ import React from 'react'
 import "./Cennik.scss"
 import SummerCennik from '../data/DataCennikSummer'
 import WinterCennik from '../data/DataCennikWinter'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 
 
 const Cennik = () => {
 
 
-  return <div className='cennik-zoo row'>
+  return <div className="cenik-page">
+    <HeddingBodyLayout/>
+  <div className='cennik-zoo row'>
+    
       <h1>Jednotlivé vstupenky</h1>
 
       {/* Summer season */}
@@ -76,6 +80,7 @@ const Cennik = () => {
 
       </div>
   </div>
+  </div> 
 }
 
 export default Cennik

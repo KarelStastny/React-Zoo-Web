@@ -59,13 +59,12 @@ return <div className="app">
         <Route path='/dotazy' element={<CasteOtazky/>} />
 
         {/* 3 část Ochrana přírody */}
-        <Route path='/ochrana-prirody' element={<OchranaZvirat/>} />
         <Route path='/ochrana-lesu' element={<OchranaLesu/>} />
         <Route path='/ochrana-zvirat' element={<OchranaZvirat/>} />
 
         {/* 4 část Galerie */}
-        <Route path='/foto' element={<Foto/>} />
-        <Route path='/z-nasi-zoo' element={<ZnasiZoo/>} />
+
+
         <Route path='/mladata' element={<Mladata/>} />
         <Route path='/foto' element={<Foto/>} />
 

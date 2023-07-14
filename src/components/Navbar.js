@@ -69,7 +69,6 @@ const Navbar = () => {
                         <li><NavLink to="/zamestnanci" >Zaměstnanci</NavLink></li>
                         <li><NavLink to="/mapa" >Mapa</NavLink></li>
                         <li><NavLink to="/databaze" >Zoo v číslech</NavLink></li>
-                        <li><NavLink to="/oblibene" >Oblíbená zvířata</NavLink></li>
                     </ul>
                 </div>
 
@@ -83,7 +82,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="big-link"><NavLink to="/ochrana-prirody" >Ochrana Přírody</NavLink>
+                <div className="big-link"><NavLink to="/ochrana-lesu" >Ochrana Přírody</NavLink>
                     <ul>
                         <li><NavLink to="/ochrana-lesu" >Ochrana lesů</NavLink></li>
                         <li><NavLink to="/ochrana-zvirat" >Ochrana zvířat</NavLink></li>
@@ -92,7 +91,6 @@ const Navbar = () => {
 
                 <div className="big-link"><NavLink to="/foto" >Galerie</NavLink>
                 <ul>
-                        <li><NavLink to="/z-nasi-zoo" >Z naší ZOO</NavLink></li>
                         <li><NavLink to="/mladata" >Mláďata</NavLink></li>
                         <li><NavLink to="/foto" >Foto</NavLink></li>
  

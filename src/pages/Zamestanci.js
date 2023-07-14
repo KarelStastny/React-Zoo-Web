@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Zamestnanci.scss"
 import { useState, useEffect } from 'react'
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 
 
@@ -21,7 +22,10 @@ useEffect( () => {
 },[])
 
 
-  return <div className='zoo-zamestnaci row'>
+  return <div className="zoo-zamestanci-page">
+     <HeddingBodyLayout/>
+  <div className='zoo-zamestnaci row'>
+   
     {
 
       employee.map( (one, index) => {
@@ -47,6 +51,7 @@ useEffect( () => {
 
 
 
+  </div>
   </div>
 }
 

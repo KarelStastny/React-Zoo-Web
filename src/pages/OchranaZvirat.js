@@ -1,8 +1,10 @@
 import React from 'react'
 import "./OchranaZvirat.scss"
+import HeddingBodyLayout from '../components/HeddingBodyLayout'
 
 const OchranaZvirat = () => {
   return <div className="ochrana-zvirat-page">
+    <HeddingBodyLayout/>
     <div className="ochrana-zvirat-container row2">
         <h1>Ochrana zvířat: Zajistěme jejich budoucnost</h1>
         <img src="https://www.praha.eu/public/74/b5/9/2694203_883770_pes_petr_hamernik.jpg" alt="" />
