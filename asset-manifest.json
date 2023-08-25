@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Zoo-Web/static/css/main.a4659023.css",
-    "main.js": "/React-Zoo-Web/static/js/main.8e58d49d.js",
+    "main.js": "/React-Zoo-Web/static/js/main.8e35a672.js",
     "static/media/zoo-map.png": "/React-Zoo-Web/static/media/zoo-map.4b152dde118729193c51.png",
     "static/media/1.jpg": "/React-Zoo-Web/static/media/1.99f8121de2c725dd0e1e.jpg",
     "static/media/3.jpeg": "/React-Zoo-Web/static/media/3.4a9b8150000f9118052e.jpeg",
@@ -81,10 +81,10 @@
     "static/media/cross.png": "/React-Zoo-Web/static/media/cross.be846d746a4470db1128.png",
     "index.html": "/React-Zoo-Web/index.html",
     "main.a4659023.css.map": "/React-Zoo-Web/static/css/main.a4659023.css.map",
-    "main.8e58d49d.js.map": "/React-Zoo-Web/static/js/main.8e58d49d.js.map"
+    "main.8e35a672.js.map": "/React-Zoo-Web/static/js/main.8e35a672.js.map"
   },
   "entrypoints": [
     "static/css/main.a4659023.css",
-    "static/js/main.8e58d49d.js"
+    "static/js/main.8e35a672.js"
   ]
 }
