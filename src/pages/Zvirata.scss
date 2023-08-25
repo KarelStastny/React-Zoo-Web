@@ -1,170 +1,155 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.zoo-animal{
-    max-width: 1200px;
-    margin: 0 auto;
+.zoo-animal {
+  max-width: 1200px;
+  margin: 0 auto;
 
-    h1{
-        @include heading;
+  h1 {
+    @include heading;
+  }
+
+  form {
+    text-align: center;
+    input {
+      max-width: 350px;
+      width: 100%;
+      height: 35px;
+      border-radius: $mini-radius;
+      outline: none;
+      border: 1px solid $dark-brown;
+      padding-left: 15px;
+    }
+  }
+
+  .button-container-animal {
+    display: flex;
+    margin: 30px auto;
+    padding: 0 30px;
+    @media (max-width: 450px) {
+      flex-direction: column;
     }
 
-    form{
-        text-align: center;
-        input{
-            max-width: 350px;
-            width: 100%;
-            height: 35px;
-            border-radius: $mini-radius;
-            outline: none;
-            border: 1px solid $dark-brown;
-            padding-left: 15px ;
-        }
-    }
+    button {
+      width: 100%;
+      padding: 5px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: $dark-brown;
+      color: $white-brown;
+      border: 1px solid $dark-brown;
+      border-radius: $mini-radius;
+      transition: all linear 0.15s;
 
-    .button-container-animal{
+      &:hover {
+        color: $orange-icon;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .zoo-animal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 35px;
+    color: $white-brown;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+    .animal-box {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      aspect-ratio: 1/1;
+      border-radius: $mini-radius;
+
+      .box {
+        width: 100%;
+        height: 100%;
         display: flex;
-        margin: 30px auto;
-        padding:0 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 10px 0px 0px 0px;
+        position: relative;
 
-        button{
-            width: 100%;
-            padding: 5px;
-            margin: 5px;
-            cursor: pointer;
-            background-color: $dark-brown;
+        .up-box {
+          display: flex;
+          justify-content: space-between;
+          min-height: 10%;
+
+          h2 {
             color: $white-brown;
-            border: 1px solid $dark-brown;
-            border-radius: $mini-radius;
-            transition: all linear .15s;
-
-            &:hover{
-                color: $orange-icon;
-                font-weight: 900;
+            min-width: 90%;
+            background-color: $color-transparent;
+            // text-align: center;
+            padding: 5px;
+            padding-left: 20px;
+            font-weight: 600;
+            border-top-left-radius: $mini-radius;
+            &:hover {
+              color: $orange-icon;
             }
-        }
-    }
-
-
-
-
-    .zoo-animal-container{
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-        margin: 35px;
-        color: $white-brown;
-
-        @media (max-width: 900px) {
-            grid-template-columns: 1fr 1fr;
-        }
-        @media (max-width: 600px) {
-            grid-template-columns: 1fr;
-        }
-        .animal-box{
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            aspect-ratio: 1/1;
-            border-radius: $mini-radius;
-
-
-    
-            .box{
-                width: 100%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                // padding: 10px 0px 0px 0px;
-                position: relative;
-                
-          
-                .up-box{
-                    display: flex;
-                    justify-content: space-between;
-                    min-height: 10%;
-                    
-                    h2{
-                        color: $white-brown;
-                        min-width: 90%;
-                        background-color: $color-transparent;
-                        // text-align: center;
-                        padding: 5px;
-                        padding-left: 20px;
-                        font-weight: 600;
-                        border-top-left-radius: $mini-radius;
-                        &:hover{
-                            color: $orange-icon;
-                        }
-                    }
-                    .favourite{
-                        border-top-right-radius: $mini-radius;
-                        color: $white-brown;
-                        min-width: 10%;
-                        background-color: $color-transparent;
-                        text-align: center;
-                        // background-color: purple;
-                        cursor: pointer;
-                        @include flexStandart;
-                        img{
-                            width: 100%;
-                            padding: 4px;
-             
-                        }
-
-                    }
-                }
-                &:hover > a{
-                   height: 25px;
-                   
-             
-                }
-                .box-down{
-                    min-height: 90%;
-                    min-width: 100%;
-                    text-align: center;
-                    background: transparent;
-                    position: absolute;
-                    left: 0;
-
-                }
-   
-
-                   a{
-                    width: 30%;
-                    margin: 0 auto;
-                    color: $dark-brown;
-                    font-weight: 900;
-                    background-color: $orange-icon;
-                    text-align: center;
-                    transition: background-color .2s ease-out;
-                    position: absolute;
-                    bottom: 0;
-                    left: 36%;
-                    height: 0;
-                    overflow: hidden;
-                    transition: height 0.3s linear;
-                
-             
-                    &:hover{
-                        color: $white-brown;
-                    }
-       
-                   }
-             
+          }
+          .favourite {
+            border-top-right-radius: $mini-radius;
+            color: $white-brown;
+            min-width: 10%;
+            background-color: $color-transparent;
+            text-align: center;
+            // background-color: purple;
+            cursor: pointer;
+            @include flexStandart;
+            img {
+              width: 100%;
+              padding: 4px;
             }
-     
+          }
         }
+        &:hover > a {
+          height: 25px;
+        }
+        .box-down {
+          min-height: 90%;
+          min-width: 100%;
+          text-align: center;
+          background: transparent;
+          position: absolute;
+          left: 0;
+        }
+
+        a {
+          width: 30%;
+          margin: 0 auto;
+          color: $dark-brown;
+          font-weight: 900;
+          background-color: $orange-icon;
+          text-align: center;
+          transition: background-color 0.2s ease-out;
+          position: absolute;
+          bottom: 0;
+          left: 36%;
+          height: 0;
+          overflow: hidden;
+          transition: height 0.3s linear;
+
+          &:hover {
+            color: $white-brown;
+          }
+        }
+      }
     }
+  }
 }
 
 // Filter
 
-.active-button-animal{
-    color: $orange-icon !important;
-    font-weight: 900;
+.active-button-animal {
+  color: $orange-icon !important;
+  font-weight: 900;
 }
-

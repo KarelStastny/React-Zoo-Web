@@ -1,60 +1,53 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.bodyLayoutEasy{
-    background-color: $second-background;
-    .container{
-        max-width: 1300px;
-        width: 100%;
-        margin: 0 auto;
-        @include flexColumn;
-        .up-container{
-            padding: 20px 0px;
-            h1{
-                text-align: center;
-                font-weight: 900;
-                font-size: 25px;
-                border-bottom: 0.5px solid $middle-brown;
-                
-            }
-            p{
-                padding-top: 20px;
-                text-align: center;
-            }
-
-        }
-        .down-container{
-
-            width: 100%;
-            margin-bottom: 20px;
-            .box-layout-easy{
-                @include flexStandartSpaceBetween;
-                .weather-box{
-
-                }
-                .link-box{
-                    .link-back{
-                        padding: 5px 15px;
-                        border-radius: $mini-radius;
-                        transition: all 0.3s;
-                        &:hover{
-                            background-color: $orange-icon; 
-                        }
-                    }
-                    .link-home{
-                        transition: all 0.3s;
-                        padding: 5px 15px;
-                        background-color: $green-icon;
-                        border-radius: $mini-radius;
-                        &:hover{
-                        background-color: $orange-icon; 
-                        }
-                    }
-
-                }
-            }
-           
-
-        }
+.bodyLayoutEasy {
+  background-color: $second-background;
+  .container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    @include flexColumn;
+    .up-container {
+      padding: 20px 0px;
+      h1 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 25px;
+        border-bottom: 0.5px solid $middle-brown;
+      }
+      p {
+        padding-top: 20px;
+        text-align: center;
+      }
     }
+    .down-container {
+      width: 100%;
+      margin-bottom: 20px;
+      .box-layout-easy {
+        @include flexStandartSpaceBetween;
+        .weather-box {
+        }
+        .link-box {
+          .link-back {
+            padding: 5px 15px;
+            border-radius: $mini-radius;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $orange-icon;
+            }
+          }
+          .link-home {
+            transition: all 0.3s;
+            padding: 5px 15px;
+            background-color: $green-icon;
+            border-radius: $mini-radius;
+            &:hover {
+              background-color: $orange-icon;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,60 +1,52 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-footer{
-    background-color: $white-brown;
-    // text-align: center;
-    padding: 20px;
-    div{
-        margin-bottom: 30px;
-        h4{
-            font-weight: 900
-        }
-        a{
-            display: block;
-            text-align: center
-        }
-    
+footer {
+  background-color: $white-brown;
+  // text-align: center;
+  padding: 20px;
+  div {
+    margin-bottom: 30px;
+    h4 {
+      font-weight: 900;
     }
-    .footer-container{
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+  .footer-container {
+    @include flexColumn;
+
+    .footer-all {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      @media only screen and (max-width: 900px) {
+        flex-direction: column;
+        // flex-wrap: wrap;
+      }
+      section {
+        width: 23%;
         @include flexColumn;
-
-     
-
-        
-        .footer-all{
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-           
-            @media only screen and (max-width:900px) {
-                flex-direction: column;
-                // flex-wrap: wrap;
-            }
-            section{
-                width: 23%;
-                @include flexColumn;
-                @media only screen and (max-width:900px) {
-                    width: 100%;
-                    margin-bottom: 20px;
-                
-                }
-
-                
-                align-items: flex-start;
-
-                h2{
-                    font-weight: 900;
-
-                }
-                a{
-                    &:hover{
-                        color: $orange-icon;
-                    }
-                }
-            }
-
+        @media only screen and (max-width: 900px) {
+          width: 100%;
+          margin-bottom: 20px;
         }
+
+        align-items: flex-start;
+
+        h2 {
+          font-weight: 900;
+        }
+        a {
+          &:hover {
+            color: $orange-icon;
+          }
+        }
+      }
     }
+  }
 }

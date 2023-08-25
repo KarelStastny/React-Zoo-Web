@@ -42,7 +42,7 @@ const DataHedding = [{
     text: "Naše Zoo je otevřena po celý rok, zde se můžete dozvědět jak se v různých sezonách liší a podle toho si naplánovat svou návštěvu."
 },{
     link: "/cennik",
-    hedding: "Cenik",
+    hedding: "Ceník",
     text: "Ceník Zoo se liší na základně mnoha faktorů, zde si ho můžete prostudovat do podrobna."
 },{
     link: "/dotazy",
@@ -61,8 +61,7 @@ const DataHedding = [{
     link: "/foto",
     hedding: "Foto našich zvířat",
     text: "Zde najdete krásné fotky zvířat, na které se můžete přijít podívat do naší Světové Zoo."
-},
-
+}
 ]
 
 export default DataHedding

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import animals from '../data/animals';
+import React, { useState, useEffect } from "react";
+import animals from "../data/animals";
 import "./Favourite.scss";
 import { Link } from "react-router-dom";
 
@@ -7,17 +7,17 @@ const Favourite = () => {
   const [favorite, setFavorite] = useState([]);
   const [favoriteUpdated, setFavoriteUpdated] = useState(false);
 
-//   Aktualizuje obsah v LocalSotrage 
+  //   Aktualizuje obsah v LocalSotrage
   useEffect(() => {
-    const updatedFavorite = JSON.parse(localStorage.getItem('favorite')) || [];
+    const updatedFavorite = JSON.parse(localStorage.getItem("favorite")) || [];
     setFavorite(updatedFavorite);
     setFavoriteUpdated(false);
   }, [favoriteUpdated]);
 
-//   odstraní z oblíbených a zapne vyrendrování stránky
+  //   odstraní z oblíbených a zapne vyrendrování stránky
   const removeFromFavorite = (id) => {
     const updatedFavorite = favorite.filter((oneF) => oneF !== id);
-    localStorage.setItem('favorite', JSON.stringify(updatedFavorite));
+    localStorage.setItem("favorite", JSON.stringify(updatedFavorite));
     setFavoriteUpdated(true);
   };
 
@@ -34,7 +34,9 @@ const Favourite = () => {
                     <img src={oneA.url} alt="" />
                   </Link>
                   <p>{oneA.name}</p>
-                  <button onClick={() => removeFromFavorite(oneF)}>Odebrat</button>
+                  <button onClick={() => removeFromFavorite(oneF)}>
+                    Odebrat
+                  </button>
                 </div>
               );
             }

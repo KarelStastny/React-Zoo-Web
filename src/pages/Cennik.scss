@@ -1,92 +1,82 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.cennik-zoo{
-    margin-top: 30px;
-    max-width: 1200px;
-    h1{
-        text-align: center;
-        font-weight: 900;
-        font-size: $big-font;
+.cennik-zoo {
+  margin-top: 30px;
+  max-width: 1200px;
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: $big-font;
+  }
+  .summer-season {
+    h2 {
+      text-align: center;
+      font-weight: 400;
+      font-size: $standart-font;
     }
-    .summer-season{
-        h2{
-            text-align: center;
-            font-weight: 400;
-            font-size: $standart-font;
-        }
+  }
+  .container-cennik {
+    margin: 70px 20px;
 
+    .season-heading {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr 1fr;
+      background-color: $light-orange;
+
+      p {
+        text-align: left;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: $white-brown;
+        padding: 10px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        height: 10px;
+      }
     }
-    .container-cennik{
-        margin: 70px 20px;
-
-
-        .season-heading{
-            display: grid;
-            grid-template-columns:  1fr 2fr 1fr 1fr;
-            background-color: $light-orange;
-
-            
-
-            p{
-                text-align: left;
-                text-transform: capitalize;
-                font-size: 20px;
-                color: $white-brown;
-                padding: 10px;
-            }
-
-            @media  only screen and (max-width:600px){
-                grid-template-columns: 1fr;
-                height: 10px;
-           
-            }
+    .box-cennik {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr 1fr;
+      p {
+        text-align: left;
+        padding: 10px;
+        span {
+          display: none;
+          text-transform: uppercase;
         }
-        .box-cennik{
-            display: grid;
-            grid-template-columns:  1fr 2fr 1fr 1fr;
-            p{
-                text-align: left;       
-                padding: 10px;
-                span{
-                    display: none;
-                    text-transform: uppercase;
-                }
-            }
-            &:nth-child(2n){
-                background-color: $second-background;
-            }
-    
-            @media  only screen and (max-width:600px){
-                grid-template-columns: 1fr;
-                p{
-                    font-weight: 900;
-                    span{
-                        display: initial;
-               
-                    }
-                }
-            }
-            
+      }
+      &:nth-child(2n) {
+        background-color: $second-background;
+      }
+
+      @media only screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        p {
+          font-weight: 900;
+          span {
+            display: initial;
+          }
         }
-        a{
-                color: $winter-blue;
-            }
+      }
     }
-
-
-
-    // Winter 
-    .wintercolor{
-        background-color: $winter-blue !important;
+    a {
+      color: $winter-blue;
     }
-    
-    .winter-season{
-        h2{
-            text-align: center;
-            font-weight: 400;
-            font-size: $standart-font;
-        }
+  }
 
-}
+  // Winter
+  .wintercolor {
+    background-color: $winter-blue !important;
+  }
+
+  .winter-season {
+    h2 {
+      text-align: center;
+      font-weight: 400;
+      font-size: $standart-font;
+    }
+  }
 }

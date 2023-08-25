@@ -1,12 +1,12 @@
-import React from 'react'
-import HeddingBodyLayout from '../components/HeddingBodyLayout'
+import React from "react";
+import HeddingBodyLayout from "../components/HeddingBodyLayout";
 
 const ONas = () => {
   return (
     <div>
-       <HeddingBodyLayout/>
+      <HeddingBodyLayout />
     </div>
-  )
-}
+  );
+};
 
-export default ONas
+export default ONas;

@@ -1,97 +1,86 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 .home-page {
-    .home-conatainer {
-        h1{
-            @include heading;
-            margin: 90px auto;
-        }
-      section {
-        display: flex;
-        @media (max-width:800px) {
-            flex-direction: column;
-       
-        }
-       
+  .home-conatainer {
+    h1 {
+      @include heading;
+      margin: 90px auto;
+    }
+    section {
+      display: flex;
+      @media (max-width: 800px) {
+        flex-direction: column;
+      }
 
-        &:nth-child(2n){
-            flex-direction: row-reverse;
-            @media (max-width:800px) {
-                flex-direction: column;
-       
-            }
-
-       
-        }
-
-        &:nth-child(1){
-            background: radial-gradient(rgb(219, 201, 173), rgb(117, 69, 23));
-        }
-        &:nth-child(2){
-            background: radial-gradient(rgb(209, 191, 111), rgb(82, 72, 41));
-        }
-        &:nth-child(3){
-            background: radial-gradient(rgb(173, 214, 219), rgb(34, 73, 80));
-        }
-        &:nth-child(4){
-            background: radial-gradient(rgb(241, 241, 240), rgb(88, 88, 87));
-        }
-        &:nth-child(5){
-            background: radial-gradient(rgb(202, 166, 107), rgb(117, 69, 23));
-        }
-        &:nth-child(6){
-            background: radial-gradient(rgb(141, 214, 159), rgb(27, 97, 31));
-        }
-
-        
-        .left {
-          min-height: 110vh;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width: 60%;
-          @media (max-width:800px) {
-            width: 100%;
-            min-height: 60vh;
-        }
-       
-          
-        }
-        
-        .right {
-          /* Styly pro pravou část */
-          width: 40%;
-          padding: 20px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+      &:nth-child(2n) {
+        flex-direction: row-reverse;
+        @media (max-width: 800px) {
           flex-direction: column;
+        }
+      }
 
-          @media (max-width:800px) {
-            width: 100%;
+      &:nth-child(1) {
+        background: radial-gradient(rgb(219, 201, 173), rgb(117, 69, 23));
+      }
+      &:nth-child(2) {
+        background: radial-gradient(rgb(209, 191, 111), rgb(82, 72, 41));
+      }
+      &:nth-child(3) {
+        background: radial-gradient(rgb(173, 214, 219), rgb(34, 73, 80));
+      }
+      &:nth-child(4) {
+        background: radial-gradient(rgb(241, 241, 240), rgb(88, 88, 87));
+      }
+      &:nth-child(5) {
+        background: radial-gradient(rgb(202, 166, 107), rgb(117, 69, 23));
+      }
+      &:nth-child(6) {
+        background: radial-gradient(rgb(141, 214, 159), rgb(27, 97, 31));
+      }
+
+      .left {
+        min-height: 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        @media (max-width: 800px) {
+          width: 100%;
+          min-height: 60vh;
+        }
+      }
+
+      .right {
+        /* Styly pro pravou část */
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        @media (max-width: 800px) {
+          width: 100%;
         }
 
-          h2{
-            @include heading;
-            
-          }
-          p{
-            text-align: justify;
-          }
-          a{
-            margin-top: 20px;
-            padding: 5px 15px;
-            background-color:$dark-brown;
-            color: $white-brown;
-            border-radius: $middle-radius;
+        h2 {
+          @include heading;
+        }
+        p {
+          text-align: justify;
+        }
+        a {
+          margin-top: 20px;
+          padding: 5px 15px;
+          background-color: $dark-brown;
+          color: $white-brown;
+          border-radius: $middle-radius;
 
-            &:hover{
-                color: $orange-icon;
-            }
+          &:hover {
+            color: $orange-icon;
           }
         }
       }
     }
   }
-  
-  
+}

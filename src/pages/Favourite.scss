@@ -1,47 +1,44 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-
-.favourite-page{
-
-    h1{
-        @include heading;
-    }
-    .favorite-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 30px;
-        div{
-            aspect-ratio: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: baseline;
-            align-items: center;
-            img{
-                width: 250px;
-                height: 250px;
-                object-fit: cover;
-                border-radius: 50%;
-            }
-            p{
-                padding-top: 10px;
-                font-weight: 900;
-            }
-            button{
-                margin-bottom: 30px;
-                margin-top: 10px;
-                padding: 1px 10px;
-                background-color: $dark-brown;
-                color: $white-brown;
-                border-radius: $mini-radius;
-                border: none;
-                cursor: pointer;
-                transition: all lineark .2s;
-                &:hover{
-                    color: $orange-icon;
-                }
-            }
+.favourite-page {
+  h1 {
+    @include heading;
+  }
+  .favorite-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    div {
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      align-items: center;
+      img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      p {
+        padding-top: 10px;
+        font-weight: 900;
+      }
+      button {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        padding: 1px 10px;
+        background-color: $dark-brown;
+        color: $white-brown;
+        border-radius: $mini-radius;
+        border: none;
+        cursor: pointer;
+        transition: all lineark 0.2s;
+        &:hover {
+          color: $orange-icon;
         }
+      }
     }
-
+  }
 }

@@ -1,31 +1,29 @@
-
-
 @mixin flexStandart {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @mixin flexStandartSpaceBetween {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @mixin flexColumn {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 @mixin heading {
-    font-weight: 900;
-    text-align: center;
-    font-size: $big-font;
-    margin: 15px;
+  font-weight: 900;
+  text-align: center;
+  font-size: $big-font;
+  margin: 15px;
 }

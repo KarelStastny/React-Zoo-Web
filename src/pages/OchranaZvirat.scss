@@ -1,19 +1,18 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-
-.ochrana-zvirat-page{
-    .ochrana-zvirat-container{
-        h1{
-            @include heading;
-        }
-        p{
-            text-align: justify;
-            padding: 30px 10px;
-        }
-        img{
-            width: 100%;
-            object-fit: cover;
-        }
+.ochrana-zvirat-page {
+  .ochrana-zvirat-container {
+    h1 {
+      @include heading;
     }
+    p {
+      text-align: justify;
+      padding: 30px 10px;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }

@@ -1,19 +1,17 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.zoo-map{
-    h1{
-        @include heading;
-    }
-    div{
-        max-width: 90%;
-        margin: 0 auto;
+.zoo-map {
+  h1 {
+    @include heading;
+  }
+  div {
+    max-width: 90%;
+    margin: 0 auto;
 
-        img{
-            width: 100%;
-            text-align: center;
-    
-        }
+    img {
+      width: 100%;
+      text-align: center;
     }
-
+  }
 }

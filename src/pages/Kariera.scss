@@ -1,20 +1,19 @@
 @import "../mixins.scss";
 @import "../variables.scss";
-.kariera-zoo{
-    h1{
-        @include heading;
-    }
+.kariera-zoo {
+  h1 {
+    @include heading;
+  }
 
-    .container-kariera{
-        a{
-            &:hover{
-                color: $orange-icon;
-            }
-            span{
-                color: $orange-icon;
-                font-weight: 900;
-            }
-        }
-
+  .container-kariera {
+    a {
+      &:hover {
+        color: $orange-icon;
+      }
+      span {
+        color: $orange-icon;
+        font-weight: 900;
+      }
     }
+  }
 }

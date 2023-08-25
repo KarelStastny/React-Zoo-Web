@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ZnasiZoo = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default ZnasiZoo
+export default ZnasiZoo;

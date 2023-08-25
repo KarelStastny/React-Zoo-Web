@@ -1,49 +1,46 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.prohibitions{
-    max-width: 600px;
+.prohibitions {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .prohib-container {
     width: 100%;
-    display: flex;
-    align-items: center;
+    min-width: 250px;
     margin: 0 auto;
-    img{ 
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-    }
-    .prohib-container{
-        width: 100%;
-        min-width: 250px;
-        margin: 0 auto;
 
-        .prohib-box{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: $second-background;
-            height: 70px;
+    .prohib-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $second-background;
+      height: 70px;
 
-            section{
-                width: 15%;
-                img{
-                    width: 60px;
-                    height: 60px;
-                    padding-top: 3px;
-                    padding-left: 3px;
-                    object-fit: cover;
-                }
-            }
-
-            div{
-                width: 85%;
-                p{
-                    font-size: $mini-font;
-                }
-            
-            }
+      section {
+        width: 15%;
+        img {
+          width: 60px;
+          height: 60px;
+          padding-top: 3px;
+          padding-left: 3px;
+          object-fit: cover;
         }
+      }
+
+      div {
+        width: 85%;
+        p {
+          font-size: $mini-font;
+        }
+      }
     }
+  }
 }
-
-

@@ -1,141 +1,137 @@
 @import "../mixins.scss";
 @import "../variables.scss";
 
-.specific-animal{
-    padding: 10px;
-    .one-animal-container{
-       
-        .heading{
-            @include flexStandartSpaceBetween;
-            h1{
-                @include heading;
-            }
-            a{
-                border-radius: $cirkle-radius;
-                width: 60px;
-                height: 60px;
-                @include flexStandart;
-                transition: all 0.15s linear;
-                img{
-                    width:40px;
-                    height: 40px;
-                }
-                &:hover{
-                    background-color: $orange-icon;
-                }
-            }
+.specific-animal {
+  padding: 10px;
+  .one-animal-container {
+    .heading {
+      @include flexStandartSpaceBetween;
+      h1 {
+        @include heading;
+      }
+      a {
+        border-radius: $cirkle-radius;
+        width: 60px;
+        height: 60px;
+        @include flexStandart;
+        transition: all 0.15s linear;
+        img {
+          width: 40px;
+          height: 40px;
         }
-
-        .about-animal-container{
-            display: grid;
-            grid-template-columns: 3fr 2fr;
-
-            @media (max-width:900px) {
-                grid-template-columns: 1fr ;
-                
-            }
-
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            .about-descritpion{
-                padding: 10px;
-                padding-left: 20px;
-                background-color: $second-background;
-                article{
-                    font-size: $middle-font;
-                    font-weight: 900;
-                    padding-bottom: 10px;
-                }
-                p{
-                    padding-left: 10px;
-                    text-align: justify;
-                    font-size: $mini-font;
-                }
-                ul{
-                    p{
-                        font-weight: 500;
-                        margin-top: 15px;
-                        // text-decoration: underline;
-                    }
-                    li{
-                        list-style: disc;
-                        text-decoration: none !important;
-                        margin-left: 30px;
-                        font-size: $mini-font;
-                    }
-                }
-            }
+        &:hover {
+          background-color: $orange-icon;
         }
-
-        // spodní popis
-        h2{
-            text-align: center;
-            padding: 0px;
-            @include heading;
-            font-size: $middle-font;
-        }
-        .long-description{
-            background-color: $second-background;
-            padding: 0 20px;
-            padding-bottom: 20px;
-            h3{
-                font-size: $standart-font;
-                font-weight: 900;
-                padding-top: 20px;
-            }
-            p{
-                padding-left: 10px;
-                text-align: justify;
-            }
-        }
-        .media-animal{
-            max-width: 350px;
-            margin: 30px auto;
-        }
-        // DAlší druhy zvířat
-        .similar-kind{
-           
-            .similiar-container{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                gap: 10px;
-                margin: 35px;
-                color: $white-brown;
-        
-                @media (max-width: 900px) {
-                    grid-template-columns: 1fr 1fr;
-                }
-                @media (max-width: 600px) {
-                    grid-template-columns: 1fr;
-                }
-
-                .similar-box{
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    aspect-ratio: 1/1;
-                    border-radius: $mini-radius;
-
-                    h2{
-                        color: $white-brown;
-                        min-width: 90%;
-                        background-color: $color-transparent;
-                        // text-align: center;
-                        padding: 5px;
-                        padding-left: 20px;
-                        font-weight: 600;
-                        border: $mini-radius;
-                        &:hover{
-                            color: $orange-icon;
-                        }
-                    }
-                }
-            }
-
-        }
+      }
     }
+
+    .about-animal-container {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+
+      @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .about-descritpion {
+        padding: 10px;
+        padding-left: 20px;
+        background-color: $second-background;
+        article {
+          font-size: $middle-font;
+          font-weight: 900;
+          padding-bottom: 10px;
+        }
+        p {
+          padding-left: 10px;
+          text-align: justify;
+          font-size: $mini-font;
+        }
+        ul {
+          p {
+            font-weight: 500;
+            margin-top: 15px;
+            // text-decoration: underline;
+          }
+          li {
+            list-style: disc;
+            text-decoration: none !important;
+            margin-left: 30px;
+            font-size: $mini-font;
+          }
+        }
+      }
+    }
+
+    // spodní popis
+    h2 {
+      text-align: center;
+      padding: 0px;
+      @include heading;
+      font-size: $middle-font;
+    }
+    .long-description {
+      background-color: $second-background;
+      padding: 0 20px;
+      padding-bottom: 20px;
+      h3 {
+        font-size: $standart-font;
+        font-weight: 900;
+        padding-top: 20px;
+      }
+      p {
+        padding-left: 10px;
+        text-align: justify;
+      }
+    }
+    .media-animal {
+      max-width: 350px;
+      margin: 30px auto;
+    }
+    // DAlší druhy zvířat
+    .similar-kind {
+      .similiar-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin: 35px;
+        color: $white-brown;
+
+        @media (max-width: 900px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 600px) {
+          grid-template-columns: 1fr;
+        }
+
+        .similar-box {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          aspect-ratio: 1/1;
+          border-radius: $mini-radius;
+
+          h2 {
+            color: $white-brown;
+            min-width: 90%;
+            background-color: $color-transparent;
+            // text-align: center;
+            padding: 5px;
+            padding-left: 20px;
+            font-weight: 600;
+            border: $mini-radius;
+            &:hover {
+              color: $orange-icon;
+            }
+          }
+        }
+      }
+    }
+  }
 }

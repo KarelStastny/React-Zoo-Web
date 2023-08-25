@@ -1,14 +1,14 @@
-import React from 'react'
-import OpenClose from '../components/OpenClose'
-import HeddingBodyLayout from '../components/HeddingBodyLayout'
+import React from "react";
+import OpenClose from "../components/OpenClose";
+import HeddingBodyLayout from "../components/HeddingBodyLayout";
 
 const OteviraciDoba = () => {
   return (
     <div>
-      <HeddingBodyLayout/>
-      <OpenClose/>
+      <HeddingBodyLayout />
+      <OpenClose />
     </div>
-  )
-}
+  );
+};
 
-export default OteviraciDoba
+export default OteviraciDoba;
